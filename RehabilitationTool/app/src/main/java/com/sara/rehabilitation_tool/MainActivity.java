@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final MediaPlayer playDrink= MediaPlayer.create(MainActivity.this,R.raw.eat);
+        final MediaPlayer playDrink= MediaPlayer.create(MainActivity.this,R.raw.drink);
         Button drink = findViewById(R.id.drink);
         drink.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +52,75 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+        final MediaPlayer playWant= MediaPlayer.create(MainActivity.this,R.raw.want);
+        Button want = findViewById(R.id.want);
+        want.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playWant.start();
+
+            }
+        });
+
+        final MediaPlayer playNotWant= MediaPlayer.create(MainActivity.this,R.raw.notwant);
+        Button notWant = findViewById(R.id.notWant);
+        notWant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playNotWant.start();
+
+            }
+        });
+
+        final MediaPlayer playNo= MediaPlayer.create(MainActivity.this,R.raw.no);
+        Button no = findViewById(R.id.no);
+        no.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playNo.start();
+
+            }
+        });
+
+        final MediaPlayer playYes= MediaPlayer.create(MainActivity.this,R.raw.yes);
+        Button yes = findViewById(R.id.yes);
+        yes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playYes.start();
+
+            }
+        });
+
+        final MediaPlayer playWear= MediaPlayer.create(MainActivity.this,R.raw.wear);
+        Button wear = findViewById(R.id.wear);
+        wear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playWear.start();
+                Intent intent = new Intent(MainActivity.this, Wear.class);
+                startActivity(intent);
+
+            }
+        });
+
+        final MediaPlayer playGo= MediaPlayer.create(MainActivity.this,R.raw.wear);
+        Button go = findViewById(R.id.go);
+        go.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playGo.start();
+                Intent intent = new Intent(MainActivity.this, Places.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
     }
     private void showChangeLanguageDialog(){
         final String[] listItems = {" عربي ", " English "};
