@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">اعادة تأهيل</string>
+    <string name="i">   انا   </string>
+    <string name="want">أريد</string>
+    <string name="notWant">لا أريد</string>
+    <string name="eat">أكل</string>
+    <string name="drink">أشرب</string>
+    <string name="wear">ألبس</string>
+    <string name="go">أذهب</string>
+    <string name="no">لا</string>
+    <string name="yse">نعم</string>
+    <string name="language">اللغة</string>
+    <string name="egg">بيض</string>
+    <string name="Potato">بطاطس</string>
+    <string name="milk">لبن</string>
+    <string name="rice">أرز</string>
+    <string name="water">مياه</string>
+    <string name="juice">عصير</string>
+    <string name="strawberry">فراولة</string>
+
+
+
+</resources>

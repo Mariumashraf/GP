@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rehabilitation Tool</string>
+    <string name="i">I</string>
+    <string name="want">Want</string>
+    <string name="notWant">Don\'t Want</string>
+    <string name="eat">Eat</string>
+    <string name="drink">Drink</string>
+    <string name="wear">Wear</string>
+    <string name="go">Go</string>
+    <string name="no">NO</string>
+    <string name="yse">YES</string>
+    <string name="language">Language</string>
+    <string name="egg">Egg</string>
+    <string name="Potato">Potato</string>
+    <string name="milk">Milk</string>
+    <string name="rice">Rice</string>
+    <string name="water">Water</string>
+    <string name="juice">Juice</string>
+    <string name="strawberry">Strawberry</string>
+</resources>
