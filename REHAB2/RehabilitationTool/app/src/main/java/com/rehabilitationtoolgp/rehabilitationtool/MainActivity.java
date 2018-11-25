@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
            @Override
             public void onClick(View view) {
                 mediaPlayer.start();
-                globalv.addmImageUrls(R.drawable.ana);
+                globalv.addmImageUrls(R.drawable.me);
                 globalv.addmNames("أنا");
                 globalv.addMrecords(R.raw.ana);
                 initRecyclerView();
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
            @Override
             public void onClick(View view) {
                 mediaPlayer1.start();
-                globalv.addmImageUrls(R.drawable.need);
+                globalv.addmImageUrls(R.drawable.want);
                 globalv.addmNames("عايز");
                 globalv.addMrecords(R.raw.want);
                 initRecyclerView();
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mediaPlayer3.start();
-                globalv.addmImageUrls(R.drawable.eat);
+                globalv.addmImageUrls(R.drawable.eatt);
                 globalv.addmNames("أكل");
                 globalv.addMrecords(R.raw.eat);
                 initRecyclerView();
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mediaPlayer4.start();
-                globalv.addmImageUrls(R.drawable.drink);
+                globalv.addmImageUrls(R.drawable.drinkk);
                 globalv.addmNames(" أشرب");
                 globalv.addMrecords(R.raw.drink);
                 initRecyclerView();
@@ -121,8 +121,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mediaPlayer5.start();
-                globalv.addmImageUrls(R.drawable.wear);
-                globalv.addmNames("يلبس");
+                globalv.addmImageUrls(R.drawable.wearr);
+                globalv.addmNames("البس");
                 globalv.addMrecords(R.raw.wear);
                 initRecyclerView();
                 globalv.getmImageUrls();
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mediaPlayer6.start();
-               globalv.addmImageUrls(R.drawable.walk);
+               globalv.addmImageUrls(R.drawable.wallk);
                 globalv.addmNames("اذهب");
                 globalv.addMrecords(R.raw.go);
                 initRecyclerView();
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mediaPlayer7.start();
-               globalv.addmImageUrls(R.drawable.yes);
+               globalv.addmImageUrls(R.drawable.yees);
                 globalv.addmNames("نعم");
                 globalv.addMrecords(R.raw.yes);
                 initRecyclerView();
@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mediaPlayer8.start();
-               globalv.addmImageUrls(R.drawable.no);
+               globalv.addmImageUrls(R.drawable.noo);
                 globalv.addmNames("لا");
                 globalv.addMrecords(R.raw.no);
                 initRecyclerView();

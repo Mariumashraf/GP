@@ -36,7 +36,7 @@
         android:layout_height="120dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/ana"
+        android:background="@drawable/me"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -47,7 +47,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/need"
+        android:background="@drawable/want"
         app:layout_constraintStart_toEndOf="@+id/i"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -68,7 +68,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/eat"
+        android:background="@drawable/eatt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/i" />
 
@@ -79,7 +79,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/drink"
+        android:background="@drawable/drinkk"
         app:layout_constraintStart_toEndOf="@+id/eat"
         app:layout_constraintTop_toBottomOf="@+id/want" />
 
@@ -90,7 +90,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/wear"
+        android:background="@drawable/wearr"
         app:layout_constraintStart_toEndOf="@+id/drink"
         app:layout_constraintTop_toBottomOf="@+id/notWant" />
 
@@ -101,7 +101,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/walk"
+        android:background="@drawable/wallk"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/eat" />
 
@@ -111,7 +111,7 @@
         android:layout_height="120dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/yes"
+        android:background="@drawable/yees"
         app:layout_constraintStart_toEndOf="@+id/go"
         app:layout_constraintTop_toBottomOf="@+id/drink" />
 
@@ -121,7 +121,7 @@
         android:layout_height="120dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/no"
+        android:background="@drawable/noo"
         app:layout_constraintStart_toEndOf="@+id/yes"
         app:layout_constraintTop_toBottomOf="@+id/wear" />
 </android.support.constraint.ConstraintLayout>
