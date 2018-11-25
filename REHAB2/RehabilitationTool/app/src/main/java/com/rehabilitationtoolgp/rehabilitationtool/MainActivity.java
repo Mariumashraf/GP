@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mediaPlayer2.start();
-                globalv.addmImageUrls(R.drawable.need);
+                globalv.addmImageUrls(R.drawable.notwant);
                 globalv.addmNames(" مش عايز");
                 globalv.addMrecords(R.raw.notwant);
                 initRecyclerView();
