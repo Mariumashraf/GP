@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RehabilitationTool.iml" filepath="$PROJECT_DIR$/RehabilitationTool.iml" />
+      <module fileurl="file://C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\RehabilitationTool\RehabilitationTool.iml" filepath="C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\RehabilitationTool\RehabilitationTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\RehabilitationTool\app\app.iml" filepath="C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\RehabilitationTool\app\app.iml" />
     </modules>
   </component>
 </project>
