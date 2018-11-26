@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RehabilitationTool</string>
+    <string name="name">Canda</string>
+    <string name="i">I</string>
+    <string name="want">اريد</string>
+    <string name="notWant">لا اريد</string>
+    <string name="eat">اكل</string>
+    <string name="drink">اشرب</string>
+    <string name="wear">البس</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="go">اذهب</string>
+    <string name="remove">TODO</string>
+    <string name="I">أنا</string>
+    <string name="egg">egg</string>
+    <string name="button">Button</string>
+    <string name="button2">Button</string>
+    <string name="rice">rice</string>
+    <string name="button4">Button</string>
+    <string name="potato">potato</string>
+    <string name="title_activity_clothes">CLOTHES</string>
+    <string name="trousers">trousers</string>
+    <string name="skirt">skirt</string>
+    <string name="shirt">Shirt</string>
+    <string name="tshirt">Tshirt</string>
+    <string name="suit">suit</string>
+    <string name="dress">dress</string>
+    <string name="bathroom">bathroom</string>
+    <string name="bedroom">bedroom</string>
+    <string name="livingroom">livingroom</string>
+    <string name="university">university</string>
+    <string name="supermarket">supermarket</string>
+    <string name="school">school</string>
+    <string name="milk">milk</string>
+    <string name="water">water</string>
+    <string name="juice">juice</string>
+</resources>
