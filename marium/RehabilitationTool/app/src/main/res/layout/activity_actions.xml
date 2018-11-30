@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ACTIONS">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp" />
+
+                <Button
+                    android:id="@+id/playall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/ic_media_play" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/smile"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/smileee"
+                app:layout_constraintStart_toEndOf="@+id/climb"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <Button
+                android:id="@+id/climb"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/climbbb"
+                app:layout_constraintStart_toEndOf="@+id/speak"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <Button
+                android:id="@+id/speak"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/speakkk"
+                app:layout_constraintStart_toEndOf="@+id/run"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <Button
+                android:id="@+id/run"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/runnn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <TextView
+                android:id="@+id/smile2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/smile2"
+                app:layout_constraintStart_toEndOf="@+id/climb2"
+                app:layout_constraintTop_toBottomOf="@+id/smile" />
+
+            <TextView
+                android:id="@+id/climb2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/climb2"
+                app:layout_constraintStart_toEndOf="@+id/speak2"
+                app:layout_constraintTop_toBottomOf="@+id/climb" />
+
+            <TextView
+                android:id="@+id/speak2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/speak2"
+                app:layout_constraintStart_toEndOf="@+id/run2"
+                app:layout_constraintTop_toBottomOf="@+id/speak" />
+
+            <TextView
+                android:id="@+id/run2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/run2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/run" />
+
+            <Button
+                android:id="@+id/dance"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/danceee"
+                app:layout_constraintStart_toEndOf="@+id/ride"
+                app:layout_constraintTop_toBottomOf="@+id/smile2" />
+
+            <Button
+                android:id="@+id/ride"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rideeeee"
+                app:layout_constraintStart_toEndOf="@+id/throw3"
+                app:layout_constraintTop_toBottomOf="@+id/climb2" />
+
+
+            <Button
+                android:id="@+id/throw3"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/throwww"
+                app:layout_constraintStart_toEndOf="@+id/watch"
+                app:layout_constraintTop_toBottomOf="@+id/speak2" />
+
+            <Button
+                android:id="@+id/watch"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/watchhhh"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/run2" />
+
+            <TextView
+                android:id="@+id/dance2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dance2"
+                app:layout_constraintStart_toEndOf="@+id/ride2"
+                app:layout_constraintTop_toBottomOf="@+id/dance" />
+
+            <TextView
+                android:id="@+id/ride2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/ride2"
+                app:layout_constraintStart_toEndOf="@+id/throw2"
+                app:layout_constraintTop_toBottomOf="@+id/ride" />
+
+            <TextView
+                android:id="@+id/throw2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/throw2"
+                app:layout_constraintStart_toEndOf="@+id/watch2"
+                app:layout_constraintTop_toBottomOf="@+id/throw3" />
+
+            <TextView
+                android:id="@+id/watch2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/watch2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/watch" />
+
+            <Button
+                android:id="@+id/swim"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/swimmm"
+                app:layout_constraintStart_toEndOf="@+id/sing"
+                app:layout_constraintTop_toBottomOf="@+id/dance2" />
+
+            <Button
+                android:id="@+id/sing"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/danceeee"
+                app:layout_constraintStart_toEndOf="@+id/think"
+                app:layout_constraintTop_toBottomOf="@+id/ride2" />
+
+            <Button
+                android:id="@+id/think"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/thinkkk"
+                app:layout_constraintStart_toEndOf="@+id/read"
+                app:layout_constraintTop_toBottomOf="@+id/throw2" />
+
+            <Button
+                android:id="@+id/read"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/readdd"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/watch2" />
+
+            <TextView
+                android:id="@+id/swim2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/swim2"
+                app:layout_constraintStart_toEndOf="@+id/sing2"
+                app:layout_constraintTop_toBottomOf="@+id/swim" />
+
+            <TextView
+                android:id="@+id/sing2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/sing2"
+                app:layout_constraintStart_toEndOf="@+id/think2"
+                app:layout_constraintTop_toBottomOf="@+id/sing" />
+
+            <TextView
+                android:id="@+id/think2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/think2"
+                app:layout_constraintStart_toEndOf="@+id/read2"
+                app:layout_constraintTop_toBottomOf="@+id/think" />
+
+            <TextView
+                android:id="@+id/read2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/read2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/read" />
+
+            <Button
+                android:id="@+id/hop"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:background="@drawable/hoppp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/swim2" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/closeee"
+                app:layout_constraintEnd_toStartOf="@+id/hop"
+                app:layout_constraintTop_toBottomOf="@+id/sing2" />
+
+            <Button
+                android:id="@+id/sleep"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/sleeep"
+                app:layout_constraintEnd_toStartOf="@+id/close"
+                app:layout_constraintTop_toBottomOf="@+id/think2" />
+
+            <TextView
+                android:id="@+id/hop2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:text="@string/hop2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hop" />
+
+            <TextView
+                android:id="@+id/close2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/close2"
+                app:layout_constraintEnd_toStartOf="@+id/hop2"
+                app:layout_constraintTop_toBottomOf="@+id/close" />
+
+            <TextView
+                android:id="@+id/sleep2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/sleep2"
+                app:layout_constraintEnd_toStartOf="@+id/close2"
+                app:layout_constraintTop_toBottomOf="@+id/sleep" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:background="@android:drawable/ic_menu_revert"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hop2" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

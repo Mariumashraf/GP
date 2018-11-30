@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="368dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp" />
+
+                <Button
+                    android:id="@+id/playall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/ic_media_play" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/want"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:background="@drawable/needdd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/notWant"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <Button
+                android:id="@+id/notWant"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/notneeddd"
+                app:layout_constraintStart_toEndOf="@+id/yes"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yesss"
+                app:layout_constraintStart_toEndOf="@+id/no"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <Button
+                android:id="@+id/no"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/nooo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <TextView
+                android:id="@+id/iwantt"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:text="@string/iwantt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/notwanttt"
+                app:layout_constraintTop_toBottomOf="@+id/want" />
+
+            <TextView
+                android:id="@+id/notwanttt"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/notwanttt"
+                app:layout_constraintStart_toEndOf="@+id/yess"
+                app:layout_constraintTop_toBottomOf="@+id/notWant" />
+
+            <TextView
+                android:id="@+id/yess"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/yess"
+                app:layout_constraintStart_toEndOf="@+id/noo"
+                app:layout_constraintTop_toBottomOf="@+id/yes" />
+
+            <TextView
+                android:id="@+id/noo"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/noo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/no" />
+
+            <Button
+                android:id="@+id/eat"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:background="@drawable/eattt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/drink"
+                app:layout_constraintTop_toBottomOf="@+id/iwantt" />
+
+            <Button
+                android:id="@+id/drink"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drinkkkk"
+                app:layout_constraintStart_toEndOf="@+id/wear"
+                app:layout_constraintTop_toBottomOf="@+id/notwanttt" />
+
+            <Button
+                android:id="@+id/wear"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/wearrrr"
+                app:layout_constraintStart_toEndOf="@+id/go"
+                app:layout_constraintTop_toBottomOf="@+id/yess" />
+
+            <Button
+                android:id="@+id/go"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/walkkkk"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/noo" />
+
+            <TextView
+                android:id="@+id/eattt"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:text="@string/eatt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/drinkk"
+                app:layout_constraintTop_toBottomOf="@+id/eat" />
+
+            <TextView
+                android:id="@+id/drinkk"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/drinkk"
+                app:layout_constraintStart_toEndOf="@+id/wearr"
+                app:layout_constraintTop_toBottomOf="@+id/drink" />
+
+            <TextView
+                android:id="@+id/wearr"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/waerr"
+                app:layout_constraintStart_toEndOf="@+id/gooo"
+                app:layout_constraintTop_toBottomOf="@+id/wear" />
+
+            <TextView
+                android:id="@+id/gooo"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/gooo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/go" />
+
+            <Button
+                android:id="@+id/family"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:background="@drawable/familyyy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/actions"
+                app:layout_constraintTop_toBottomOf="@+id/eattt" />
+
+            <Button
+                android:id="@+id/actions"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/verbesss"
+                app:layout_constraintStart_toEndOf="@+id/trans"
+                app:layout_constraintTop_toBottomOf="@+id/drinkk" />
+
+            <Button
+                android:id="@+id/trans"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/transporttt"
+                app:layout_constraintStart_toEndOf="@+id/relations"
+                app:layout_constraintTop_toBottomOf="@+id/wearr" />
+
+            <Button
+                android:id="@+id/relations"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/directionssss"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gooo" />
+
+            <TextView
+                android:id="@+id/familyy"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:text="@string/familyy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/actionss"
+                app:layout_constraintTop_toBottomOf="@+id/family" />
+
+            <TextView
+                android:id="@+id/actionss"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/actionss"
+                app:layout_constraintStart_toEndOf="@+id/transportationn"
+                app:layout_constraintTop_toBottomOf="@+id/actions" />
+
+            <TextView
+                android:id="@+id/transportationn"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/transportationn"
+                app:layout_constraintStart_toEndOf="@+id/relationss"
+                app:layout_constraintTop_toBottomOf="@+id/trans" />
+
+            <TextView
+                android:id="@+id/relationss"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/relationss"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relations" />
+
+            <Button
+                android:id="@+id/createcardd"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:drawable/ic_menu_add"
+                app:layout_constraintEnd_toStartOf="@+id/tools2"
+                app:layout_constraintTop_toBottomOf="@+id/transportationn" />
+
+            <Button
+                android:id="@+id/tools2"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/toolsss"
+                app:layout_constraintEnd_toStartOf="@+id/timee"
+                app:layout_constraintTop_toBottomOf="@+id/actionss" />
+
+            <Button
+                android:id="@+id/timee"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:background="@drawable/morninggg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/familyy" />
+
+            <TextView
+                android:id="@+id/tools"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/toolss"
+                app:layout_constraintEnd_toStartOf="@+id/time"
+                app:layout_constraintTop_toBottomOf="@+id/tools2" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:text="@string/timee"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/timee" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
