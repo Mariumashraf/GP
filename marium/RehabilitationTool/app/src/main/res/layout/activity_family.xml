@@ -45,7 +45,10 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
                 android:background="@drawable/sisterrr"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/brother"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -86,33 +89,36 @@
                 android:id="@+id/grandmother"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="43dp"
                 android:layout_marginRight="43dp"
                 android:background="@drawable/grandmaaa"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/grandfather"
                 app:layout_constraintTop_toBottomOf="@+id/sister2" />
 
             <Button
                 android:id="@+id/grandfather"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginLeft="196dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:background="@drawable/grandpaaa"
-                app:layout_constraintEnd_toStartOf="@+id/grandmother"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/brother2" />
 
             <TextView
                 android:id="@+id/sister2"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
                 android:text="@string/sister2"
-                app:layout_constraintStart_toEndOf="@+id/brother2"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sister" />
 
             <TextView
@@ -152,22 +158,25 @@
                 android:id="@+id/grandmother2"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="43dp"
                 android:layout_marginRight="43dp"
                 android:text="@string/grandmother2"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/grandfather2"
                 app:layout_constraintTop_toBottomOf="@+id/grandmother" />
 
             <TextView
                 android:id="@+id/grandfather2"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginLeft="196dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:text="@string/grandfather2"
-                app:layout_constraintEnd_toStartOf="@+id/grandmother2"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/grandfather" />
 
             <Button

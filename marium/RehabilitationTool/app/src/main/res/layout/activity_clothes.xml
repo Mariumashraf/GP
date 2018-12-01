@@ -90,10 +90,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/tshirttt"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/jacket"
                 app:layout_constraintTop_toBottomOf="@+id/suit2" />
 
@@ -112,11 +109,11 @@
                 android:id="@+id/dress"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginLeft="196dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:background="@drawable/dresss"
-                app:layout_constraintEnd_toStartOf="@+id/sock"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/shoes2" />
 
             <TextView
@@ -233,33 +230,33 @@
                 android:id="@+id/sock"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/socksss"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/dress"
                 app:layout_constraintTop_toBottomOf="@+id/tshirt2" />
 
             <TextView
                 android:id="@+id/sock2"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:text="@string/sock2"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/dress2"
                 app:layout_constraintTop_toBottomOf="@+id/sock" />
 
             <TextView
                 android:id="@+id/dress2"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginLeft="196dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:text="@string/dress2"
-                app:layout_constraintEnd_toStartOf="@+id/sock2"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/dress" />
 
             <Button

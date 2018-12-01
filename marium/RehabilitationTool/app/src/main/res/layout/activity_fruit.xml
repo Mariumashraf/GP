@@ -133,10 +133,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/peach"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/grape"
                 app:layout_constraintTop_toBottomOf="@+id/orange2" />
 
@@ -221,44 +218,44 @@
                 android:id="@+id/mango"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/mango"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/banana"
                 app:layout_constraintTop_toBottomOf="@+id/peach2" />
 
             <Button
                 android:id="@+id/banana"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginLeft="196dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:background="@drawable/banana"
-                app:layout_constraintEnd_toStartOf="@+id/mango"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/grape2" />
 
             <TextView
                 android:id="@+id/banana2"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginLeft="196dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:text="@string/banana2"
-                app:layout_constraintEnd_toStartOf="@+id/mango2"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/banana" />
 
             <TextView
                 android:id="@+id/mango2"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:text="@string/mango2"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/banana2"
                 app:layout_constraintTop_toBottomOf="@+id/mango" />
 
             <Button

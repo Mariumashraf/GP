@@ -48,10 +48,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/needdd"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/notWant"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -95,10 +92,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:text="@string/iwantt"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/notwanttt"
                 app:layout_constraintTop_toBottomOf="@+id/want" />
 
@@ -142,10 +136,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/eattt"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/drink"
                 app:layout_constraintTop_toBottomOf="@+id/iwantt" />
 
@@ -189,10 +180,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:text="@string/eatt"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/drinkk"
                 app:layout_constraintTop_toBottomOf="@+id/eat" />
 
@@ -236,10 +224,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/familyyy"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/actions"
                 app:layout_constraintTop_toBottomOf="@+id/eattt" />
 
@@ -283,10 +268,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:text="@string/familyy"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/actionss"
                 app:layout_constraintTop_toBottomOf="@+id/family" />
 
@@ -327,55 +309,55 @@
                 android:id="@+id/createcardd"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="111dp"
+                android:layout_marginLeft="111dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:background="@android:drawable/ic_menu_add"
-                app:layout_constraintEnd_toStartOf="@+id/tools2"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/transportationn" />
 
             <Button
                 android:id="@+id/tools2"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:background="@drawable/toolsss"
-                app:layout_constraintEnd_toStartOf="@+id/timee"
+                app:layout_constraintStart_toEndOf="@+id/createcardd"
                 app:layout_constraintTop_toBottomOf="@+id/actionss" />
 
             <Button
                 android:id="@+id/timee"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/morninggg"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tools2"
                 app:layout_constraintTop_toBottomOf="@+id/familyy" />
 
             <TextView
                 android:id="@+id/tools"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginLeft="196dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginRight="25dp"
                 android:text="@string/toolss"
-                app:layout_constraintEnd_toStartOf="@+id/time"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tools2" />
 
             <TextView
                 android:id="@+id/time"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:text="@string/timee"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tools"
                 app:layout_constraintTop_toBottomOf="@+id/timee" />
 
         </android.support.constraint.ConstraintLayout>

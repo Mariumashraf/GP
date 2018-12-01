@@ -36,67 +36,67 @@
         android:id="@+id/juice"
         android:layout_width="60dp"
         android:layout_height="120dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
         android:background="@drawable/juiceee"
-        app:layout_constraintEnd_toStartOf="@+id/water"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Button
         android:id="@+id/water"
         android:layout_width="60dp"
         android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
         android:background="@drawable/waterrr"
-        app:layout_constraintEnd_toStartOf="@+id/milk"
+        app:layout_constraintStart_toEndOf="@+id/juice"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Button
         android:id="@+id/milk"
         android:layout_width="60dp"
         android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginRight="43dp"
         android:background="@drawable/milkkk"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/water"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/juice2"
         android:layout_width="60dp"
         android:layout_height="30dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
         android:layout_weight="1"
         android:text="@string/juice2"
-        app:layout_constraintEnd_toStartOf="@+id/water2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/juice" />
 
     <TextView
         android:id="@+id/water2"
         android:layout_width="60dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
         android:text="@string/water2"
-        app:layout_constraintEnd_toStartOf="@+id/milk2"
+        app:layout_constraintStart_toEndOf="@+id/juice2"
         app:layout_constraintTop_toBottomOf="@+id/juice" />
 
     <TextView
         android:id="@+id/milk2"
         android:layout_width="60dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginRight="43dp"
         android:text="@string/milk2"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/water2"
         app:layout_constraintTop_toBottomOf="@+id/milk" />
 
     <Button

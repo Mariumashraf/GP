@@ -298,10 +298,7 @@
                 android:layout_marginStart="110dp"
                 android:layout_marginLeft="110dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:text="@string/notebook22"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/glasses2"
                 app:layout_constraintTop_toBottomOf="@+id/notebookk" />
 
@@ -334,10 +331,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:background="@drawable/computerr"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/ball"
                 app:layout_constraintTop_toBottomOf="@+id/notebook22" />
 
@@ -370,10 +364,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
                 android:text="@string/computer2"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/ball2"
                 app:layout_constraintTop_toBottomOf="@+id/computerr" />
 
