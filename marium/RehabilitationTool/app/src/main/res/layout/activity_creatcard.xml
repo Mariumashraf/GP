@@ -6,4 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".CREATCARD">
 
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginStart="144dp"
+        android:text="play"
+        app:layout_constraintBottom_toTopOf="@+id/btnStop"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="54dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginStart="140dp"
+        android:text="stop"
+        app:layout_constraintBottom_toTopOf="@+id/btnStartRecord"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnStartRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="49dp"
+        android:layout_marginLeft="163dp"
+        android:layout_marginStart="163dp"
+        android:text="start record"
+        app:layout_constraintBottom_toTopOf="@+id/btnStopRecord"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnStopRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="163dp"
+        android:layout_marginStart="163dp"
+        android:text="stop record"
+        app:layout_constraintBottom_toTopOf="@+id/insert"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="179dp"
+        android:layout_marginStart="179dp"
+        android:text="insert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/insert"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
