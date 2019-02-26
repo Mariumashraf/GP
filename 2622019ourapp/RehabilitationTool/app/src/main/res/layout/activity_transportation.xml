@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TRANSPORTATION">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="368dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp" />
+
+                <Button
+                    android:id="@+id/playall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/ic_media_play" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/autobus"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bbbusss"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                android:contentDescription="@string/autobus" />
+
+            <ImageView
+                android:id="@+id/taxi"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/taxiiz"
+                app:layout_constraintStart_toEndOf="@+id/autobus"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                android:contentDescription="@string/taxi" />
+
+            <ImageView
+                android:id="@+id/car"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/caaar"
+                app:layout_constraintStart_toEndOf="@+id/taxi"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                android:contentDescription="@string/car" />
+
+            <ImageView
+                android:id="@+id/metro"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/metroooz"
+                app:layout_constraintStart_toEndOf="@+id/car"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                android:contentDescription="@string/metro" />
+
+            <TextView
+                android:id="@+id/autobus2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/autobus2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/autobus" />
+
+            <TextView
+                android:id="@+id/taxi2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/taxi2"
+                app:layout_constraintStart_toEndOf="@+id/autobus2"
+                app:layout_constraintTop_toBottomOf="@+id/taxi" />
+
+            <TextView
+                android:id="@+id/car2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/car2"
+                app:layout_constraintStart_toEndOf="@+id/taxi2"
+                app:layout_constraintTop_toBottomOf="@+id/car" />
+
+            <TextView
+                android:id="@+id/metro2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/metro2"
+                app:layout_constraintStart_toEndOf="@+id/car2"
+                app:layout_constraintTop_toBottomOf="@+id/metro" />
+
+            <ImageView
+                android:id="@+id/train"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/trainz"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/autobus2"
+                android:contentDescription="@string/train" />
+
+            <ImageView
+                android:id="@+id/ship"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shipz"
+                app:layout_constraintStart_toEndOf="@+id/train"
+                app:layout_constraintTop_toBottomOf="@+id/taxi2"
+                android:contentDescription="@string/ship" />
+
+            <ImageView
+                android:id="@+id/plane"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/planez"
+                app:layout_constraintStart_toEndOf="@+id/ship"
+                app:layout_constraintTop_toBottomOf="@+id/car2"
+                android:contentDescription="@string/plane" />
+
+            <ImageView
+                android:id="@+id/bike"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/biiicycle"
+                app:layout_constraintStart_toEndOf="@+id/plane"
+                app:layout_constraintTop_toBottomOf="@+id/metro2"
+                android:contentDescription="@string/bike" />
+
+            <TextView
+                android:id="@+id/train2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/train2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/train" />
+
+            <TextView
+                android:id="@+id/ship2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/ship2"
+                app:layout_constraintStart_toEndOf="@+id/train2"
+                app:layout_constraintTop_toBottomOf="@+id/ship" />
+
+            <TextView
+                android:id="@+id/plane2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/plane2"
+                app:layout_constraintStart_toEndOf="@+id/ship2"
+                app:layout_constraintTop_toBottomOf="@+id/plane" />
+
+            <TextView
+                android:id="@+id/bike2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/bike2"
+                app:layout_constraintStart_toEndOf="@+id/plane2"
+                app:layout_constraintTop_toBottomOf="@+id/bike" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="318dp"
+                android:layout_marginLeft="318dp"
+                android:layout_marginTop="193dp"
+                android:background="@android:drawable/ic_menu_revert"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/metro2" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

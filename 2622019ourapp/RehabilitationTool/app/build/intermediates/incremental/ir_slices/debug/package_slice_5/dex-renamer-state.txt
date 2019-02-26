@@ -1,0 +1,4 @@
+#Tue Feb 26 00:55:42 EET 2019
+base.0=C\:\\Users\\medoz\\Downloads\\GP\\RehabilitationTool-20190206T121418Z-001\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
