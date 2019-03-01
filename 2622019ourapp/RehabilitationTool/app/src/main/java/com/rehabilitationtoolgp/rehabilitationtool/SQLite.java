@@ -54,4 +54,30 @@ public class SQLite extends SQLiteOpenHelper {
 
 
     }
+
+    /*public void deletContact(int id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        db.delete(GP, "id=?", new String[]{String.valueOf(id)});
+
+    }*/
+
+   /* public void deleteItem(String getID) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DELETE from GP  WHERE billID= '" +getID+ "'");
+    }*/
+    /*public int deleteSelectedItem(String number){
+        SQLiteDatabase db = this.getWritableDatabase();
+        int result = db.delete(GP,"number = ?" , new String[] {number} );
+        // Update your list here
+        // Remove the deleted item from the list that you have passed to the adapter. Then call notifyDataSetChanged
+        updateYourListCart();
+        CardAdapter.notifyDataSetChanged();
+    }*/
+   /*public void deletContact(int id) {
+       SQLiteDatabase db = this.getWritableDatabase();
+
+       db.delete(GP, "id=?", new String[]{String.valueOf(id)});
+
+   }*/
 }

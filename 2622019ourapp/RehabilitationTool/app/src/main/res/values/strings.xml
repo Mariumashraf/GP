@@ -284,11 +284,11 @@
     <string name="textView3">اختر صورة</string>
     <string name="takephoto">TODO</string>
     <string name="pic">TODO</string>
-    <string name="tvName">TextView</string>
     <string name="tvView">TODO</string>
     <string name="display">عرض البطاقات</string>
     <string name="imageViewImage">TODO</string>
     <string name="textView5">ضع اسمًا للبطاقة</string>
     <string name="textView2">ضع صوتًا للبطاقة</string>
     <string name="textView">ضع صورة البطاقة</string>
+    <string name="tvName">TextView</string>
 </resources>

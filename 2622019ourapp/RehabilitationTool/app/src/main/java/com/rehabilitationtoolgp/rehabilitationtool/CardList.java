@@ -1,5 +1,6 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.DialogInterface;
 import android.database.Cursor;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +15,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+
+import static java.security.AccessController.getContext;
 
 public class CardList extends AppCompatActivity {
 
@@ -81,4 +84,12 @@ public class CardList extends AppCompatActivity {
             ex.printStackTrace();
         }
     }
+   /* public void onClick(DialogInterface dialog, int id)
+    {
+        myDB = new SQLite(getContext());
+        myDB.deleteItem(user.getBillID());
+        users.remove(position);
+        notifyDataSetChanged();
+
+    }*/
 }
