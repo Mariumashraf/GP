@@ -1479,6 +1479,7 @@ id inside
 id inside2
 id invisible
 id italic
+id item_delet
 id item_touch_helper_previous_elevation
 id iwantt
 id jacket
@@ -1831,6 +1832,7 @@ layout activity_seen
 layout activity_time
 layout activity_tools
 layout activity_transportation
+layout activity_update_card
 layout activity_vegetables
 layout card_item
 layout design_bottom_navigation_item
@@ -1879,6 +1881,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu delete_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw appleee

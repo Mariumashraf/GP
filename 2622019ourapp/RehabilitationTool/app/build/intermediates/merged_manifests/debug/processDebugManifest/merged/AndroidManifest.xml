@@ -54,6 +54,7 @@
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.RAA" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.SEEN" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.CardList" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.UpdateCard" />
     </application>
 
 </manifest>

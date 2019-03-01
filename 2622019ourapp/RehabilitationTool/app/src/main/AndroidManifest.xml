@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rehabilitationtoolgp.rehabilitationtool">
+
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
@@ -43,7 +44,8 @@
         <activity android:name=".PRACTICING" />
         <activity android:name=".RAA" />
         <activity android:name=".SEEN" />
-        <activity android:name=".CardList"></activity>
+        <activity android:name=".CardList" />
+        <activity android:name=".UpdateCard"></activity>
     </application>
 
 </manifest>

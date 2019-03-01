@@ -65,7 +65,7 @@ public class CREATCARD extends AppCompatActivity {
         initiateView();
 
         db = new SQLite(CREATCARD.this,"Cards.sqlite",null,1);
-        db.QueryData("CREATE TABLE IF NOT EXISTS GP(id INTEGER PRIMARY KEY AUTOINCREMENT, Name VARCHAR, Image BLOB, Record BLOB)");
+       // db.QueryData("CREATE TABLE IF NOT EXISTS GP(id INTEGER PRIMARY KEY AUTOINCREMENT, Name VARCHAR, Image BLOB, Record BLOB)");
 
         //TAKE PHOTO
         TakePhoto.setOnClickListener(new View.OnClickListener() {
@@ -110,9 +110,13 @@ public class CREATCARD extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //play(v);
+               // int id = 0;
+              int id = getIntent().getIntExtra("id", 0);
+
 
                 String name = editName.getText().toString();
                 db.INSERT_GP(
+                        id,
                         name,
                         ImageView_To_Byte(imageViewImage),
                         FileLocal_To_Byte(outputFile)

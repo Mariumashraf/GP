@@ -1,6 +1,7 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -38,7 +39,9 @@ public class CardList extends AppCompatActivity {
         Cursor meroCard = CREATCARD.db.GetData("SELECT * FROM GP");
         while (meroCard.moveToNext()){
             // Log.d("AAA",meroCard.getString(1));
+
             mangCard.add(new Card(
+                   // meroCard.getInt(1),
                     meroCard.getString(1),
                     meroCard.getBlob(2)));
             mangAudio.add(meroCard.getBlob(3));
@@ -60,6 +63,19 @@ public class CardList extends AppCompatActivity {
                /* Toast.makeText(getApplicationContext(),
                         "التسجيل يعمل" + mangGhiChu.get(position),
                         Toast.LENGTH_LONG).show();*/
+            }
+        });
+
+        lvCard.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                Card selected_contact = (Card) parent.getItemAtPosition(position);
+
+                Intent intent = new Intent(CardList.this, UpdateCard.class);
+//                intent.putExtra("id", selected_contact.id);
+
+                startActivity(intent);
+                return false;
             }
         });
     }
