@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\medoz\\Downloads\\GP\\newGP\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3696a4dc6f393df3004129b339aaa69d\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\772001a020af86ceecb1e8f4cd6e0553\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
