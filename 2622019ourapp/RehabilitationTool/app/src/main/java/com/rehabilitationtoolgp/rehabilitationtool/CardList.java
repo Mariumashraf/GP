@@ -22,62 +22,44 @@ import static java.security.AccessController.getContext;
 public class CardList extends AppCompatActivity {
 
     ListView lvCard;
-    ArrayList<Card> mangCard;
-    ArrayList<byte[]> mangAudio;
+    SQLite db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_list);
+        db = new SQLite(this);
+
 
         lvCard = (ListView)findViewById(R.id.cardList);
-
-        mangCard = new ArrayList<Card>();
-        mangAudio = new ArrayList<byte[]>();
-
-
-        Cursor meroCard = CREATCARD.db.GetData("SELECT * FROM GP");
-        while (meroCard.moveToNext()){
-            // Log.d("AAA",meroCard.getString(1));
-
-            mangCard.add(new Card(
-                   // meroCard.getInt(1),
-                    meroCard.getString(1),
-                    meroCard.getBlob(2)));
-            mangAudio.add(meroCard.getBlob(3));
-        }
-
-        CardAdapter adapter = new CardAdapter(
-                getApplicationContext(),
-                R.layout.card_item,
-                mangCard
-        );
-        lvCard.setAdapter(adapter);
-
-        lvCard.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                playMp3FromByte(mangAudio.get(position));
-                Toast.makeText(CardList.this, "التسجيل يعمل" ,Toast.LENGTH_SHORT).show();
-
-               /* Toast.makeText(getApplicationContext(),
-                        "التسجيل يعمل" + mangGhiChu.get(position),
-                        Toast.LENGTH_LONG).show();*/
-            }
-        });
-
         lvCard.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 Card selected_contact = (Card) parent.getItemAtPosition(position);
 
                 Intent intent = new Intent(CardList.this, UpdateCard.class);
-//                intent.putExtra("id", selected_contact.id);
+
+                intent.putExtra("id", selected_contact.Id);
 
                 startActivity(intent);
                 return false;
             }
         });
+        lvCard.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                ArrayList<byte[]> audios = db.getaudio();
+
+                playMp3FromByte(audios.get(position));
+               // Toast.makeText(CardList.this, "التسجيل يعمل" ,Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+
+
+
+
     }
 
     private void playMp3FromByte(byte[] mp3SoundByteArray) {
@@ -108,4 +90,16 @@ public class CardList extends AppCompatActivity {
         notifyDataSetChanged();
 
     }*/
+   @Override
+   protected void onResume() {
+       super.onResume();
+
+
+       ArrayList<Card> contacts = db.getAllContacts();
+
+
+       CardAdapter contactAdapter = new CardAdapter(this, R.layout.card_item, contacts);
+
+       lvCard.setAdapter(contactAdapter);
+   }
 }

@@ -1284,6 +1284,7 @@ id SHIFT
 id SYM
 id Strawberries
 id Strawberries2
+id ViewImage
 id Yogurt
 id Yogurt2
 id above
@@ -1369,6 +1370,7 @@ id cheese
 id cheese2
 id chickens
 id chickens2
+id choose
 id chronometer
 id circular
 id climb
@@ -1416,7 +1418,7 @@ id drinkk
 id dynamic
 id eat
 id eattt
-id editName
+id editNam
 id edit_query
 id egg
 id egg2
@@ -1472,7 +1474,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageViewImage
 id image_view
 id info
 id inside
@@ -1573,7 +1574,6 @@ id pear2
 id pen2
 id penn
 id percent
-id pic
 id pin
 id pizza
 id pizza2
@@ -1591,6 +1591,7 @@ id raabtn
 id radio
 id read
 id read2
+id record
 id recyclerView
 id relations
 id relationss
@@ -1610,7 +1611,6 @@ id salad
 id salad2
 id sandwich
 id sandwich2
-id save
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1678,6 +1678,7 @@ id src_in
 id src_over
 id standard
 id start
+id stop
 id stretch
 id submenuarrow
 id submit_area
@@ -1694,7 +1695,7 @@ id tablee
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
-id takephoto
+id take
 id taxi
 id taxi2
 id text
@@ -1749,6 +1750,7 @@ id university
 id university2
 id unlabeled
 id up
+id updata
 id useLogo
 id vegatable
 id vegatable2
