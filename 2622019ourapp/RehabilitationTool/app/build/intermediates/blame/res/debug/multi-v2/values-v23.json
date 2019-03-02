@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\medoz\\Downloads\\GP\\newGP\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "D:\\4th year\\GP\\Z\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\3e41c3d3b45258f28cbcd20c074c8e81\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\29ddd6048a4d49ecd5e3563d9a4b3be3\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\772001a020af86ceecb1e8f4cd6e0553\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fda3173c537c33eb6707fd511aed40e3\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
