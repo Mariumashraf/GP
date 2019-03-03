@@ -126,14 +126,14 @@ public class SQLite extends SQLiteOpenHelper {
         return contact;
 
     }
-    public void updateContact(Card contact,byte[]record) {
+    public void updateContact(Card contact) {
 
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
         values.put(KEY_NAME, contact.Name);
         values.put(KEY_IMG, contact.Image);
-        values.put(KEY_RECORD,record);
+       // values.put(KEY_RECORD,record);
 
 
         db.update(TABLE_CONTACT, values, "id=?", new String[]{String.valueOf(contact.Id)});

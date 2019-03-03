@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\efa6c893f3dee78185334909bee30b28\AndroidManifest.xml:17:1-24:12
 MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\f8c543f27f8956c40678657eba9d60c6\AndroidManifest.xml:2:1-15:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\0e40e7ad90c1a2dd5427f286e2fe5442\AndroidManifest.xml:6:1-16:12
@@ -38,47 +38,47 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lenovo\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a4cf3878988ebdb8a56f952c51d06a03\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d1d3962b4b0c93dd06941aa5e28bcd4b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a70e263b12bee83296e752f44938e53f\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:3:5-58
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:3:5-58
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:5:5-7:35
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:5:5-7:35
 	android:required
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:7:9-32
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:6:9-47
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:6:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:5-71
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:22-68
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.STORAGE
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:5-66
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:5-66
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:22-63
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:22-63
 application
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:14:5-49:19
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:14:5-49:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\efa6c893f3dee78185334909bee30b28\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\efa6c893f3dee78185334909bee30b28\AndroidManifest.xml:22:5-20
 MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\f8c543f27f8956c40678657eba9d60c6\AndroidManifest.xml:13:5-20
@@ -94,113 +94,113 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lenovo\.gr
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0feb03e66561b50c10b32a2673e53c40\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:22:9-36
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:22:9-36
 	android:label
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:19:9-53
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:19:9-53
 	android:hardwareAccelerated
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:17:9-44
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:17:9-44
 	android:roundIcon
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:21:9-54
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:21:9-54
 	android:largeHeap
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:20:9-33
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:20:9-33
 	android:icon
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:23:9-40
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:23:9-40
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:15:9-39
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:15:9-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.MainActivity
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.rehabilitationtoolgp.rehabilitationtool.FOODS
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:31:9-43
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:31:9-43
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:31:19-40
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:31:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.CLOTHES
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:9-45
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:9-45
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:19-42
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:19-42
 activity#com.rehabilitationtoolgp.rehabilitationtool.PLACES
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:9-44
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:9-44
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:19-41
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.DRINKS
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:9-44
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:9-44
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:19-41
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.VEGETABLES
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:9-48
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:9-48
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:19-45
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.FRUIT
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:9-43
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:9-43
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:19-40
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.CREATCARD
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:9-47
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:9-47
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:19-44
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:19-44
 activity#com.rehabilitationtoolgp.rehabilitationtool.ACTIONS
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:9-45
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:9-45
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:19-42
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:19-42
 activity#com.rehabilitationtoolgp.rehabilitationtool.DIRECTIONS
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:9-48
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:9-48
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:19-45
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.TIME
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:9-42
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:9-42
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:19-39
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:19-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.FAMILY
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:9-44
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:9-44
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:19-41
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.TOOLS
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:9-43
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:9-43
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:19-40
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.TRANSPORTATION
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:9-52
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:9-52
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:19-49
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:19-49
 activity#com.rehabilitationtoolgp.rehabilitationtool.PRACTICING
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:9-48
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:9-48
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:19-45
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.RAA
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:9-41
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:9-41
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:19-38
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:19-38
 activity#com.rehabilitationtoolgp.rehabilitationtool.SEEN
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:46:9-42
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:46:9-42
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:46:19-39
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:46:19-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.CardList
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:9-46
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:9-46
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:19-43
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:19-43
 activity#com.rehabilitationtoolgp.rehabilitationtool.UpdateCard
-ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:9-57
+ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:9-57
 	android:name
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:19-45
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:19-45
 uses-sdk
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\efa6c893f3dee78185334909bee30b28\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\efa6c893f3dee78185334909bee30b28\AndroidManifest.xml:20:5-44
 MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\f8c543f27f8956c40678657eba9d60c6\AndroidManifest.xml:8:5-11:75
@@ -269,15 +269,15 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\tra
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d1d3962b4b0c93dd06941aa5e28bcd4b\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a70e263b12bee83296e752f44938e53f\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a70e263b12bee83296e752f44938e53f\AndroidManifest.xml:20:5-44
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\f8c543f27f8956c40678657eba9d60c6\AndroidManifest.xml:11:9-72
 	android:targetSdkVersion
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from E:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from F:\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml

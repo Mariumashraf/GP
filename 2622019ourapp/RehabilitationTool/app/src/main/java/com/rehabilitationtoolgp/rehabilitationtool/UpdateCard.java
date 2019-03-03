@@ -112,10 +112,10 @@ public class UpdateCard extends AppCompatActivity {
                 String name = editNam.getText().toString();
 
                 image = ImageView_To_Byte(ViewImage);
-                record = FileLocal_To_Byte(outputFile);
+              //  record = FileLocal_To_Byte(outputFile);
                 Card contact = new Card(id,name,image);
 
-                db.updateContact(contact,record);
+                db.updateContact(contact);
 
 
                 Toast.makeText(UpdateCard.this, "تم التحديث بنجاح", Toast.LENGTH_LONG).show();
