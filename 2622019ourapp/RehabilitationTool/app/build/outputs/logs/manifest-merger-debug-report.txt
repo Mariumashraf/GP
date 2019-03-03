@@ -1,283 +1,287 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a1e935913392caa62d2d791e4a373327\AndroidManifest.xml:17:1-24:12
-MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\5c92e3d02413fc945b94e9a283cc63f7\AndroidManifest.xml:2:1-15:12
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\7f1ba14f79027ee02c90518ecd721c96\AndroidManifest.xml:6:1-16:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\772001a020af86ceecb1e8f4cd6e0553\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0c07d11d80bd3b9ecd0fa1f7919501f0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c22792adfdb7ff5addc18818a4deaf2c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\3e41c3d3b45258f28cbcd20c074c8e81\AndroidManifest.xml:17:1-22:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d45764543f7ded0baa5a48431632626b\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\644f667da31cb9af187516b7ccb386bb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3677861fa39381ea970eac1aa6947070\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8de07a8100d31c40e9f1da59034f933d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\703bd440e911e5a9f79a7e2d0b2d1ee2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5b811175b52162780765472227a7304b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7b9b261ceff7ba8c6b815291de527482\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\148ea6f8ef63af15258a030545dbaa81\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a79bbe2cc18ab62c94cf08fa7e2de834\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0585dde7442403d74b8545e35a6cf928\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\eeeaab7f896970b910fb14ef2273ce06\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\51fb96dd4fd81748b6cefe9061f86616\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ebaf3260b1ae16cb456de7974af4f9be\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\bb2034df484cc6235ea6c12c19f91f4a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\368576f5af996d7eedfeb441670f7d86\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bd97a6dc9a19ef434020eb2221bc08c0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\453b38490a5dbd2d440134867957a87f\AndroidManifest.xml:17:1-25:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f8014ec40d443bfc8e72073d098634ee\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\65d9e979de5ec7172f7dd50376d50522\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b5838142b3f251c489cae514df103f9f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e23b73db1e6b113cfe6cb81dbaba0975\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2a905cd4665f719c626f5a492c306e2f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a3425281973a8517bb4f101ac9fe48bf\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\92b2122d595987dd7d3d5854de4c9d84\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\61e4ccb92e386fd53c50e44adbc939b6\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c2c44b48d5c8239e1b30dac6bf35bf32\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\72c9f58647e3ec80b80e9f24fd03b3ac\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c6f667e637f35c3ff52f844da8852fa4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\4facc49cc8fed7e9a0a3e219c3997e80\AndroidManifest.xml:2:1-15:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\d2bd456d9e196104f225390e83979d20\AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fda3173c537c33eb6707fd511aed40e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\d85cee5e3435a8019b9d97999bf95f6a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\238fe59786e6196a866000d9b88e15d5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\29ddd6048a4d49ecd5e3563d9a4b3be3\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\90d54414ac659de04995ad0180c0d66b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\95fc919745c9ce2feda6f0abff2b1b0d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\6eedd9edabdf79d9550bf633ed5d39a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3595eeebf5a7c9913079f252a622346e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\122ebb0cbebfec35f59f9f8ec5eb63c8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c14b55415186b33c6f167a47cc95651b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\c2a2bb6304fddcf33403f15008886be6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d7142976a410799fe202fcbbe406be57\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\194305a7a3bb75818846d4e666945706\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9c50d85b9b85547dedd864bbbfa0f7f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\a981dde62252ad5552cadf2cd5084469\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e526df489c51e74f2f67458be67a3156\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\69c1fc636a6917721bddf9920b2d0527\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\746f4630dd6c36f024272c327ae4d530\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8b7d0b5cfc8e1c9bd5e8c588e1f17ac5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\159d06169e9590b682d8c99cd7c5fc2e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\32b53cd8a1ba9353904e4ad7a9f38c3a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\359e6848378e465618fca87e06262a07\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\abc5bafaf17b553cf79bf64fa0657cdd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0609cab984fff078764fa6a9d28cba75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\064fb9271416670253e0ecb5a7c4b660\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c6a0f93c430d109b1ce56649b4c7e105\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\01ed4f17f1888ac031a9f6f762f8727a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\a8b9f727c3b9e21fbf2fdc2c10ccfa2a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\271dde762fedaed933375fbf7e439d6c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\122239d7f46ac04af583fb593fee33b6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\aac4aa45843a0a61d873040c3b46433a\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:3:5-58
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:3:5-58
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-51:12
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:5:5-7:35
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:5:5-7:35
 	android:required
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:7:9-32
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:6:9-47
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:6:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:5-71
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:22-68
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.STORAGE
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:5-66
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:5-66
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:22-63
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:22-63
 application
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:14:5-49:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a1e935913392caa62d2d791e4a373327\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a1e935913392caa62d2d791e4a373327\AndroidManifest.xml:22:5-20
-MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\5c92e3d02413fc945b94e9a283cc63f7\AndroidManifest.xml:13:5-20
-MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\5c92e3d02413fc945b94e9a283cc63f7\AndroidManifest.xml:13:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0c07d11d80bd3b9ecd0fa1f7919501f0\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0c07d11d80bd3b9ecd0fa1f7919501f0\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d45764543f7ded0baa5a48431632626b\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d45764543f7ded0baa5a48431632626b\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bd97a6dc9a19ef434020eb2221bc08c0\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bd97a6dc9a19ef434020eb2221bc08c0\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\453b38490a5dbd2d440134867957a87f\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\453b38490a5dbd2d440134867957a87f\AndroidManifest.xml:22:5-23:19
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:14:5-50:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c6f667e637f35c3ff52f844da8852fa4\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c6f667e637f35c3ff52f844da8852fa4\AndroidManifest.xml:22:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\4facc49cc8fed7e9a0a3e219c3997e80\AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\4facc49cc8fed7e9a0a3e219c3997e80\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\d85cee5e3435a8019b9d97999bf95f6a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\d85cee5e3435a8019b9d97999bf95f6a\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\90d54414ac659de04995ad0180c0d66b\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\90d54414ac659de04995ad0180c0d66b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\159d06169e9590b682d8c99cd7c5fc2e\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\159d06169e9590b682d8c99cd7c5fc2e\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\32b53cd8a1ba9353904e4ad7a9f38c3a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\32b53cd8a1ba9353904e4ad7a9f38c3a\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bd97a6dc9a19ef434020eb2221bc08c0\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\159d06169e9590b682d8c99cd7c5fc2e\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:22:9-36
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:22:9-36
 	android:label
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:19:9-53
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:19:9-53
 	android:hardwareAccelerated
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:17:9-44
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:17:9-44
 	android:roundIcon
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:21:9-54
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:21:9-54
 	android:largeHeap
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:20:9-33
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:20:9-33
 	android:icon
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:23:9-40
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:23:9-40
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:15:9-39
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:15:9-39
+activity#com.rehabilitationtoolgp.rehabilitationtool.laam
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:9-51
+	android:name
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:19-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.MainActivity
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:25:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.rehabilitationtoolgp.rehabilitationtool.FOODS
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:31:9-43
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:9-43
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:31:19-40
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.CLOTHES
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:9-45
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:9-45
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:19-42
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:19-42
 activity#com.rehabilitationtoolgp.rehabilitationtool.PLACES
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:9-44
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:9-44
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:19-41
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.DRINKS
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:9-44
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:9-44
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:19-41
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.VEGETABLES
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:9-48
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:9-48
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:19-45
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.FRUIT
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:9-43
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:9-43
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:19-40
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.CREATCARD
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:9-47
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:9-47
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:19-44
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:19-44
 activity#com.rehabilitationtoolgp.rehabilitationtool.ACTIONS
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:9-45
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:9-45
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:19-42
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:19-42
 activity#com.rehabilitationtoolgp.rehabilitationtool.DIRECTIONS
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:9-48
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:9-48
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:19-45
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.TIME
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:9-42
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:9-42
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:19-39
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:19-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.FAMILY
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:9-44
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:9-44
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:19-41
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.TOOLS
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:9-43
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:9-43
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:19-40
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.TRANSPORTATION
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:9-52
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:9-52
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:19-49
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:19-49
 activity#com.rehabilitationtoolgp.rehabilitationtool.PRACTICING
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:9-48
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:9-48
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:19-45
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.RAA
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:9-41
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:46:9-41
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:19-38
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:46:19-38
 activity#com.rehabilitationtoolgp.rehabilitationtool.SEEN
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:46:9-42
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:9-42
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:46:19-39
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:19-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.CardList
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:9-46
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:9-46
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:19-43
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:19-43
 activity#com.rehabilitationtoolgp.rehabilitationtool.UpdateCard
-ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:9-57
+ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:49:9-48
 	android:name
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:19-45
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml:49:19-45
 uses-sdk
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a1e935913392caa62d2d791e4a373327\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a1e935913392caa62d2d791e4a373327\AndroidManifest.xml:20:5-44
-MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\5c92e3d02413fc945b94e9a283cc63f7\AndroidManifest.xml:8:5-11:75
-MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\5c92e3d02413fc945b94e9a283cc63f7\AndroidManifest.xml:8:5-11:75
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\7f1ba14f79027ee02c90518ecd721c96\AndroidManifest.xml:12:5-14:41
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\7f1ba14f79027ee02c90518ecd721c96\AndroidManifest.xml:12:5-14:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\772001a020af86ceecb1e8f4cd6e0553\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\772001a020af86ceecb1e8f4cd6e0553\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0c07d11d80bd3b9ecd0fa1f7919501f0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0c07d11d80bd3b9ecd0fa1f7919501f0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c22792adfdb7ff5addc18818a4deaf2c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c22792adfdb7ff5addc18818a4deaf2c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\3e41c3d3b45258f28cbcd20c074c8e81\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\3e41c3d3b45258f28cbcd20c074c8e81\AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d45764543f7ded0baa5a48431632626b\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\d45764543f7ded0baa5a48431632626b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\644f667da31cb9af187516b7ccb386bb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\644f667da31cb9af187516b7ccb386bb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3677861fa39381ea970eac1aa6947070\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3677861fa39381ea970eac1aa6947070\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8de07a8100d31c40e9f1da59034f933d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8de07a8100d31c40e9f1da59034f933d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\703bd440e911e5a9f79a7e2d0b2d1ee2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\703bd440e911e5a9f79a7e2d0b2d1ee2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5b811175b52162780765472227a7304b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\5b811175b52162780765472227a7304b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7b9b261ceff7ba8c6b815291de527482\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7b9b261ceff7ba8c6b815291de527482\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\148ea6f8ef63af15258a030545dbaa81\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\148ea6f8ef63af15258a030545dbaa81\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a79bbe2cc18ab62c94cf08fa7e2de834\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a79bbe2cc18ab62c94cf08fa7e2de834\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0585dde7442403d74b8545e35a6cf928\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0585dde7442403d74b8545e35a6cf928\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\eeeaab7f896970b910fb14ef2273ce06\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\eeeaab7f896970b910fb14ef2273ce06\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\51fb96dd4fd81748b6cefe9061f86616\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\51fb96dd4fd81748b6cefe9061f86616\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ebaf3260b1ae16cb456de7974af4f9be\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ebaf3260b1ae16cb456de7974af4f9be\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\bb2034df484cc6235ea6c12c19f91f4a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\bb2034df484cc6235ea6c12c19f91f4a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\368576f5af996d7eedfeb441670f7d86\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\368576f5af996d7eedfeb441670f7d86\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bd97a6dc9a19ef434020eb2221bc08c0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bd97a6dc9a19ef434020eb2221bc08c0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\453b38490a5dbd2d440134867957a87f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\453b38490a5dbd2d440134867957a87f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f8014ec40d443bfc8e72073d098634ee\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f8014ec40d443bfc8e72073d098634ee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\65d9e979de5ec7172f7dd50376d50522\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\65d9e979de5ec7172f7dd50376d50522\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b5838142b3f251c489cae514df103f9f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b5838142b3f251c489cae514df103f9f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e23b73db1e6b113cfe6cb81dbaba0975\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e23b73db1e6b113cfe6cb81dbaba0975\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2a905cd4665f719c626f5a492c306e2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2a905cd4665f719c626f5a492c306e2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a3425281973a8517bb4f101ac9fe48bf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a3425281973a8517bb4f101ac9fe48bf\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\92b2122d595987dd7d3d5854de4c9d84\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\92b2122d595987dd7d3d5854de4c9d84\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\61e4ccb92e386fd53c50e44adbc939b6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\61e4ccb92e386fd53c50e44adbc939b6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c2c44b48d5c8239e1b30dac6bf35bf32\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c2c44b48d5c8239e1b30dac6bf35bf32\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\72c9f58647e3ec80b80e9f24fd03b3ac\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\72c9f58647e3ec80b80e9f24fd03b3ac\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c6f667e637f35c3ff52f844da8852fa4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c6f667e637f35c3ff52f844da8852fa4\AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\4facc49cc8fed7e9a0a3e219c3997e80\AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\4facc49cc8fed7e9a0a3e219c3997e80\AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\d2bd456d9e196104f225390e83979d20\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\d2bd456d9e196104f225390e83979d20\AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fda3173c537c33eb6707fd511aed40e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fda3173c537c33eb6707fd511aed40e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\d85cee5e3435a8019b9d97999bf95f6a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\d85cee5e3435a8019b9d97999bf95f6a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\238fe59786e6196a866000d9b88e15d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\238fe59786e6196a866000d9b88e15d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\29ddd6048a4d49ecd5e3563d9a4b3be3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\29ddd6048a4d49ecd5e3563d9a4b3be3\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\90d54414ac659de04995ad0180c0d66b\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\90d54414ac659de04995ad0180c0d66b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\95fc919745c9ce2feda6f0abff2b1b0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\95fc919745c9ce2feda6f0abff2b1b0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\6eedd9edabdf79d9550bf633ed5d39a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\6eedd9edabdf79d9550bf633ed5d39a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3595eeebf5a7c9913079f252a622346e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3595eeebf5a7c9913079f252a622346e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\122ebb0cbebfec35f59f9f8ec5eb63c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\122ebb0cbebfec35f59f9f8ec5eb63c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c14b55415186b33c6f167a47cc95651b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c14b55415186b33c6f167a47cc95651b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\c2a2bb6304fddcf33403f15008886be6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\c2a2bb6304fddcf33403f15008886be6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d7142976a410799fe202fcbbe406be57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d7142976a410799fe202fcbbe406be57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\194305a7a3bb75818846d4e666945706\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\194305a7a3bb75818846d4e666945706\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9c50d85b9b85547dedd864bbbfa0f7f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9c50d85b9b85547dedd864bbbfa0f7f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\a981dde62252ad5552cadf2cd5084469\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\a981dde62252ad5552cadf2cd5084469\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e526df489c51e74f2f67458be67a3156\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e526df489c51e74f2f67458be67a3156\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\69c1fc636a6917721bddf9920b2d0527\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\69c1fc636a6917721bddf9920b2d0527\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\746f4630dd6c36f024272c327ae4d530\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\746f4630dd6c36f024272c327ae4d530\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8b7d0b5cfc8e1c9bd5e8c588e1f17ac5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8b7d0b5cfc8e1c9bd5e8c588e1f17ac5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\159d06169e9590b682d8c99cd7c5fc2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\159d06169e9590b682d8c99cd7c5fc2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\32b53cd8a1ba9353904e4ad7a9f38c3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\32b53cd8a1ba9353904e4ad7a9f38c3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\359e6848378e465618fca87e06262a07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\359e6848378e465618fca87e06262a07\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\abc5bafaf17b553cf79bf64fa0657cdd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\abc5bafaf17b553cf79bf64fa0657cdd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0609cab984fff078764fa6a9d28cba75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0609cab984fff078764fa6a9d28cba75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\064fb9271416670253e0ecb5a7c4b660\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\064fb9271416670253e0ecb5a7c4b660\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c6a0f93c430d109b1ce56649b4c7e105\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c6a0f93c430d109b1ce56649b4c7e105\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\01ed4f17f1888ac031a9f6f762f8727a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\01ed4f17f1888ac031a9f6f762f8727a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\a8b9f727c3b9e21fbf2fdc2c10ccfa2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\a8b9f727c3b9e21fbf2fdc2c10ccfa2a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\271dde762fedaed933375fbf7e439d6c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\271dde762fedaed933375fbf7e439d6c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\122239d7f46ac04af583fb593fee33b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\122239d7f46ac04af583fb593fee33b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\aac4aa45843a0a61d873040c3b46433a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\aac4aa45843a0a61d873040c3b46433a\AndroidManifest.xml:20:5-44
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\medoz\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\5c92e3d02413fc945b94e9a283cc63f7\AndroidManifest.xml:11:9-72
+		ADDED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\4facc49cc8fed7e9a0a3e219c3997e80\AndroidManifest.xml:11:9-72
 	android:targetSdkVersion
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\medoz\Downloads\GP\newGP\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\4th year\GP\Z\GP\2622019ourapp\RehabilitationTool\app\src\main\AndroidManifest.xml

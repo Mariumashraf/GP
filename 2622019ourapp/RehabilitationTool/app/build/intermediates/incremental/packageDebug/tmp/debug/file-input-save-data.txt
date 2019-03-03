@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Sat Mar 02 16:38:29 EET 2019
+#Sat Mar 02 23:23:04 EET 2019
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\medoz\\Downloads\\GP\\newGP\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.base=D\:\\4th year\\GP\\Z\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 0.path=classes.dex
 0.set=DEX
 count=1

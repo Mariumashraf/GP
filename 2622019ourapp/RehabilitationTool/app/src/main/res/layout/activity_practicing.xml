@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".PRACTICING">
 
 
@@ -14,11 +15,12 @@
 
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="71dp"
-        android:layout_marginTop="63dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="254dp"
         android:background="@android:color/holo_green_dark"
         android:text="س"
         android:textSize="150sp"
+        android:visibility="visible"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="295dp" />
 
@@ -26,12 +28,25 @@
         android:id="@+id/raabtn"
         android:layout_width="175dp"
         android:layout_height="204dp"
-        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/seenbtn"
-        android:layout_marginBottom="48dp"
-        android:background="@android:color/holo_green_light"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_green_dark"
         android:text="ر"
         android:textSize="150sp" />
+
+    <Button
+        android:id="@+id/laambtn"
+        android:layout_width="185dp"
+        android:layout_height="200dp"
+        android:layout_alignStart="@+id/raabtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginBottom="514dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="ل"
+        android:textSize="100dp" />
 
 
 </RelativeLayout>

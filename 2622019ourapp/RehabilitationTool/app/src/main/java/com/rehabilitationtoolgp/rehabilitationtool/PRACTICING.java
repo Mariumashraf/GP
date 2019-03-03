@@ -40,9 +40,10 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
         //activity_practicing     tools:context=".MainActivity"      Activity implements View.OnClickListener   AppCompatActivity
         Button seen = (Button) findViewById(R.id.seenbtn);
         Button raa = (Button) findViewById(R.id.raabtn);
-
+        Button laam= (Button) findViewById(R.id.laambtn);
  seen.setOnClickListener(this);
         raa.setOnClickListener(this);
+        laam.setOnClickListener(this);
         sr = SpeechRecognizer.createSpeechRecognizer(this);
         sr.setRecognitionListener(new listener());
     }
@@ -134,7 +135,8 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                 tryAgainplayer.start();
             }
             this.view1 = null;
-        }  else if (this.view1.getId() == R.id.raabtn) {
+        }
+        else if (this.view1.getId() == R.id.raabtn) {
             if (command.indexOf("راء") != -1) {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(PRACTICING.this, R.raw.bravo);
@@ -147,6 +149,27 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                 startActivity(intent2);
 
             } else if (command.indexOf("راء") == -1) {
+
+                //speak("apple");
+                final MediaPlayer tryAgainplayer = MediaPlayer.create(PRACTICING.this, R.raw.tryagain);
+                // mText.setText("error " + error);
+                tryAgainplayer.start();
+            }
+            this.view1 = null;
+        }
+        else if (this.view1.getId() == R.id.laambtn) {
+            if (command.indexOf("لام") != -1) {
+
+                final MediaPlayer bravoplayer = MediaPlayer.create(PRACTICING.this, R.raw.bravo);
+                bravoplayer.start();
+                try {
+                    Thread.sleep(3000);
+                } catch(InterruptedException e) {
+                }
+                Intent intent2 = new Intent(PRACTICING.this,laam.class);
+                startActivity(intent2);
+
+            } else if (command.indexOf("لام") == -1) {
 
                 //speak("apple");
                 final MediaPlayer tryAgainplayer = MediaPlayer.create(PRACTICING.this, R.raw.tryagain);
@@ -194,7 +217,7 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
     public void onClick(View v) {
         this.view1 = v;
 
-        if (v.getId() == R.id.seenbtn || v.getId() == R.id.raabtn) {
+        if (v.getId() == R.id.seenbtn || v.getId() == R.id.raabtn || v.getId() == R.id.laambtn) {
 
 
             if (v.getId() == R.id.seenbtn) {
@@ -206,7 +229,11 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                 final MediaPlayer raaplayer = MediaPlayer.create(PRACTICING.this, R.raw.raa);
                 raaplayer.start();
             }
+            if (v.getId() == R.id.laambtn) {
+                final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.laam);
+                seenplayer.start();
 
+            }
             try {
                 Thread.sleep(3000);
             } catch(InterruptedException e) {
