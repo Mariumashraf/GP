@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class FAMILY extends AppCompatActivity {
@@ -27,7 +28,7 @@ public class FAMILY extends AppCompatActivity {
         ImageView mother = (ImageView) findViewById(R.id.mother);
         ImageView grandfather = (ImageView) findViewById(R.id.grandfather);
         ImageView grandmother = (ImageView) findViewById(R.id.grandmother);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 

@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import java.util.ArrayList;
@@ -33,7 +34,7 @@ public class CLOTHES extends AppCompatActivity {
         ImageView skrit = (ImageView) findViewById(R.id.skirt);
         ImageView sock = (ImageView) findViewById(R.id.sock);
         ImageView dress = (ImageView) findViewById(R.id.dress);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 

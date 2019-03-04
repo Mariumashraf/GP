@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class ACTIONS extends AppCompatActivity {
@@ -39,7 +40,7 @@ public class ACTIONS extends AppCompatActivity {
         ImageView hop= (ImageView) findViewById(R.id.hop);
         ImageView close =(ImageView) findViewById(R.id.close);
         ImageView sleep=(ImageView) findViewById(R.id.sleep);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 

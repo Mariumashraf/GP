@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView time= (ImageView) findViewById(R.id.timee);
         ImageView tools =(ImageView) findViewById(R.id.tools2);
         ImageView createcard =(ImageView) findViewById(R.id.createcardd);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button practice = (Button) findViewById(R.id.speechvrifecationbtn);
         // Button next = (Button) findViewById(R.id.next);
         globalv=(Globalrecycler)getApplicationContext();

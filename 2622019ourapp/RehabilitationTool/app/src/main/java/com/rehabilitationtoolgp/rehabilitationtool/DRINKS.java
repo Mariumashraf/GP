@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class DRINKS extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class DRINKS extends AppCompatActivity {
         ImageView water = (ImageView) findViewById(R.id.water);
         ImageView milk = (ImageView) findViewById(R.id.milk);
         Button back = (Button) findViewById(R.id.back);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
 
 
         globalv=(Globalrecycler)getApplicationContext();

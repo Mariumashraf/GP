@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class FRUIT extends AppCompatActivity {
@@ -31,7 +32,7 @@ public class FRUIT extends AppCompatActivity {
         ImageView pear= (ImageView) findViewById(R.id.pear);
         ImageView mango =(ImageView) findViewById(R.id.mango);
         ImageView banana=(ImageView) findViewById(R.id.banana);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 

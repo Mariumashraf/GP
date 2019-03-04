@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import java.util.ArrayList;
@@ -45,7 +46,7 @@ public class FOODS extends AppCompatActivity {
         ImageView popcorn= (ImageView) findViewById(R.id.popcorn);
         ImageView meat =(ImageView) findViewById(R.id.meat);
         ImageView jam=(ImageView) findViewById(R.id.jam);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 

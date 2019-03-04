@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class VEGETABLES extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class VEGETABLES extends AppCompatActivity {
         ImageView cucumber= (ImageView) findViewById(R.id.cucumb2 );
         ImageView carrot =(ImageView) findViewById(R.id.carrot);
         ImageView lettuce=(ImageView) findViewById(R.id.lettuce);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 

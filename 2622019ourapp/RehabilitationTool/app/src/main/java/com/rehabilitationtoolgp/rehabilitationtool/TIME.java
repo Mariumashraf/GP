@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class TIME extends AppCompatActivity {
@@ -22,7 +23,7 @@ public class TIME extends AppCompatActivity {
 
         ImageView morning =(ImageView) findViewById(R.id.morning);
         ImageView night=(ImageView) findViewById(R.id.night);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 

@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class DIRECTIONS extends AppCompatActivity {
@@ -30,7 +31,7 @@ public class DIRECTIONS extends AppCompatActivity {
         ImageView inside = (ImageView) findViewById(R.id.inside);
         ImageView right = (ImageView) findViewById(R.id.right);
         ImageView left = (ImageView) findViewById(R.id.left);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 

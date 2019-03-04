@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class TRANSPORTATION extends AppCompatActivity {
@@ -28,7 +29,7 @@ public class TRANSPORTATION extends AppCompatActivity {
         ImageView plane = (ImageView) findViewById(R.id.plane);
         ImageView ship = (ImageView) findViewById(R.id.ship);
         ImageView train = (ImageView) findViewById(R.id.train);
-        Button play = (Button) findViewById(R.id.playall);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 
