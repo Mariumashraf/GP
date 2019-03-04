@@ -15,7 +15,8 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -24,6 +25,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:background="@color/colorAccent"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -31,12 +33,14 @@
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/recyclerView"
                     android:layout_width="300dp"
-                    android:layout_height="150dp" />
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary" />
 
                 <Button
                     android:id="@+id/playall"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="100dp"
                     android:layout_weight="1"
                     android:background="@android:drawable/ic_media_play" />
             </LinearLayout>
@@ -390,9 +394,9 @@
                 android:id="@+id/speechvrifecationbtn"
                 android:layout_width="60dp"
                 android:layout_height="120dp"
-                android:layout_marginBottom="9dp"
-                android:layout_marginLeft="25dp"
                 android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
                 android:background="@drawable/practice"
                 android:onClick="buttonClicked"
                 app:layout_constraintBottom_toTopOf="@+id/practice"
@@ -402,9 +406,9 @@
                 android:id="@+id/practice"
                 android:layout_width="60dp"
                 android:layout_height="30dp"
-                android:layout_marginBottom="1dp"
-                android:layout_marginLeft="20dp"
                 android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="1dp"
                 android:text="وضع التدريب"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />

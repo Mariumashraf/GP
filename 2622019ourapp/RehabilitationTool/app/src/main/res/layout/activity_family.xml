@@ -8,7 +8,9 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="119dp">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -48,10 +50,10 @@
                 android:layout_marginEnd="43dp"
                 android:layout_marginRight="43dp"
                 android:background="@drawable/sisterrrz"
+                android:contentDescription="@string/sister"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/brother"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-                android:contentDescription="@string/sister" />
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
             <ImageView
                 android:id="@+id/brother"
@@ -61,9 +63,9 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/sonnnnz"
+                android:contentDescription="@string/brother"
                 app:layout_constraintStart_toEndOf="@+id/father"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-                android:contentDescription="@string/brother" />
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
             <ImageView
                 android:id="@+id/father"
@@ -73,9 +75,9 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/papaaaz"
+                android:contentDescription="@string/father"
                 app:layout_constraintStart_toEndOf="@+id/mother2"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-                android:contentDescription="@string/father" />
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
             <ImageView
                 android:id="@+id/mother"
@@ -85,9 +87,9 @@
                 android:layout_marginLeft="26dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/mamaaaz"
+                android:contentDescription="@string/mother"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-                android:contentDescription="@string/mother" />
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
             <ImageView
                 android:id="@+id/grandmother"
@@ -99,10 +101,10 @@
                 android:layout_marginEnd="43dp"
                 android:layout_marginRight="43dp"
                 android:background="@drawable/grandmaaaz"
+                android:contentDescription="@string/grandmother"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/grandfather"
-                app:layout_constraintTop_toBottomOf="@+id/sister2"
-                android:contentDescription="@string/grandmother" />
+                app:layout_constraintTop_toBottomOf="@+id/sister2" />
 
             <ImageView
                 android:id="@+id/grandfather"
@@ -112,9 +114,9 @@
                 android:layout_marginLeft="196dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/grandpaaaz"
+                android:contentDescription="@string/grandfather"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/brother2"
-                android:contentDescription="@string/grandfather" />
+                app:layout_constraintTop_toBottomOf="@+id/brother2" />
 
             <TextView
                 android:id="@+id/sister2"

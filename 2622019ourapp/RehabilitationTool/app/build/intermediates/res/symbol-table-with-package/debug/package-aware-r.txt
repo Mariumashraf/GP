@@ -1135,6 +1135,7 @@ drawable dressszz
 drawable drinkkkkzz
 drawable drinkkkzz
 drawable eatttzz
+drawable eee
 drawable eggggzz
 drawable familyyyz
 drawable fish
@@ -1224,6 +1225,7 @@ drawable rideeez
 drawable rightttz
 drawable rock
 drawable roman
+drawable round_button
 drawable runnnz
 drawable saladddz
 drawable sandwichhhz
