@@ -21,6 +21,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
+        <activity android:name=".laam"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,7 +46,7 @@
         <activity android:name=".RAA" />
         <activity android:name=".SEEN" />
         <activity android:name=".CardList" />
-        <activity android:name=".UpdateCard"></activity>
+        <activity android:name=".UpdateCard" />
     </application>
 
 </manifest>

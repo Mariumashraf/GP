@@ -1161,6 +1161,7 @@ drawable jammmz
 drawable juiceeez
 drawable kitchennz
 drawable knifeeezz
+drawable lamba
 drawable leftttz
 drawable lettucez
 drawable livingroommmz
@@ -1231,6 +1232,7 @@ drawable saladddz
 drawable sandwichhhz
 drawable schoollz
 drawable scissz
+drawable selm
 drawable shipz
 drawable shoessssz
 drawable sisterrrz
@@ -1495,7 +1497,9 @@ id kitchen
 id kitchen2
 id knife2
 id knifee
+id laambtn
 id labeled
+id lambabtn
 id largeLabel
 id left
 id left2
@@ -1639,6 +1643,7 @@ id search_voice_btn
 id seenbtn
 id select_dialog_listview
 id selected
+id selmbtn
 id ship
 id ship2
 id shoes
@@ -1707,6 +1712,8 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView2
+id textView3
+id textView4
 id textView5
 id text_input_password_toggle
 id textinput_counter
@@ -1828,6 +1835,7 @@ layout activity_drinks
 layout activity_family
 layout activity_foods
 layout activity_fruit
+layout activity_laam
 layout activity_main
 layout activity_places
 layout activity_practicing
@@ -1944,6 +1952,8 @@ raw khearrr
 raw kitchennn
 raw knifeee
 raw kometraaa
+raw laam
+raw lamp
 raw lefttt
 raw lockkk
 raw makasss
@@ -1979,6 +1989,7 @@ raw salonnn
 raw sandwichesss
 raw schoolll
 raw seen
+raw selm
 raw shippp
 raw shoesss
 raw singgg

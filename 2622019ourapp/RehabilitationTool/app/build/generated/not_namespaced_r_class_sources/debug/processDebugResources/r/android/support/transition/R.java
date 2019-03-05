@@ -78,6 +78,7 @@ public final class R {
     public static final class id {
         private id() {}
 
+<<<<<<< HEAD
         public static final int action_container = 0x7f080016;
         public static final int action_divider = 0x7f080018;
         public static final int action_image = 0x7f080019;
@@ -116,6 +117,46 @@ public final class R {
         public static final int transition_position = 0x7f0801cb;
         public static final int transition_scene_layoutid_cache = 0x7f0801cc;
         public static final int transition_transform = 0x7f0801cd;
+=======
+        public static final int action_container = 0x7f080015;
+        public static final int action_divider = 0x7f080017;
+        public static final int action_image = 0x7f080018;
+        public static final int action_text = 0x7f08001e;
+        public static final int actions = 0x7f08001f;
+        public static final int async = 0x7f08002a;
+        public static final int blocking = 0x7f080043;
+        public static final int chronometer = 0x7f08005f;
+        public static final int forever = 0x7f0800a4;
+        public static final int ghost_view = 0x7f0800a9;
+        public static final int icon = 0x7f0800c2;
+        public static final int icon_group = 0x7f0800c3;
+        public static final int info = 0x7f0800c8;
+        public static final int italic = 0x7f0800cc;
+        public static final int line1 = 0x7f0800e2;
+        public static final int line3 = 0x7f0800e3;
+        public static final int normal = 0x7f080114;
+        public static final int notification_background = 0x7f080118;
+        public static final int notification_main_column = 0x7f080119;
+        public static final int notification_main_column_container = 0x7f08011a;
+        public static final int parent_matrix = 0x7f080125;
+        public static final int right_icon = 0x7f080149;
+        public static final int right_side = 0x7f08014a;
+        public static final int save_image_matrix = 0x7f080153;
+        public static final int save_non_transition_alpha = 0x7f080154;
+        public static final int save_scale_type = 0x7f080155;
+        public static final int tag_transition_group = 0x7f0801a4;
+        public static final int tag_unhandled_key_event_manager = 0x7f0801a5;
+        public static final int tag_unhandled_key_listeners = 0x7f0801a6;
+        public static final int text = 0x7f0801aa;
+        public static final int text2 = 0x7f0801ab;
+        public static final int time = 0x7f0801bc;
+        public static final int title = 0x7f0801be;
+        public static final int transition_current_scene = 0x7f0801cd;
+        public static final int transition_layout_save = 0x7f0801ce;
+        public static final int transition_position = 0x7f0801cf;
+        public static final int transition_scene_layoutid_cache = 0x7f0801d0;
+        public static final int transition_transform = 0x7f0801d1;
+>>>>>>> mariam1
     }
     public static final class integer {
         private integer() {}
@@ -125,12 +166,12 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int notification_action = 0x7f0b0054;
-        public static final int notification_action_tombstone = 0x7f0b0055;
-        public static final int notification_template_custom_big = 0x7f0b0056;
-        public static final int notification_template_icon_group = 0x7f0b0057;
-        public static final int notification_template_part_chronometer = 0x7f0b0058;
-        public static final int notification_template_part_time = 0x7f0b0059;
+        public static final int notification_action = 0x7f0b0055;
+        public static final int notification_action_tombstone = 0x7f0b0056;
+        public static final int notification_template_custom_big = 0x7f0b0057;
+        public static final int notification_template_icon_group = 0x7f0b0058;
+        public static final int notification_template_part_chronometer = 0x7f0b0059;
+        public static final int notification_template_part_time = 0x7f0b005a;
     }
     public static final class string {
         private string() {}

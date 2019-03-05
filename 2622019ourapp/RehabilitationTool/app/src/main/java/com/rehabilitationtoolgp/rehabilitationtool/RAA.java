@@ -40,9 +40,12 @@ public class RAA extends  Activity implements View.OnClickListener {
 
     class listener implements RecognitionListener {
         public void onReadyForSpeech(Bundle params) {
+
+
         }
 
         public void onBeginningOfSpeech() {
+
         }
 
         public void onRmsChanged(float rmsdB) {
@@ -117,13 +120,13 @@ public class RAA extends  Activity implements View.OnClickListener {
             }
             this.view1 = null;
         } else if (this.view1.getId() == R.id.chairbtn) {
-            if (command.indexOf("شجرة") != -1) {
+            if (command.indexOf("شجره") != -1) {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(RAA.this, R.raw.bravo);
                 bravoplayer.start();
 
 
-            } else if (command.indexOf("شجرة") == -1) {
+            } else if (command.indexOf("شجره") == -1) {
 
                 //speak("apple");
                 final MediaPlayer tryAgainplayer = MediaPlayer.create(RAA.this, R.raw.tryagain);
@@ -153,6 +156,25 @@ public class RAA extends  Activity implements View.OnClickListener {
     public void onClick(View v) {
         this.view1 = v;
         if (v.getId() == R.id.fishbtn || v.getId() == R.id.chairbtn ||  v.getId() == R.id.rockbtn) {
+
+
+            if (RAA.view1.getId() == R.id.fishbtn) {
+                final MediaPlayer romanplayer = MediaPlayer.create(RAA.this, R.raw.roman);
+                romanplayer.start();
+            }
+            if (RAA.view1.getId() == R.id.chairbtn) {
+                final MediaPlayer treeplayer = MediaPlayer.create(RAA.this, R.raw.tree);
+                treeplayer.start();
+            }
+            if (RAA.view1.getId() == R.id.rockbtn) {
+                final MediaPlayer rockplayer = MediaPlayer.create(RAA.this, R.raw.rock);
+                rockplayer.start();
+            }
+            try {
+                Thread.sleep(3000);
+            } catch(InterruptedException e) {
+            }
+
             Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
             intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
             intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "ar-JO");
@@ -164,19 +186,9 @@ public class RAA extends  Activity implements View.OnClickListener {
             sr.startListening(intent);
 
 
-            if (v.getId() == R.id.fishbtn) {
-                final MediaPlayer romanplayer = MediaPlayer.create(RAA.this, R.raw.roman);
-                romanplayer.start();
-            }
-            if (v.getId() == R.id.chairbtn) {
-                final MediaPlayer treeplayer = MediaPlayer.create(RAA.this, R.raw.tree);
-                treeplayer.start();
-            }
-            if (v.getId() == R.id.rockbtn) {
-                final MediaPlayer rockplayer = MediaPlayer.create(RAA.this, R.raw.rock);
-                rockplayer.start();
-            }
+
         }
+
 
 
     }

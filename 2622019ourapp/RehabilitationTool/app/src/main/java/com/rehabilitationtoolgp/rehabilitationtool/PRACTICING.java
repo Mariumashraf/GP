@@ -40,273 +40,10 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
         //activity_practicing     tools:context=".MainActivity"      Activity implements View.OnClickListener   AppCompatActivity
         Button seen = (Button) findViewById(R.id.seenbtn);
         Button raa = (Button) findViewById(R.id.raabtn);
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-       /* ImageView want = (ImageView) findViewById(R.id.want);
-        ImageView notwant= (ImageView) findViewById(R.id.notWant);
-        ImageView eat = (ImageView) findViewById(R.id.eat);
-        ImageView drink = (ImageView) findViewById(R.id.drink);
-        ImageView wear = (ImageView) findViewById(R.id.wear);
-        ImageView go = (ImageView) findViewById(R.id.go);
-        ImageView yes= (ImageView) findViewById(R.id.yes);
-        ImageView no = (ImageView) findViewById(R.id.no);
-        ImageView family = (ImageView) findViewById(R.id.family);
-        ImageView actions= (ImageView) findViewById(R.id.actions);
-        ImageView trans= (ImageView) findViewById(R.id.trans);
-        ImageView relations = (ImageView) findViewById(R.id.relations);
-        ImageView time= (ImageView) findViewById(R.id.timee);
-        ImageView tools =(ImageView) findViewById(R.id.tools2);
-        ImageView createcard =(ImageView) findViewById(R.id.createcardd);
-        Button play = (Button) findViewById(R.id.playall);
-        Button practice = (Button) findViewById(R.id.speechvrifecationbtn);
-        // Button next = (Button) findViewById(R.id.next);
-
-
-        play.setVisibility(View.GONE);
-        practice.setVisibility(View.GONE);
-        createcard.setVisibility(View.GONE);
-
-        //I WANT
-        final MediaPlayer iwantplayer =MediaPlayer.create(PRACTICING.this, R.raw.ineeddd);
-        want.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                iwantplayer.start();
-                *//*globalv.addmImageUrls(R.drawable.needddzz);
-                globalv.addmNames(" أناعايز");
-                globalv.addMrecords(R.raw.ineeddd);
-                initRecyclerView();
-*//*
-            }
-        });
-
-        // I DONONT WANT
-        final MediaPlayer inotwantplayer =MediaPlayer.create(PRACTICING.this, R.raw.inotneeddd);
-        notwant.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                inotwantplayer .start();
-               *//* globalv.addmImageUrls(R.drawable.notneedddz);
-                globalv.addmNames(" أنا مش عايز");
-                globalv.addMrecords(R.raw.inotneeddd);
-                initRecyclerView();*//*
-
-            }
-        });
-
-
-        //YES
-        final MediaPlayer yesplayer =MediaPlayer.create(PRACTICING.this, R.raw.yesss);
-        yes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                yesplayer .start();
-               *//* globalv.addmImageUrls(R.drawable.yesz);
-                globalv.addmNames("نعم");
-                globalv.addMrecords(R.raw.yesss);
-                initRecyclerView();*//*
-
-            }
-        });
-
-        //NO
-
-        final MediaPlayer noplayer =MediaPlayer.create(PRACTICING.this, R.raw.nooo);
-        no.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                noplayer.start();
-               *//* globalv.addmImageUrls(R.drawable.nooozz);
-                globalv.addmNames("لا");
-                globalv.addMrecords(R.raw.nooo);
-                initRecyclerView();*//*
-
-            }
-        });
-
-        //EAT
-
-        final MediaPlayer eatplayer =MediaPlayer.create(PRACTICING.this, R.raw.eattt);
-        eat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                eatplayer.start();
-                *//*globalv.addmImageUrls(R.drawable.eatttzz);
-                globalv.addmNames("أكل");
-                globalv.addMrecords(R.raw.eattt);
-                initRecyclerView();
-                globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-
-                Intent intent1 = new Intent(PRACTICING.this,FOODS.class);
-                startActivity(intent1);
-
-            }
-        });
-
-        //DRINK
-
-        final MediaPlayer drinkplayer =MediaPlayer.create(PRACTICING.this, R.raw.drinkkk);
-        drink.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                drinkplayer.start();
-                *//*globalv.addmImageUrls(R.drawable.drinkkkkzz);
-                globalv.addmNames(" أشرب");
-                globalv.addMrecords(R.raw.drinkkk);
-                initRecyclerView();
-                globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-
-                Intent intent2 = new Intent(PRACTICING.this,DRINKS.class);
-                startActivity(intent2);
-
-            }
-        });
-
-        //WEAR
-
-        final MediaPlayer wearplayer =MediaPlayer.create(PRACTICING.this, R.raw.wearrr);
-        wear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                wearplayer.start();
-                *//*globalv.addmImageUrls(R.drawable.wearrrrz);
-                globalv.addmNames("ألبس");
-                globalv.addMrecords(R.raw.wearrr);
-                initRecyclerView();
-                globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-
-
-         *//*Intent intent3 = new Intent(PRACTICING.this,CLOTHES.class);
-                startActivity(intent3);*//*
-
-            }
-        });
-
-        //GO
-        final MediaPlayer goplayer =MediaPlayer.create(PRACTICING.this, R.raw.gooo);
-        go.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goplayer.start();
-                *//*globalv.addmImageUrls(R.drawable.walkkkz);
-                globalv.addmNames("اروح");
-                globalv.addMrecords(R.raw.gooo);
-                initRecyclerView();
-
-                globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-
-         *//*Intent intent4 = new Intent(PRACTICING.this,PLACES.class);
-                startActivity(intent4);*//*
-
-            }
-        });
-        //FAMILY
-        family.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               *//* globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-                Intent intent5 = new Intent(PRACTICING.this,FAMILY.class);
-                startActivity(intent5);
-
-            }
-        });
-
-
-        //ACTIONS
-        actions.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                *//*CleanUpMemory();
-                globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-                Intent intent6 = new Intent(PRACTICING.this,ACTIONS.class);
-                startActivity(intent6);
-
-            }
-        });
-
-        //TRANSPORTATION
-
-        trans.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               *//* globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-                Intent intent7 = new Intent(PRACTICING.this,TRANSPORTATION.class);
-                startActivity(intent7);
-
-            }
-        });
-
-        //DIRECTIONS
-        relations.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                *//*CleanUpMemory();
-                globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-                Intent intent8 = new Intent(PRACTICING.this,DIRECTIONS.class);
-                startActivity(intent8);
-
-            }
-        });
-
-        //TIME
-        time.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                *//*globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-                Intent intent9 = new Intent(PRACTICING.this,TIME.class);
-                startActivity(intent9);
-*/
-           /* }
-        });
-        //TOOLS
-        tools.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                *//*globalv.getmImageUrls();
-                globalv.getmNames();
-                globalv.getMrecords();*//*
-                Intent intent10 = new Intent(PRACTICING.this,TOOLS.class);
-                startActivity(intent10);
-
-            }
-        });
-
-        //CREATE CARD
-        createcard.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent11 = new Intent(PRACTICING.this,CREATCARD.class);
-                startActivity(intent11);
-
-            }
-        });*/
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        /*Button speakButton = (Button) findViewById(R.id.btn_speak);
-        mText = (TextView) findViewById(R.id.textView1);*/
-        seen.setOnClickListener(this);
+        Button laam= (Button) findViewById(R.id.laambtn);
+ seen.setOnClickListener(this);
         raa.setOnClickListener(this);
+        laam.setOnClickListener(this);
         sr = SpeechRecognizer.createSpeechRecognizer(this);
         sr.setRecognitionListener(new listener());
     }
@@ -314,6 +51,8 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
 
     class listener implements RecognitionListener {
         public void onReadyForSpeech(Bundle params) {
+
+
         }
 
         public void onBeginningOfSpeech() {
@@ -381,6 +120,10 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(PRACTICING.this, R.raw.bravo);
                 bravoplayer.start();
+                try {
+                    Thread.sleep(3000);
+                } catch(InterruptedException e) {
+                }
                 Intent intent1 = new Intent(PRACTICING.this,SEEN.class);
                 startActivity(intent1);
 
@@ -392,15 +135,41 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                 tryAgainplayer.start();
             }
             this.view1 = null;
-        } else if (this.view1.getId() == R.id.raabtn) {
+        }
+        else if (this.view1.getId() == R.id.raabtn) {
             if (command.indexOf("راء") != -1) {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(PRACTICING.this, R.raw.bravo);
                 bravoplayer.start();
-                Intent intent1 = new Intent(PRACTICING.this,RAA.class);
-                startActivity(intent1);
+                try {
+                    Thread.sleep(3000);
+                } catch(InterruptedException e) {
+                }
+                Intent intent2 = new Intent(PRACTICING.this,RAA.class);
+                startActivity(intent2);
 
             } else if (command.indexOf("راء") == -1) {
+
+                //speak("apple");
+                final MediaPlayer tryAgainplayer = MediaPlayer.create(PRACTICING.this, R.raw.tryagain);
+                // mText.setText("error " + error);
+                tryAgainplayer.start();
+            }
+            this.view1 = null;
+        }
+        else if (this.view1.getId() == R.id.laambtn) {
+            if (command.indexOf("لام") != -1) {
+
+                final MediaPlayer bravoplayer = MediaPlayer.create(PRACTICING.this, R.raw.bravo);
+                bravoplayer.start();
+                try {
+                    Thread.sleep(3000);
+                } catch(InterruptedException e) {
+                }
+                Intent intent2 = new Intent(PRACTICING.this,laam.class);
+                startActivity(intent2);
+
+            } else if (command.indexOf("لام") == -1) {
 
                 //speak("apple");
                 final MediaPlayer tryAgainplayer = MediaPlayer.create(PRACTICING.this, R.raw.tryagain);
@@ -447,7 +216,28 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
 
     public void onClick(View v) {
         this.view1 = v;
-        if (v.getId() == R.id.seenbtn || v.getId() == R.id.raabtn) {
+
+        if (v.getId() == R.id.seenbtn || v.getId() == R.id.raabtn || v.getId() == R.id.laambtn) {
+
+
+            if (v.getId() == R.id.seenbtn) {
+                final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.seen);
+                seenplayer.start();
+
+            }
+            if (v.getId() == R.id.raabtn) {
+                final MediaPlayer raaplayer = MediaPlayer.create(PRACTICING.this, R.raw.raa);
+                raaplayer.start();
+            }
+            if (v.getId() == R.id.laambtn) {
+                final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.laam);
+                seenplayer.start();
+
+            }
+            try {
+                Thread.sleep(3000);
+            } catch(InterruptedException e) {
+            }
             Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
             intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
             intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "ar-JO");
@@ -459,15 +249,10 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
             sr.startListening(intent);
 
 
-            if (v.getId() == R.id.seenbtn) {
-                final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.seen);
-                seenplayer.start();
-            }
-            if (v.getId() == R.id.raabtn) {
-                final MediaPlayer raaplayer = MediaPlayer.create(PRACTICING.this, R.raw.raa);
-                raaplayer.start();
-            }
+
+
         }
+
 
 
     }

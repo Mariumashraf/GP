@@ -1,10 +1,14 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "F:\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+=======
+            "outputFile": "D:\\4th year\\GP\\Z\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+>>>>>>> mariam1
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\f8c543f27f8956c40678657eba9d60c6\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\4facc49cc8fed7e9a0a3e219c3997e80\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

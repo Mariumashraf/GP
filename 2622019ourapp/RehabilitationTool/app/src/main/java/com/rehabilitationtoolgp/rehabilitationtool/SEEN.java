@@ -50,6 +50,7 @@ public class SEEN extends  Activity implements View.OnClickListener {
 
     class listener implements RecognitionListener {
         public void onReadyForSpeech(Bundle params) {
+
         }
 
         public void onBeginningOfSpeech() {
@@ -144,17 +145,9 @@ public class SEEN extends  Activity implements View.OnClickListener {
 
     public void onClick(View v) {
         this.view1 = v;
+
+
         if (v.getId() == R.id.fishbtn || v.getId() == R.id.chairbtn|| v.getId() == R.id.sunbtn ) {
-            Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-            intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-            intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "ar-JO");
-
-            intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, "tk.oryx.voice");
-            //   intent.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, 20000); // value to wait
-
-            intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1);  // 1 is the maximum number of results to be returned.
-            sr.startListening(intent);
-
 
             if (v.getId() == R.id.fishbtn) {
                 final MediaPlayer fishplayer = MediaPlayer.create(SEEN.this, R.raw.fish);
@@ -168,7 +161,25 @@ public class SEEN extends  Activity implements View.OnClickListener {
                 final MediaPlayer sunplayer = MediaPlayer.create(SEEN.this, R.raw.sun);
                 sunplayer.start();
             }
+            try {
+                Thread.sleep(3000);
+            } catch(InterruptedException e) {
+            }
+
+            Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+            intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+            intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "ar-JO");
+
+            intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, "tk.oryx.voice");
+            //   intent.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, 20000); // value to wait
+
+            intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1);  // 1 is the maximum number of results to be returned.
+            sr.startListening(intent);
+
+
+
         }
+
 
 
     }

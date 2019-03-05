@@ -1,7 +1,13 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Sun Mar 03 17:30:01 EET 2019
 0.baseType=DIRECTORY
 0.base=F\:\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+=======
+#Sat Mar 02 23:23:04 EET 2019
+0.baseType=DIRECTORY
+0.base=D\:\\4th year\\GP\\Z\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+>>>>>>> mariam1
 0.path=classes.dex
 0.set=DEX
 count=1
