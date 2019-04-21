@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">liveRecording5</string>
+    <string name="playBtn">Pause</string>
+    <string name="modeBtn">Call Mode</string>
+</resources>
