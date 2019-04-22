@@ -8,12 +8,12 @@ import android.media.AudioManager;
 import android.media.AudioRecord;
 import android.media.AudioTrack;
 import android.media.MediaRecorder;
-import android.os.Bundle;
-import android.app.Activity;
 import android.content.Context;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,12 +42,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init() {
-        int min = AudioRecord.getMinBufferSize(8000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
-        record = new AudioRecord(MediaRecorder.AudioSource.VOICE_COMMUNICATION, 8000, AudioFormat.CHANNEL_IN_MONO,
+        int min = AudioRecord.getMinBufferSize(4000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
+        record = new AudioRecord(MediaRecorder.AudioSource.VOICE_COMMUNICATION, 4000, AudioFormat.CHANNEL_IN_MONO,
                 AudioFormat.ENCODING_PCM_16BIT, min);
 
-        int maxJitter = AudioTrack.getMinBufferSize(8000, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
-        track = new AudioTrack(AudioManager.MODE_IN_COMMUNICATION, 8000, AudioFormat.CHANNEL_OUT_MONO,
+        int maxJitter = AudioTrack.getMinBufferSize(4000, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
+        track = new AudioTrack(AudioManager.MODE_IN_COMMUNICATION, 4000, AudioFormat.CHANNEL_OUT_MONO,
                 AudioFormat.ENCODING_PCM_16BIT, maxJitter, AudioTrack.MODE_STREAM);
     }
 
