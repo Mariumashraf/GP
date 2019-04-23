@@ -3,6 +3,7 @@ package com.rehabilitationtoolgp.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.audiofx.Equalizer;
@@ -16,8 +17,9 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.Spinner;
+import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
-
+import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends Activity{
@@ -30,7 +32,9 @@ public class MainActivity extends Activity{
 
     private LinearLayout mLinearLayout;
     private VisualizerView mVisualizerView;
-
+    SeekBar seekbar;
+    TextView textview;
+    AudioManager audioManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,6 +65,35 @@ public class MainActivity extends Activity{
                 mVisualizer.setEnabled(false);
             }
         });
+
+
+        seekbar = (SeekBar)findViewById(R.id.seekbar);
+        textview = (TextView)findViewById(R.id.message_id);
+
+        audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+
+        seekbar.setMax(audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC));
+
+        seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+
+                textview.setText("Media Volume : " + i);
+
+                audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, i, 0);
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
+
     }
 
     private void equalizeSound() {
@@ -250,5 +283,7 @@ public class MainActivity extends Activity{
             mMediaPlayer = null;
         }
     }
-    }
+
+}
+
 
