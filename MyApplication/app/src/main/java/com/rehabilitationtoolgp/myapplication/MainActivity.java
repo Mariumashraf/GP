@@ -19,36 +19,61 @@ import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
+<<<<<<< HEAD
 import android.widget.Toast;
+=======
+import android.media.AudioFormat;
+import android.media.AudioManager;
+import android.media.AudioRecord;
+import android.media.AudioTrack;
+import android.media.MediaRecorder;
+import android.content.Context;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+
+>>>>>>> f83f2b9a1a6807b1c00b0faa7b85acd8f9bf3bf0
 import java.util.ArrayList;
 
-public class MainActivity extends Activity{
+public class MainActivity extends AppCompatActivity{
 
     private static final float VISUALIZER_HEIGHT_DIP = 50f;
 
-    private MediaPlayer mMediaPlayer;
+
     private Visualizer mVisualizer;
     private Equalizer mEqualizer;
-
     private LinearLayout mLinearLayout;
     private VisualizerView mVisualizerView;
+<<<<<<< HEAD
     SeekBar seekbar;
     TextView textview;
     AudioManager audioManager;
+=======
+////////////////////// live part //////////////////////////////////
+
+    AudioManager am = null;
+    AudioRecord record =null;
+    AudioTrack track =null;
+
+>>>>>>> f83f2b9a1a6807b1c00b0faa7b85acd8f9bf3bf0
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setVolumeControlStream(AudioManager.MODE_IN_COMMUNICATION);
+        init();
+        (new Thread() {
+            @Override
+            public void run() {
+                recordAndPlay();
+            }
+        }).start();
+////////////////////////////////////////////////////////////////////////////////
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
-
-        mMediaPlayer = MediaPlayer.create(this, R.raw.eh);
-
-        mMediaPlayer.start();
-
 //        create the equalizer with default priority of 0 & attach to our media player
-        mEqualizer = new Equalizer(0, mMediaPlayer.getAudioSessionId());
+        mEqualizer = new Equalizer(0, track.getAudioSessionId());
         mEqualizer.setEnabled(true);
 
 //        set up visualizer and equalizer bars
@@ -58,6 +83,7 @@ public class MainActivity extends Activity{
         // enable the visualizer
         mVisualizer.setEnabled(true);
 
+<<<<<<< HEAD
         // listen for when the music stream ends playing
         mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             public void onCompletion(MediaPlayer mediaPlayer) {
@@ -94,8 +120,68 @@ public class MainActivity extends Activity{
             }
         });
 
+=======
+    }
+  ///////////////////////////////// live part //////////////////////////////////////////////////////
+    private void init() {
+        int min = AudioRecord.getMinBufferSize(4000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
+        record = new AudioRecord(MediaRecorder.AudioSource.VOICE_COMMUNICATION, 4000, AudioFormat.CHANNEL_IN_MONO,
+                AudioFormat.ENCODING_PCM_16BIT, min);
+
+        int maxJitter = AudioTrack.getMinBufferSize(4000, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
+        track = new AudioTrack(AudioManager.MODE_IN_COMMUNICATION, 4000, AudioFormat.CHANNEL_OUT_MONO,
+                AudioFormat.ENCODING_PCM_16BIT, maxJitter, AudioTrack.MODE_STREAM);
     }
 
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        return true;
+    }
+
+    private void recordAndPlay() {
+        short[] lin = new short[1024];
+        int num = 0;
+        am = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
+        am.setMode(AudioManager.MODE_IN_COMMUNICATION);
+        record.startRecording();
+        track.play();
+        while (true) {
+            num = record.read(lin, 0, 1024);
+            track.write(lin, 0, num);
+        }
+    }
+    boolean isSpeaker = false;
+
+    public void modeChange(View view) {
+        Button modeBtn=(Button) findViewById(R.id.modeBtn);
+        if (isSpeaker == true) {
+            am.setSpeakerphoneOn(false);
+            isSpeaker = false;
+            modeBtn.setText("Call Mode");
+        } else {
+            am.setSpeakerphoneOn(true);
+            isSpeaker = true;
+            modeBtn.setText("Speaker Mode");
+        }
+>>>>>>> f83f2b9a1a6807b1c00b0faa7b85acd8f9bf3bf0
+    }
+
+    boolean isPlaying=true;
+    public void play(View view){
+        Button playBtn=(Button) findViewById(R.id.playBtn);
+        if(isPlaying){
+            record.stop();
+            track.pause();
+            isPlaying=false;
+            playBtn.setText("Play");
+        }else{
+            record.startRecording();
+            track.play();
+            isPlaying=true;
+            playBtn.setText("Pause");
+        }
+    }
+///////////////////////////////////////////////////////////////////////////
     private void equalizeSound() {
 //        set up the spinner
         ArrayList<String> equalizerPresetNames = new ArrayList<String>();
@@ -258,7 +344,7 @@ public class MainActivity extends Activity{
         mLinearLayout.addView(mVisualizerView);
 
         // Create the Visualizer object and attach it to our media player.
-        mVisualizer = new Visualizer(mMediaPlayer.getAudioSessionId());
+        mVisualizer = new Visualizer(track.getAudioSessionId());
         mVisualizer.setCaptureSize(Visualizer.getCaptureSizeRange()[1]);
 
         mVisualizer.setDataCaptureListener(new Visualizer.OnDataCaptureListener() {
@@ -276,11 +362,10 @@ public class MainActivity extends Activity{
     protected void onPause() {
         super.onPause();
 
-        if (isFinishing() && mMediaPlayer != null) {
+        if (isFinishing() && track != null) {
             mVisualizer.release();
             mEqualizer.release();
-            mMediaPlayer.release();
-            mMediaPlayer = null;
+
         }
     }
 
