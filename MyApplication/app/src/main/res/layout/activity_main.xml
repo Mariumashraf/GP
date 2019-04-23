@@ -1,26 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.rehabilitationtoolgp.myapplication.MainActivity" >
-
-    <SeekBar
-        android:id="@+id/seekbar"
-        android:layout_marginTop="450dp"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:max="150"/>
-    <TextView
-        android:id="@+id/message_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:text="Media Volume"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="20sp"
-        android:layout_gravity="center"/>
 
 <LinearLayout
     android:id="@+id/visualLinearLayout"
@@ -88,5 +66,5 @@
 
 </LinearLayout>
 
-</RelativeLayout>
+
 

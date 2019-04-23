@@ -3,7 +3,6 @@ package com.rehabilitationtoolgp.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
-import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.audiofx.Equalizer;
@@ -17,11 +16,7 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.Spinner;
-import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
-<<<<<<< HEAD
-import android.widget.Toast;
-=======
 import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioRecord;
@@ -32,7 +27,6 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
->>>>>>> f83f2b9a1a6807b1c00b0faa7b85acd8f9bf3bf0
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity{
@@ -44,18 +38,12 @@ public class MainActivity extends AppCompatActivity{
     private Equalizer mEqualizer;
     private LinearLayout mLinearLayout;
     private VisualizerView mVisualizerView;
-<<<<<<< HEAD
-    SeekBar seekbar;
-    TextView textview;
-    AudioManager audioManager;
-=======
 ////////////////////// live part //////////////////////////////////
 
     AudioManager am = null;
     AudioRecord record =null;
     AudioTrack track =null;
 
->>>>>>> f83f2b9a1a6807b1c00b0faa7b85acd8f9bf3bf0
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,44 +71,6 @@ public class MainActivity extends AppCompatActivity{
         // enable the visualizer
         mVisualizer.setEnabled(true);
 
-<<<<<<< HEAD
-        // listen for when the music stream ends playing
-        mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            public void onCompletion(MediaPlayer mediaPlayer) {
-//                disable the visualizer as it's no longer needed
-                mVisualizer.setEnabled(false);
-            }
-        });
-
-
-        seekbar = (SeekBar)findViewById(R.id.seekbar);
-        textview = (TextView)findViewById(R.id.message_id);
-
-        audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-
-        seekbar.setMax(audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC));
-
-        seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-
-                textview.setText("Media Volume : " + i);
-
-                audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, i, 0);
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-
-            }
-        });
-
-=======
     }
   ///////////////////////////////// live part //////////////////////////////////////////////////////
     private void init() {
@@ -163,7 +113,6 @@ public class MainActivity extends AppCompatActivity{
             isSpeaker = true;
             modeBtn.setText("Speaker Mode");
         }
->>>>>>> f83f2b9a1a6807b1c00b0faa7b85acd8f9bf3bf0
     }
 
     boolean isPlaying=true;
@@ -368,7 +317,5 @@ public class MainActivity extends AppCompatActivity{
 
         }
     }
-
-}
-
+    }
 
