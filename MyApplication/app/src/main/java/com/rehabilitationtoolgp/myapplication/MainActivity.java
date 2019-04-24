@@ -18,7 +18,6 @@ import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.media.AudioFormat;
-import android.media.AudioManager;
 import android.media.AudioRecord;
 import android.media.AudioTrack;
 import android.media.MediaRecorder;
@@ -33,7 +32,6 @@ public class MainActivity extends AppCompatActivity{
 
     private static final float VISUALIZER_HEIGHT_DIP = 50f;
 
-
     private Visualizer mVisualizer;
     private Equalizer mEqualizer;
     private LinearLayout mLinearLayout;
@@ -43,6 +41,9 @@ public class MainActivity extends AppCompatActivity{
     AudioManager am = null;
     AudioRecord record =null;
     AudioTrack track =null;
+    SeekBar seekbar;
+    TextView textview;
+    AudioManager audioManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +59,6 @@ public class MainActivity extends AppCompatActivity{
             }
         }).start();
 ////////////////////////////////////////////////////////////////////////////////
-        setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
 //        create the equalizer with default priority of 0 & attach to our media player
         mEqualizer = new Equalizer(0, track.getAudioSessionId());
@@ -71,6 +71,35 @@ public class MainActivity extends AppCompatActivity{
         // enable the visualizer
         mVisualizer.setEnabled(true);
 
+
+        //volume control
+
+        seekbar = (SeekBar)findViewById(R.id.seekbar);
+        textview = (TextView)findViewById(R.id.message_id);
+
+        audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+
+        seekbar.setMax(audioManager.getStreamMaxVolume(AudioManager.MODE_IN_COMMUNICATION));
+
+        seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+
+                textview.setText("Media Volume : " + i);
+
+                audioManager.setStreamVolume(AudioManager.MODE_IN_COMMUNICATION, i, 0);
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
     }
   ///////////////////////////////// live part //////////////////////////////////////////////////////
     private void init() {
