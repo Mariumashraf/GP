@@ -1,5 +1,10 @@
 package com.rehabilitationtoolgp.myapplication;
 
+import android.content.pm.PackageManager;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
@@ -18,6 +23,7 @@ import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.media.AudioFormat;
+import android.media.AudioManager;
 import android.media.AudioRecord;
 import android.media.AudioTrack;
 import android.media.MediaRecorder;
@@ -25,12 +31,16 @@ import android.content.Context;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
-
+import android.media.AudioDeviceInfo;
+import android.widget.Toast;
 import java.util.ArrayList;
+import static android.Manifest.permission.RECORD_AUDIO;
+import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
 public class MainActivity extends AppCompatActivity{
 
     private static final float VISUALIZER_HEIGHT_DIP = 50f;
+
 
     private Visualizer mVisualizer;
     private Equalizer mEqualizer;
@@ -41,9 +51,6 @@ public class MainActivity extends AppCompatActivity{
     AudioManager am = null;
     AudioRecord record =null;
     AudioTrack track =null;
-    SeekBar seekbar;
-    TextView textview;
-    AudioManager audioManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,12 +60,14 @@ public class MainActivity extends AppCompatActivity{
         setVolumeControlStream(AudioManager.MODE_IN_COMMUNICATION);
         init();
         (new Thread() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void run() {
                 recordAndPlay();
             }
         }).start();
 ////////////////////////////////////////////////////////////////////////////////
+        setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
 //        create the equalizer with default priority of 0 & attach to our media player
         mEqualizer = new Equalizer(0, track.getAudioSessionId());
@@ -71,38 +80,10 @@ public class MainActivity extends AppCompatActivity{
         // enable the visualizer
         mVisualizer.setEnabled(true);
 
-
-        //volume control
-
-        seekbar = (SeekBar)findViewById(R.id.seekbar);
-        textview = (TextView)findViewById(R.id.message_id);
-
-        audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-
-        seekbar.setMax(audioManager.getStreamMaxVolume(AudioManager.MODE_IN_COMMUNICATION));
-
-        seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-
-                textview.setText("Media Volume : " + i);
-
-                audioManager.setStreamVolume(AudioManager.MODE_IN_COMMUNICATION, i, 0);
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-
-            }
-        });
     }
   ///////////////////////////////// live part //////////////////////////////////////////////////////
     private void init() {
+        if(CheckPermissions()) {
         int min = AudioRecord.getMinBufferSize(4000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
         record = new AudioRecord(MediaRecorder.AudioSource.VOICE_COMMUNICATION, 4000, AudioFormat.CHANNEL_IN_MONO,
                 AudioFormat.ENCODING_PCM_16BIT, min);
@@ -110,6 +91,11 @@ public class MainActivity extends AppCompatActivity{
         int maxJitter = AudioTrack.getMinBufferSize(4000, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
         track = new AudioTrack(AudioManager.MODE_IN_COMMUNICATION, 4000, AudioFormat.CHANNEL_OUT_MONO,
                 AudioFormat.ENCODING_PCM_16BIT, maxJitter, AudioTrack.MODE_STREAM);
+        }
+        else
+        {
+            RequestPermissions();
+        }
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -117,48 +103,91 @@ public class MainActivity extends AppCompatActivity{
         return true;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     private void recordAndPlay() {
-        short[] lin = new short[1024];
-        int num = 0;
-        am = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
-        am.setMode(AudioManager.MODE_IN_COMMUNICATION);
-        record.startRecording();
-        track.play();
-        while (true) {
-            num = record.read(lin, 0, 1024);
-            track.write(lin, 0, num);
-        }
+
+            short[] lin = new short[1024];
+            int num = 0;
+            am = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
+            am.setMode(AudioManager.MODE_IN_COMMUNICATION);
+            record.startRecording();
+            track.play();
+            record.stop();
+            track.pause();
+            while (true) {
+                num = record.read(lin, 0, 1024);
+                track.write(lin, 0, num);
+            }
+
     }
+    
     boolean isSpeaker = false;
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     public void modeChange(View view) {
         Button modeBtn=(Button) findViewById(R.id.modeBtn);
-        if (isSpeaker == true) {
+        if (isHeadphonesPlugged()) {
+            if (isSpeaker == true) {
+                am.setSpeakerphoneOn(false);
+                isSpeaker = false;
+                modeBtn.setText("Call Mode");
+            } else {
+                am.setSpeakerphoneOn(true);
+                isSpeaker = true;
+                modeBtn.setText("Speaker Mode");
+            }
+        }
+        else {
             am.setSpeakerphoneOn(false);
             isSpeaker = false;
             modeBtn.setText("Call Mode");
-        } else {
-            am.setSpeakerphoneOn(true);
-            isSpeaker = true;
-            modeBtn.setText("Speaker Mode");
+            Toast.makeText(getApplicationContext(),"Please put your headphone", Toast.LENGTH_SHORT).show();
+
         }
     }
 
-    boolean isPlaying=true;
-    public void play(View view){
-        Button playBtn=(Button) findViewById(R.id.playBtn);
-        if(isPlaying){
-            record.stop();
-            track.pause();
-            isPlaying=false;
-            playBtn.setText("Play");
-        }else{
-            record.startRecording();
-            track.play();
-            isPlaying=true;
-            playBtn.setText("Pause");
-        }
+    boolean isPlaying=false ;
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    public void play(View view) {
+
+        Button playBtn = (Button) findViewById(R.id.playBtn);
+
+            if (isHeadphonesPlugged()) {
+                if (isPlaying) {
+                    record.stop();
+                    track.pause();
+                    isPlaying = false;
+                    playBtn.setText("Play");
+                } else {
+                    record.startRecording();
+                    track.play();
+                    isPlaying = true;
+                    playBtn.setText("Pause");
+                }
+            } else {
+                record.stop();
+                track.pause();
+                isPlaying = false;
+                playBtn.setText("Play");
+                Toast.makeText(getApplicationContext(), "Please put your headphone", Toast.LENGTH_SHORT).show();
+
+            }
+
+
     }
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    private boolean isHeadphonesPlugged(){
+        AudioManager audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+        AudioDeviceInfo[] audioDevices = audioManager.getDevices(AudioManager.GET_DEVICES_ALL);
+        for(AudioDeviceInfo deviceInfo : audioDevices){
+            if(deviceInfo.getType()==AudioDeviceInfo.TYPE_WIRED_HEADPHONES
+                    || deviceInfo.getType()==AudioDeviceInfo.TYPE_WIRED_HEADSET){
+                return true;
+            }
+        }
+        return false;
+    }
+
 ///////////////////////////////////////////////////////////////////////////
     private void equalizeSound() {
 //        set up the spinner
@@ -345,6 +374,29 @@ public class MainActivity extends AppCompatActivity{
             mEqualizer.release();
 
         }
+    }
+    public void onRequestPermissionsResult (int requestCode, String[] permissions, int[] grantResults) {
+        switch (requestCode) {
+            case 1:
+                if (grantResults.length> 0) {
+                    boolean permissionToRecord = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+                    boolean permissionToStore = grantResults[1] ==  PackageManager.PERMISSION_GRANTED;
+                    if (permissionToRecord && permissionToStore) {
+                        Toast.makeText(getApplicationContext(), "Permission Granted", Toast.LENGTH_LONG).show();
+                    } else {
+                        Toast.makeText(getApplicationContext(),"Permission Denied",Toast.LENGTH_LONG).show();
+                    }
+                }
+                break;
+        }
+    }
+    public boolean CheckPermissions() {
+        int result = ContextCompat.checkSelfPermission(getApplicationContext(), WRITE_EXTERNAL_STORAGE);
+        int result1 = ContextCompat.checkSelfPermission(getApplicationContext(), RECORD_AUDIO);
+        return result == PackageManager.PERMISSION_GRANTED && result1 == PackageManager.PERMISSION_GRANTED;
+    }
+    private void RequestPermissions() {
+        ActivityCompat.requestPermissions(MainActivity.this, new String[]{RECORD_AUDIO, WRITE_EXTERNAL_STORAGE}, 1);
     }
     }
 
