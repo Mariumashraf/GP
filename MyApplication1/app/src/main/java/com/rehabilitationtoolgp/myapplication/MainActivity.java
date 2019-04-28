@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity{
             }
         }).start();
 ////////////////////////////////////////////////////////////////////////////////
-
+        setVolumeControlStream(AudioManager.STREAM_MUSIC);
 //        create the equalizer with default priority of 0 & attach to our media player
         mEqualizer = new Equalizer(0, track.getAudioSessionId());
         mEqualizer.setEnabled(true);
@@ -142,20 +142,7 @@ public class MainActivity extends AppCompatActivity{
             track.write(lin, 0, num);
         }
     }
-    boolean isSpeaker = false;
 
-    public void modeChange(View view) {
-        Button modeBtn=(Button) findViewById(R.id.modeBtn);
-        if (isSpeaker == true) {
-            am.setSpeakerphoneOn(false);
-            isSpeaker = false;
-            modeBtn.setText("Call Mode");
-        } else {
-            am.setSpeakerphoneOn(true);
-            isSpeaker = true;
-            modeBtn.setText("Speaker Mode");
-        }
-    }
 
     boolean isPlaying=true;
     public void play(View view){

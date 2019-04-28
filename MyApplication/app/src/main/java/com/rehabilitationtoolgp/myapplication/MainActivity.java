@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity{
         setVolumeControlStream(AudioManager.MODE_IN_COMMUNICATION);
         init();
         (new Thread() {
-            @RequiresApi(api = Build.VERSION_CODES.M)
+
             @Override
             public void run() {
                 recordAndPlay();
@@ -133,13 +133,14 @@ public class MainActivity extends AppCompatActivity{
         return true;
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
+
     private void recordAndPlay() {
 
             short[] lin = new short[1024];
             int num = 0;
             am = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
             am.setMode(AudioManager.MODE_IN_COMMUNICATION);
+            am.setSpeakerphoneOn(false);
             record.startRecording();
             track.play();
             record.stop();
@@ -150,31 +151,7 @@ public class MainActivity extends AppCompatActivity{
             }
 
     }
-    
-    boolean isSpeaker = false;
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
-    public void modeChange(View view) {
-        Button modeBtn=(Button) findViewById(R.id.modeBtn);
-        if (isHeadphonesPlugged()) {
-            if (isSpeaker == true) {
-                am.setSpeakerphoneOn(false);
-                isSpeaker = false;
-                modeBtn.setText("Call Mode");
-            } else {
-                am.setSpeakerphoneOn(true);
-                isSpeaker = true;
-                modeBtn.setText("Speaker Mode");
-            }
-        }
-        else {
-            am.setSpeakerphoneOn(false);
-            isSpeaker = false;
-            modeBtn.setText("Call Mode");
-            Toast.makeText(getApplicationContext(),"Please put your headphone", Toast.LENGTH_SHORT).show();
-
-        }
-    }
 
     boolean isPlaying=false ;
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -205,6 +182,8 @@ public class MainActivity extends AppCompatActivity{
 
 
     }
+
+
     @RequiresApi(api = Build.VERSION_CODES.M)
     private boolean isHeadphonesPlugged(){
         AudioManager audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
