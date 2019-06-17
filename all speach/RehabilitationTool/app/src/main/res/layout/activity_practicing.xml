@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".PRACTICING">
+
+
+    <Button
+        android:id="@+id/seenbtn"
+        android:layout_width="188dp"
+        android:layout_height="208dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="252dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="س"
+        android:textSize="150sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <Button
+        android:id="@+id/raabtn"
+        android:layout_width="188dp"
+        android:layout_height="208dp"
+        android:layout_alignStart="@+id/seenbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="276dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="ر"
+        android:textSize="150sp" />
+
+    <Button
+        android:id="@+id/laambtn"
+        android:layout_width="188dp"
+        android:layout_height="208dp"
+        android:layout_alignStart="@+id/raabtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="ل"
+        android:textSize="100dp" />
+
+    <Button
+        android:id="@+id/kaafbtn"
+        android:layout_width="188dp"
+        android:layout_height="208dp"
+        android:layout_marginEnd="-191dp"
+        android:layout_toStartOf="@+id/laambtn"
+        android:background="@android:color/holo_green_dark"
+        android:text="ك"
+        android:textAlignment="viewStart"
+        android:textSize="150sp" />
+
+    <Button
+        android:id="@+id/qaafbtn"
+        android:layout_width="188dp"
+        android:layout_height="208dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="ق"
+        android:textSize="150sp" />
+
+    <Button
+        android:id="@+id/geembtn"
+        android:layout_width="188dp"
+        android:layout_height="208dp"
+        android:layout_alignBottom="@+id/seenbtn"
+        android:layout_marginBottom="-260dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="ج"
+        android:textSize="150sp" />
+
+
+</RelativeLayout>
