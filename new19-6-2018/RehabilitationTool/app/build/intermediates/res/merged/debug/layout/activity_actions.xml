@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".ACTIONS">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="368dp"
+            android:layout_height="203dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:src="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlHardcoded">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:src="@color/colorPrimary" />
+
+            <ImageButton
+                android:id="@+id/playall"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="132dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="-250dp"
+                android:layout_marginStart="-200dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/playall"
+                android:src="@android:drawable/ic_media_play" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/smile"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/smile"
+            android:scaleType="centerCrop"
+            android:src="@drawable/happy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/write"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <ImageView
+            android:id="@+id/write"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/climb"
+            android:scaleType="centerCrop"
+            android:src="@drawable/write"
+            app:layout_constraintStart_toEndOf="@+id/speak"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <ImageView
+            android:id="@+id/speak"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/speak"
+            android:scaleType="centerCrop"
+            android:src="@drawable/talk"
+            app:layout_constraintStart_toEndOf="@+id/run"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <ImageView
+            android:id="@+id/run"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/run"
+            android:scaleType="centerCrop"
+            android:src="@drawable/run"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <TextView
+            android:id="@+id/smile2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/smile2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/write2"
+            app:layout_constraintTop_toBottomOf="@+id/smile" />
+
+        <TextView
+            android:id="@+id/write2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/write2"
+            app:layout_constraintStart_toEndOf="@+id/speak2"
+            app:layout_constraintTop_toBottomOf="@+id/write" />
+
+        <TextView
+            android:id="@+id/speak2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/speak2"
+            app:layout_constraintStart_toEndOf="@+id/run2"
+            app:layout_constraintTop_toBottomOf="@+id/speak" />
+
+        <TextView
+            android:id="@+id/run2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/run2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/run" />
+
+        <ImageView
+            android:id="@+id/wash"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/ride"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wash"
+            app:layout_constraintStart_toEndOf="@+id/sleep"
+            app:layout_constraintTop_toBottomOf="@+id/write2" />
+
+
+        <ImageView
+            android:id="@+id/open"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/throw3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/open"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wash2" />
+
+        <ImageView
+            android:id="@+id/watch"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/watch"
+            android:scaleType="centerCrop"
+            android:src="@drawable/watchh"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/run2" />
+
+        <TextView
+            android:id="@+id/wash2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/wash2"
+            app:layout_constraintStart_toEndOf="@+id/sleep2"
+            app:layout_constraintTop_toBottomOf="@+id/wash" />
+
+        <TextView
+            android:id="@+id/open2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/open2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/open" />
+
+        <TextView
+            android:id="@+id/watch2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/watch2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/watch" />
+
+        <ImageView
+            android:id="@+id/think"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/think"
+            android:scaleType="centerCrop"
+            android:src="@drawable/think"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/wash"
+            app:layout_constraintTop_toBottomOf="@+id/smile2" />
+
+        <TextView
+            android:id="@+id/think2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/think2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/wash2"
+            app:layout_constraintTop_toBottomOf="@+id/think" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/close"
+            android:scaleType="centerCrop"
+            android:src="@drawable/closed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/open"
+            app:layout_constraintTop_toBottomOf="@+id/think2" />
+
+        <ImageView
+            android:id="@+id/sleep"
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/sleep"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sleep"
+            app:layout_constraintStart_toEndOf="@+id/watch"
+            app:layout_constraintTop_toBottomOf="@+id/speak2" />
+
+        <TextView
+            android:id="@+id/close2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/close2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/open2"
+            app:layout_constraintTop_toBottomOf="@+id/close" />
+
+        <TextView
+            android:id="@+id/sleep2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sleep2"
+            app:layout_constraintStart_toEndOf="@+id/watch2"
+            app:layout_constraintTop_toBottomOf="@+id/sleep" />
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginTop="245dp"
+            android:src="@android:drawable/ic_menu_revert"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/close2"
+            tools:ignore="MissingConstraints" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+

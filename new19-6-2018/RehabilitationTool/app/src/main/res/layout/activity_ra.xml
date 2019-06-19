@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RAA">
+
+    <Button
+        android:id="@+id/fishbtn"
+        android:layout_width="184dp"
+        android:layout_height="162dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/roman"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chairbtn"
+        android:layout_width="190dp"
+        android:layout_height="147dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/tree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fishbtn" />
+
+    <Button
+        android:id="@+id/rockbtn"
+        android:layout_width="187dp"
+        android:layout_height="139dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/rock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chairbtn" />
+</android.support.constraint.ConstraintLayout>

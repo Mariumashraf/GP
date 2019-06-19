@@ -1,0 +1,7 @@
+#Tue Jun 18 17:19:34 EET 2019
+base.0=F\:\\2nd  term\\GP\\Mobile as a tool for Rehabilitation\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\2nd  term\\GP\\Mobile as a tool for Rehabilitation\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19

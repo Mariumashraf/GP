@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CLOTHES">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="368dp"
+                android:layout_height="203dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlHardcoded">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="158dp"
+                    android:background="@color/colorPrimary" />
+
+                <ImageButton
+                    android:id="@+id/playall"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="132dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="-200dp"
+                    android:layout_marginLeft="-250dp"
+                    android:layout_marginTop="170dp"
+                    android:background="@drawable/round_button"
+                    android:src="@android:drawable/ic_media_play" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/suit"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/badla"
+                android:contentDescription="@string/suit"
+                app:layout_constraintStart_toEndOf="@+id/blouse"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <ImageView
+                android:id="@+id/blouse"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/blouse"
+                android:contentDescription="@string/blouse"
+                app:layout_constraintStart_toEndOf="@+id/trousers"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <ImageView
+                android:id="@+id/trousers"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bantlon"
+                android:contentDescription="@string/trousers"
+                app:layout_constraintStart_toEndOf="@+id/pajama"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <ImageView
+                android:id="@+id/pajama"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pijama"
+                android:contentDescription="@string/pajama"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <ImageView
+                android:id="@+id/tshirt"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/chemies"
+                android:contentDescription="@string/tshirt"
+                app:layout_constraintStart_toEndOf="@+id/jacket"
+                app:layout_constraintTop_toBottomOf="@+id/suit2" />
+
+            <ImageView
+                android:id="@+id/skirt"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/skirt"
+                android:contentDescription="@string/skirt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pajama2" />
+
+            <ImageView
+                android:id="@+id/dress"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dress"
+                android:contentDescription="@string/dress"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shoes2" />
+
+            <TextView
+                android:id="@+id/suit2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/suit2"
+                app:layout_constraintStart_toEndOf="@+id/blouse2"
+                app:layout_constraintTop_toBottomOf="@+id/suit"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/blouse2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/blouse2"
+                app:layout_constraintStart_toEndOf="@+id/trousers2"
+                app:layout_constraintTop_toBottomOf="@+id/suit"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/trousers2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/trousers2"
+                app:layout_constraintStart_toEndOf="@+id/pajama2"
+                app:layout_constraintTop_toBottomOf="@+id/trousers"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/pajama2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pajama2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pajama"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/jacket"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jacket"
+                android:contentDescription="@string/jacket"
+                app:layout_constraintStart_toEndOf="@+id/shoes"
+                app:layout_constraintTop_toBottomOf="@+id/blouse2" />
+
+            <ImageView
+                android:id="@+id/shoes"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shoes"
+                android:contentDescription="@string/shoes"
+                app:layout_constraintStart_toEndOf="@+id/skirt"
+                app:layout_constraintTop_toBottomOf="@+id/trousers2" />
+
+            <TextView
+                android:id="@+id/tshirt3"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/tshirt3"
+                app:layout_constraintStart_toEndOf="@+id/jacket2"
+                app:layout_constraintTop_toBottomOf="@+id/tshirt" />
+
+            <TextView
+                android:id="@+id/jacket2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/jacket2"
+                app:layout_constraintStart_toEndOf="@+id/shoes2"
+                app:layout_constraintTop_toBottomOf="@+id/jacket"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/shoes2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/shoes2"
+                app:layout_constraintStart_toEndOf="@+id/skrit2"
+                app:layout_constraintTop_toBottomOf="@+id/shoes"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/skrit2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/skrit2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/skirt"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/sock"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shrab"
+                android:contentDescription="@string/sock"
+                app:layout_constraintStart_toEndOf="@+id/dress"
+                app:layout_constraintTop_toBottomOf="@+id/tshirt3" />
+
+            <TextView
+                android:id="@+id/sock2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/sock2"
+                app:layout_constraintStart_toEndOf="@+id/dress2"
+                app:layout_constraintTop_toBottomOf="@+id/sock"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/dress2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginLeft="196dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dress2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dress"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="107dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:drawable/ic_menu_revert"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sock2"
+                tools:ignore="RtlHardcoded" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
