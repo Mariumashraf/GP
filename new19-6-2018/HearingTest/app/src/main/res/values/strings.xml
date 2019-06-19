@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HearingTest</string>
+    <string name="startTest"> الأختبار</string>
+    <string name="live">Live</string>
+    <string name="playBtn">playBtn</string>
+    <string name="action_settings">action_settings</string>
+
+</resources>
