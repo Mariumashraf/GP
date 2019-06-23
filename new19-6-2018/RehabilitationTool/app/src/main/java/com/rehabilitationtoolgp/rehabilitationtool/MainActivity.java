@@ -27,8 +27,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        CleanUpMemory();
+       CleanUpMemory();
         setContentView(R.layout.activity_main);
+
+
         final ImageView want = (ImageView) findViewById(R.id.want);
         ImageView notwant= (ImageView) findViewById(R.id.notWant);
         ImageView eat = (ImageView) findViewById(R.id.eat);
@@ -48,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         ImageView feelings =(ImageView) findViewById(R.id.feelings);
         ImageView questions =(ImageView) findViewById(R.id.questions);
         ImageButton play = (ImageButton) findViewById(R.id.playall);
-        Button practice = (Button) findViewById(R.id.speechvrifecationbtn);
         // Button next = (Button) findViewById(R.id.next);
         globalv=(Globalrecycler)getApplicationContext();
         initRecyclerView();
@@ -341,16 +342,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        //SPEECH VRIFECATION
-        practice.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                Intent intent12 = new Intent(MainActivity.this,PRACTICING.class);
-                startActivity(intent12);
-
-            }
-        });
 
 
         //next.setOnClickListener(new View.OnClickListener() {

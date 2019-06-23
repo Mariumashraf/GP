@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,325 +9,540 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="194dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark">
+            android:background="#e1faff">
 
             <LinearLayout
                 android:id="@+id/linearLayout"
-                android:layout_width="368dp"
-                android:layout_height="203dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="8dp"
-                android:background="@color/colorAccent"
+                android:layout_width="382dp"
+                android:layout_height="270dp"
+                android:background="@drawable/shiny"
+                android:layout_marginEnd="0dp"
+                android:layout_marginLeft="7dp"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="RtlHardcoded">
 
+
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/recyclerView"
                     android:layout_width="match_parent"
-                    android:layout_height="158dp"
-                    android:background="@color/colorPrimary" />
+                    android:layout_height="230dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="25dp" />
 
                 <ImageButton
                     android:id="@+id/playall"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="132dp"
-                    android:layout_height="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="-290dp"
                     android:layout_marginLeft="-250dp"
-                    android:layout_marginStart="-200dp"
-                    android:layout_marginTop="170dp"
-                    android:background="@drawable/round_button"
-                    android:src="@android:drawable/ic_media_play"
-                    android:contentDescription="@string/playall" />
+                    android:layout_marginTop="220dp"
+                    android:background="@drawable/play1"
+                    android:src="@android:drawable/ic_media_play" />
             </LinearLayout>
+            <LinearLayout
 
-            <ImageView
-                android:id="@+id/sister"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/sis"
-                android:contentDescription="@string/sister"
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="270dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/brother"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:id="@+id/brother"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bro"
-                android:contentDescription="@string/brother"
-                app:layout_constraintStart_toEndOf="@+id/father"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+                <android.support.v7.widget.CardView
 
-            <ImageView
-                android:id="@+id/father"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/dad"
-                android:contentDescription="@string/father"
-                app:layout_constraintStart_toEndOf="@+id/mother2"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <ImageView
-                android:id="@+id/mother"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/mom"
-                android:contentDescription="@string/mother"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                    <ImageView
+                        android:id="@+id/sister"
+                        android:layout_width="50dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/sis" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sister2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <ImageView
-                android:id="@+id/uncle"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/uncle"
-                android:contentDescription="@string/grandmother"
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/brother"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/bro"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/brother2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/father"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/dad" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/father2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="450dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/aunt"
-                app:layout_constraintTop_toBottomOf="@+id/sister2" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:id="@+id/aunt"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/auntt"
-                android:contentDescription="@string/grandfather"
-                app:layout_constraintStart_toEndOf="@+id/uncle3"
-                app:layout_constraintTop_toBottomOf="@+id/brother2" />
+                <android.support.v7.widget.CardView
 
-            <TextView
-                android:id="@+id/sister2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginRight="43dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/sister2"
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/uncle"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/uncle"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/uncle2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/aunt"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/auntt" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/aunt2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/mother"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/mom"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mother2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="630dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/sister"
-                tools:ignore="RtlHardcoded" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/brother2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/brother2"
-                app:layout_constraintEnd_toStartOf="@+id/sister2"
-                app:layout_constraintStart_toEndOf="@+id/father2"
-                app:layout_constraintTop_toBottomOf="@+id/brother" />
+                <android.support.v7.widget.CardView
 
-            <TextView
-                android:id="@+id/father2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/father2"
-                app:layout_constraintEnd_toStartOf="@+id/brother2"
-                app:layout_constraintStart_toEndOf="@+id/mother2"
-                app:layout_constraintTop_toBottomOf="@+id/father" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <TextView
-                android:id="@+id/mother2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="17dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/mother2"
-                app:layout_constraintEnd_toStartOf="@+id/father2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/mother" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/Aunt3"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/aunt"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/aunt4"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <TextView
-                android:id="@+id/uncle2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/uncle2"
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/uncle3"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/unclee"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/uncle4"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/cousinBoy"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/cousinboy" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cousinboy"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="810dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/aunt2"
-                app:layout_constraintTop_toBottomOf="@+id/uncle" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/aunt2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/aunt2"
-                app:layout_constraintStart_toEndOf="@+id/uncle4"
-                app:layout_constraintTop_toBottomOf="@+id/aunt"
-                tools:ignore="DuplicateIds" />
+                <android.support.v7.widget.CardView
 
-            <Button
-                android:id="@+id/back"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginTop="110dp"
-                android:background="@android:drawable/ic_menu_revert"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cousinboy" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <ImageView
-                android:id="@+id/uncle3"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                app:layout_constraintStart_toEndOf="@+id/Aunt3"
-                app:layout_constraintTop_toBottomOf="@+id/father2"
-                app:srcCompat="@drawable/unclee"
-                android:contentDescription="@string/uncle3" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/grandfather"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/grandfather"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="جدو"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <ImageView
-                android:id="@+id/Aunt3"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/mother2"
-                app:srcCompat="@drawable/aunt"
-                android:contentDescription="@string/Aunt3" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
 
-            <TextView
-                android:id="@+id/uncle4"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/uncle4"
-                app:layout_constraintStart_toEndOf="@+id/aunt4"
-                app:layout_constraintTop_toBottomOf="@+id/uncle3" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <TextView
-                android:id="@+id/aunt4"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/aunt4"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Aunt3" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/grandmother"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/gradmother2"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="جدتى"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <ImageView
-                android:id="@+id/cousinBoy"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:contentDescription="@string/cousinBoy"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/cousinGirl"
-                app:layout_constraintTop_toBottomOf="@+id/uncle2"
-                app:srcCompat="@drawable/cousinboy" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
 
-            <ImageView
-                android:id="@+id/cousinGirl"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:contentDescription="@string/cousinGirl"
-                app:layout_constraintStart_toEndOf="@+id/grandfather"
-                app:layout_constraintTop_toBottomOf="@+id/aunt2"
-                app:srcCompat="@drawable/cousingirl" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <TextView
-                android:id="@+id/cousinboy"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/cousinboy"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cousinBoy" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/cousinGirl"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/cousingirl" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cousingirl"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <TextView
-                android:id="@+id/cousingirl"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/cousingirl"
-                app:layout_constraintEnd_toStartOf="@+id/cousinboy"
-                app:layout_constraintTop_toBottomOf="@+id/cousinGirl" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+           
 
-            <ImageButton
-                android:id="@+id/grandfather"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                app:layout_constraintStart_toEndOf="@+id/grandmother"
-                app:layout_constraintTop_toBottomOf="@+id/uncle4"
-                app:srcCompat="@drawable/grandfather" />
-
-            <ImageButton
-                android:id="@+id/grandmother"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/aunt4"
-                app:srcCompat="@drawable/gradmother2" />
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginTop="10dp"
-                android:text="جدو"
-                app:layout_constraintEnd_toStartOf="@+id/cousingirl"
-                app:layout_constraintTop_toBottomOf="@+id/grandfather" />
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginTop="10dp"
-                android:text="جدتى"
-                app:layout_constraintEnd_toStartOf="@+id/textView12"
-                app:layout_constraintTop_toBottomOf="@+id/grandmother" />
 
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="RtlHardcoded" />
 
 </android.support.constraint.ConstraintLayout>

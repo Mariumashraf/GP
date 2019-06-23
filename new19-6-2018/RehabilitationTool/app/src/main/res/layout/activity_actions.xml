@@ -4,292 +4,467 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
     tools:context=".ACTIONS">
 
+   <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e1faff">
 
-    <android.support.constraint.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@color/colorPrimaryDark">
-
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="368dp"
-            android:layout_height="203dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            android:orientation="horizontal"
-            android:src="@color/colorAccent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="RtlHardcoded">
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recyclerView"
-                android:layout_width="match_parent"
-                android:layout_height="158dp"
-                android:src="@color/colorPrimary" />
-
-            <ImageButton
-                android:id="@+id/playall"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="132dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="-250dp"
-                android:layout_marginStart="-200dp"
-                android:layout_marginTop="170dp"
-                android:background="@drawable/round_button"
-                android:contentDescription="@string/playall"
-                android:src="@android:drawable/ic_media_play" />
-        </LinearLayout>
-
-        <ImageView
-            android:id="@+id/smile"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginEnd="43dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/smile"
-            android:scaleType="centerCrop"
-            android:src="@drawable/happy"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/write"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-        <ImageView
-            android:id="@+id/write"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/climb"
-            android:scaleType="centerCrop"
-            android:src="@drawable/write"
-            app:layout_constraintStart_toEndOf="@+id/speak"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-        <ImageView
-            android:id="@+id/speak"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/speak"
-            android:scaleType="centerCrop"
-            android:src="@drawable/talk"
-            app:layout_constraintStart_toEndOf="@+id/run"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-        <ImageView
-            android:id="@+id/run"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginStart="26dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/run"
-            android:scaleType="centerCrop"
-            android:src="@drawable/run"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-        <TextView
-            android:id="@+id/smile2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="43dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/smile2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/write2"
-            app:layout_constraintTop_toBottomOf="@+id/smile" />
-
-        <TextView
-            android:id="@+id/write2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/write2"
-            app:layout_constraintStart_toEndOf="@+id/speak2"
-            app:layout_constraintTop_toBottomOf="@+id/write" />
-
-        <TextView
-            android:id="@+id/speak2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/speak2"
-            app:layout_constraintStart_toEndOf="@+id/run2"
-            app:layout_constraintTop_toBottomOf="@+id/speak" />
-
-        <TextView
-            android:id="@+id/run2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="26dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/run2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/run" />
-
-        <ImageView
-            android:id="@+id/wash"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/ride"
-            android:scaleType="centerCrop"
-            android:src="@drawable/wash"
-            app:layout_constraintStart_toEndOf="@+id/sleep"
-            app:layout_constraintTop_toBottomOf="@+id/write2" />
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="382dp"
+                android:layout_height="270dp"
+                android:background="@drawable/shiny"
+                android:layout_marginEnd="0dp"
+                android:layout_marginLeft="7dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlHardcoded">
 
 
-        <ImageView
-            android:id="@+id/open"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginStart="196dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/throw3"
-            android:scaleType="centerCrop"
-            android:src="@drawable/open"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/wash2" />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="25dp" />
 
-        <ImageView
-            android:id="@+id/watch"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginStart="26dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/watch"
-            android:scaleType="centerCrop"
-            android:src="@drawable/watchh"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/run2" />
+                <ImageButton
+                    android:id="@+id/playall"
+                    android:layout_width="132dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="-290dp"
+                    android:layout_marginLeft="-250dp"
+                    android:layout_marginTop="220dp"
+                    android:background="@drawable/play1"
+                    android:src="@android:drawable/ic_media_play" />
+            </LinearLayout>
+            <LinearLayout
 
-        <TextView
-            android:id="@+id/wash2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/wash2"
-            app:layout_constraintStart_toEndOf="@+id/sleep2"
-            app:layout_constraintTop_toBottomOf="@+id/wash" />
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="270dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/open2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="196dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/open2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/open" />
+                <android.support.v7.widget.CardView
 
-        <TextView
-            android:id="@+id/watch2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="26dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/watch2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/watch" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-        <ImageView
-            android:id="@+id/think"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginEnd="43dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/think"
-            android:scaleType="centerCrop"
-            android:src="@drawable/think"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/wash"
-            app:layout_constraintTop_toBottomOf="@+id/smile2" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                    <ImageView
+                        android:id="@+id/smile"
+                        android:layout_width="70dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/happy" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/smile2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-        <TextView
-            android:id="@+id/think2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="43dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/think2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/wash2"
-            app:layout_constraintTop_toBottomOf="@+id/think" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
 
-        <ImageView
-            android:id="@+id/close"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginEnd="43dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/close"
-            android:scaleType="centerCrop"
-            android:src="@drawable/closed"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/open"
-            app:layout_constraintTop_toBottomOf="@+id/think2" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-        <ImageView
-            android:id="@+id/sleep"
-            android:layout_width="60dp"
-            android:layout_height="120dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:contentDescription="@string/sleep"
-            android:scaleType="centerCrop"
-            android:src="@drawable/sleep"
-            app:layout_constraintStart_toEndOf="@+id/watch"
-            app:layout_constraintTop_toBottomOf="@+id/speak2" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/write"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/write"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/write2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-        <TextView
-            android:id="@+id/close2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="43dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/close2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/open2"
-            app:layout_constraintTop_toBottomOf="@+id/close" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
 
-        <TextView
-            android:id="@+id/sleep2"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/sleep2"
-            app:layout_constraintStart_toEndOf="@+id/watch2"
-            app:layout_constraintTop_toBottomOf="@+id/sleep" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/speak"
+                            android:layout_width="62dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/talk" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/speak2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="450dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/run"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/run"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/run2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/wash"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/wash" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/wash2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/think"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/think"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/think2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="630dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/open"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/open"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/open2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/close"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/closed"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/close2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/watch"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/watchh" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/watch2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="810dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+             <android.support.v7.widget.CardView
+
+                    android:layout_width="200dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/sleep"
+                            android:layout_width="120dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/sleep"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sleep2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+          </LinearLayout>
 
 
-        <Button
-            android:id="@+id/back"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="43dp"
-            android:layout_marginTop="245dp"
-            android:src="@android:drawable/ic_menu_revert"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/close2"
-            tools:ignore="MissingConstraints" />
+       <Button
+           android:id="@+id/back"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_marginRight="20dp"
+           android:background="@android:drawable/ic_menu_revert"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="RtlHardcoded" />
+    
 
     </android.support.constraint.ConstraintLayout>
+
 </ScrollView>
 

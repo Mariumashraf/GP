@@ -16,516 +16,867 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark">
+            android:background="#e1faff">
 
             <LinearLayout
                 android:id="@+id/linearLayout"
-                android:layout_width="368dp"
-                android:layout_height="203dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:background="@color/colorAccent"
+                android:layout_width="382dp"
+                android:layout_height="270dp"
+                android:background="@drawable/shiny"
+                android:layout_marginEnd="0dp"
+                android:layout_marginLeft="7dp"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="RtlHardcoded">
 
+
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/recyclerView"
                     android:layout_width="match_parent"
-                    android:layout_height="158dp"
-                    android:background="@color/colorPrimary" />
+                    android:layout_height="230dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="25dp" />
 
                 <ImageButton
                     android:id="@+id/playalll"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="132dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="-200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="-290dp"
                     android:layout_marginLeft="-250dp"
-                    android:layout_marginTop="170dp"
-                    android:background="@drawable/round_button"
-                    android:src="@android:drawable/ic_media_play"  android:contentDescription="@string/playalll" />
+                    android:layout_marginTop="220dp"
+                    android:background="@drawable/play1"
+                    android:src="@android:drawable/ic_media_play" />
             </LinearLayout>
+            <LinearLayout
 
-            <ImageView
-                android:id="@+id/vegatable"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/vegetablesz"
-                app:layout_constraintStart_toEndOf="@+id/fruit"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-                android:contentDescription="@string/vegatable"
-                tools:ignore="RtlHardcoded" />
-
-            <ImageView
-                android:id="@+id/fruit"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/friutttz"
-                app:layout_constraintStart_toEndOf="@+id/icecream"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-                android:contentDescription="@string/fruit"
-                tools:ignore="RtlHardcoded" />
-
-            <ImageView
-                android:id="@+id/icecream"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/icecream"
-                android:contentDescription="@string/icecream"
-                app:layout_constraintStart_toEndOf="@+id/pizza"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-            <ImageView
-                android:id="@+id/pizza"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/pizza"
-                android:contentDescription="@string/pizza"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-            <TextView
-                android:id="@+id/vegatable2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/vegatable2"
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="270dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/fruit2"
-                app:layout_constraintTop_toBottomOf="@+id/vegatable" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/fruit2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/fruit2"
-                app:layout_constraintStart_toEndOf="@+id/icecream2"
-                app:layout_constraintTop_toBottomOf="@+id/fruit"
-                tools:ignore="RtlHardcoded" />
+                <android.support.v7.widget.CardView
 
-            <TextView
-                android:id="@+id/icecream2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/icecream2"
-                app:layout_constraintStart_toEndOf="@+id/pizza2"
-                app:layout_constraintTop_toBottomOf="@+id/icecream"
-                tools:ignore="RtlHardcoded" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <TextView
-                android:id="@+id/pizza2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/pizza2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pizza"
-                tools:ignore="RtlHardcoded" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                    <ImageView
+                        android:id="@+id/vegatable"
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/vegetablesz" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vegatable2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <ImageView
-                android:id="@+id/biscuit"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/baskot"
-                android:contentDescription="@string/biscuit"
-                app:layout_constraintStart_toEndOf="@+id/egg"
-                app:layout_constraintTop_toBottomOf="@+id/vegatable2" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
 
-            <ImageView
-                android:id="@+id/egg"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/egg"
-                android:contentDescription="@string/egg"
-                app:layout_constraintStart_toEndOf="@+id/cheese"
-                app:layout_constraintTop_toBottomOf="@+id/fruit2" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <ImageView
-                android:id="@+id/cheese"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/gebna"
-                android:contentDescription="@string/cheese"
-                app:layout_constraintStart_toEndOf="@+id/rice"
-                app:layout_constraintTop_toBottomOf="@+id/icecream2" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/fruit"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/friutttz"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fruit2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <ImageView
-                android:id="@+id/rice"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/roz"
-                android:contentDescription="@string/rice"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pizza2" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
 
-            <TextView
-                android:id="@+id/biscuit2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/biscuit2"
-                app:layout_constraintStart_toEndOf="@+id/egg2"
-                app:layout_constraintTop_toBottomOf="@+id/biscuit"
-                tools:ignore="RtlHardcoded" />
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <TextView
-                android:id="@+id/egg2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/egg2"
-                app:layout_constraintStart_toEndOf="@+id/cheese2"
-                app:layout_constraintTop_toBottomOf="@+id/egg"
-                tools:ignore="RtlHardcoded" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/rice"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/roz" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rice2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <TextView
-                android:id="@+id/cheese2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/cheese2"
-                app:layout_constraintStart_toEndOf="@+id/rice2"
-                app:layout_constraintTop_toBottomOf="@+id/cheese"
-                tools:ignore="RtlHardcoded" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+         
+               <LinearLayout
 
-            <TextView
-                android:id="@+id/rice2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/rice2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/rice"
-                tools:ignore="RtlHardcoded" />
-
-            <ImageView
-                android:id="@+id/Yogurt"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/zbady"
-                android:contentDescription="@string/Yogurt"
-                app:layout_constraintStart_toEndOf="@+id/salad"
-                app:layout_constraintTop_toBottomOf="@+id/biscuit2" />
-
-            <ImageView
-                android:id="@+id/salad"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/salta"
-                android:contentDescription="@string/salad"
-                app:layout_constraintStart_toEndOf="@+id/samka"
-                app:layout_constraintTop_toBottomOf="@+id/egg2" />
-
-            <ImageView
-                android:id="@+id/samka"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/samka"
-                android:contentDescription="@string/fish"
-                app:layout_constraintStart_toEndOf="@+id/sandwich"
-                app:layout_constraintTop_toBottomOf="@+id/cheese2" />
-
-            <ImageView
-                android:id="@+id/sandwich"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/sandwich"
-                android:contentDescription="@string/sandwich"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/rice2" />
-
-            <TextView
-                android:id="@+id/Yogurt2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/Yogurt2"
-                app:layout_constraintStart_toEndOf="@+id/salad2"
-                app:layout_constraintTop_toBottomOf="@+id/Yogurt"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/salad2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/salad2"
-                app:layout_constraintStart_toEndOf="@+id/samka"
-                app:layout_constraintTop_toBottomOf="@+id/salad"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/samka2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/fish2"
-                app:layout_constraintStart_toEndOf="@+id/sandwich2"
-                app:layout_constraintTop_toBottomOf="@+id/samka"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/sandwich2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/sandwich2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/sandwich"
-                tools:ignore="RtlHardcoded" />
-
-            <ImageView
-                android:id="@+id/soup"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/shorba"
-                android:contentDescription="@string/soup"
-                app:layout_constraintStart_toEndOf="@+id/Chocolate"
-                app:layout_constraintTop_toBottomOf="@+id/Yogurt2" />
-
-            <ImageView
-                android:id="@+id/Chocolate"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/chocolate"
-                android:contentDescription="@string/Chocolate"
-                app:layout_constraintStart_toEndOf="@+id/honey"
-                app:layout_constraintTop_toBottomOf="@+id/salad2" />
-
-            <ImageView
-                android:id="@+id/honey"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/asl"
-                android:contentDescription="@string/honey"
-                app:layout_constraintStart_toEndOf="@+id/bread"
-                app:layout_constraintTop_toBottomOf="@+id/samka2" />
-
-            <ImageView
-                android:id="@+id/bread"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/esh"
-                android:contentDescription="@string/bread"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/sandwich2" />
-
-            <TextView
-                android:id="@+id/soup2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/soup2"
-                app:layout_constraintStart_toEndOf="@+id/Chocolate2"
-                app:layout_constraintTop_toBottomOf="@+id/soup"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/Chocolate2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/Chocolate2"
-                app:layout_constraintStart_toEndOf="@+id/honey2"
-                app:layout_constraintTop_toBottomOf="@+id/Chocolate"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/honey2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/honey2"
-                app:layout_constraintStart_toEndOf="@+id/bread"
-                app:layout_constraintTop_toBottomOf="@+id/honey"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/bread2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/bread2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/bread"
-                tools:ignore="RtlHardcoded" />
-
-            <ImageView
-                android:id="@+id/chickens"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/frahk"
-                android:contentDescription="@string/chickens"
-                app:layout_constraintStart_toEndOf="@+id/popcorn"
-                app:layout_constraintTop_toBottomOf="@+id/soup2" />
-
-            <ImageView
-                android:id="@+id/popcorn"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/fshaar"
-                android:contentDescription="@string/popcorn"
-                app:layout_constraintStart_toEndOf="@+id/meat"
-                app:layout_constraintTop_toBottomOf="@+id/Chocolate2" />
-
-            <ImageView
-                android:id="@+id/meat"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/meat"
-                android:contentDescription="@string/meat"
-                app:layout_constraintStart_toEndOf="@+id/jam"
-                app:layout_constraintTop_toBottomOf="@+id/honey2" />
-
-            <ImageView
-                android:id="@+id/jam"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/marba"
-                android:contentDescription="@string/jam"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/bread2" />
-
-            <TextView
-                android:id="@+id/chickens2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/chickens2"
-                app:layout_constraintStart_toEndOf="@+id/popcorn2"
-                app:layout_constraintTop_toBottomOf="@+id/chickens"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/popcorn2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/popcorn2"
-                app:layout_constraintStart_toEndOf="@+id/meat2"
-                app:layout_constraintTop_toBottomOf="@+id/popcorn"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/meat2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/meat2"
-                app:layout_constraintStart_toEndOf="@+id/jam2"
-                app:layout_constraintTop_toBottomOf="@+id/meat"
-                tools:ignore="RtlHardcoded" />
-
-            <TextView
-                android:id="@+id/jam2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/jam2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/jam"
-                tools:ignore="RtlHardcoded" />
-
-            <Button
-                android:id="@+id/back"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="112dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:background="@android:drawable/ic_menu_revert"
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="450dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/chickens2"
-                tools:ignore="RtlHardcoded" />
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/egg"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/egg"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/egg2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/cheese"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/gebna" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cheese2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/Yogurt"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/zbady"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Yogurt2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="630dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/sandwich"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/sandwich"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sandwich2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/samka"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/samka"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fish2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/salad"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/salta" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/salad2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="810dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/pizza"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/pizza"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pizza2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/bread"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/esh"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bread2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/chickens"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/frahk" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/chickens2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="990dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/meat"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/meat"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/meat2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/soup"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/shorba"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/soup2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/jam"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/marba" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/jam2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="1170dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/icecream"
+                            android:layout_width="60dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/icecream"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/icecream2"
+                            android:textColor="#080202"
+                            android:textSize="18dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/biscuit"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/baskot"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/biscuit2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/honey"
+                            android:layout_width="50dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/asl" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/honey2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="1350dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/popcorn"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/fshaar"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/popcorn2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/Chocolate"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/chocolate"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Chocolate2"
+                            android:textColor="#080202"
+                            android:textSize="20dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+         
+                
+
+
+
+
 
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="RtlHardcoded" />
 
 </android.support.constraint.ConstraintLayout>

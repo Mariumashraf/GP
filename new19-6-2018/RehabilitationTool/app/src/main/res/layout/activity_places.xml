@@ -5,337 +5,573 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PLACES">
-
-    <ScrollView
+           
+       <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark">
+            android:background="#e1faff">
 
             <LinearLayout
                 android:id="@+id/linearLayout"
-                android:layout_width="368dp"
-                android:layout_height="203dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:background="@color/colorAccent"
+                android:layout_width="382dp"
+                android:layout_height="270dp"
+                android:background="@drawable/shiny"
+                android:layout_marginEnd="0dp"
+                android:layout_marginLeft="7dp"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="RtlHardcoded">
 
+
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/recyclerView"
                     android:layout_width="match_parent"
-                    android:layout_height="158dp"
-                    android:background="@color/colorPrimary" />
+                    android:layout_height="230dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="25dp" />
 
                 <ImageButton
                     android:id="@+id/playall"
-                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="132dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="-200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="-290dp"
                     android:layout_marginLeft="-250dp"
-                    android:layout_marginTop="170dp"
-                    android:background="@drawable/round_button"
+                    android:layout_marginTop="220dp"
+                    android:background="@drawable/play1"
                     android:src="@android:drawable/ic_media_play" />
             </LinearLayout>
+            <LinearLayout
 
-            <ImageView
-                android:id="@+id/livingroom"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/livingroom"
-                android:contentDescription="@string/livingroom"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-            <ImageView
-                android:id="@+id/bedroom"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bedroom"
-                android:contentDescription="@string/bedroom"
-                app:layout_constraintStart_toEndOf="@+id/livingroom"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-            <ImageView
-                android:id="@+id/kitchen"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/kitchen"
-                android:contentDescription="@string/kitchen"
-                app:layout_constraintStart_toEndOf="@+id/bedroom"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-            <ImageView
-                android:id="@+id/bathroom"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/toilet"
-                android:contentDescription="@string/bathroom"
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="270dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/kitchen"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/livingroom2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/livingroom2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/livingroom"
-                tools:ignore="RtlHardcoded" />
+                       <android.support.v7.widget.CardView
 
-            <TextView
-                android:id="@+id/bedroom2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/bedroom2"
-                app:layout_constraintStart_toEndOf="@+id/livingroom2"
-                app:layout_constraintTop_toBottomOf="@+id/bedroom"
-                tools:ignore="RtlHardcoded" />
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <TextView
-                android:id="@+id/kitchen2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/kitchen2"
-                app:layout_constraintStart_toEndOf="@+id/bedroom2"
-                app:layout_constraintTop_toBottomOf="@+id/kitchen"
-                tools:ignore="RtlHardcoded" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/livingroom"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/livingroom"/>
 
-            <TextView
-                android:id="@+id/bathroom2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/bathroom2"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/livingroom2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/bedroom"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/bedroom"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bedroom2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+         
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="450dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/kitchen2"
-                app:layout_constraintTop_toBottomOf="@+id/bathroom" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:id="@+id/school"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/school"
-                android:contentDescription="@string/school"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/livingroom2" />
+                        <android.support.v7.widget.CardView
 
-            <ImageView
-                android:id="@+id/university"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/university"
-                android:contentDescription="@string/university"
-                app:layout_constraintStart_toEndOf="@+id/school"
-                app:layout_constraintTop_toBottomOf="@+id/bedroom2" />
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <ImageView
-                android:id="@+id/company"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/work"
-                android:contentDescription="@string/company"
-                app:layout_constraintStart_toEndOf="@+id/university"
-                app:layout_constraintTop_toBottomOf="@+id/kitchen2" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/bathroom"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/toilet"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bathroom2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <ImageView
-                android:id="@+id/supermarket"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/supermarket"
-                android:contentDescription="@string/supermarket"
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/kitchen"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/kitchen" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/kitchen2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+          </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="630dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/company"
-                app:layout_constraintTop_toBottomOf="@+id/bathroom2" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/school2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/school2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/school"
-                tools:ignore="RtlHardcoded" />
+                        <android.support.v7.widget.CardView
 
-            <TextView
-                android:id="@+id/university2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/university2"
-                app:layout_constraintStart_toEndOf="@+id/school2"
-                app:layout_constraintTop_toBottomOf="@+id/university"
-                tools:ignore="RtlHardcoded" />
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <TextView
-                android:id="@+id/companyy2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/companyy2"
-                app:layout_constraintStart_toEndOf="@+id/university2"
-                app:layout_constraintTop_toBottomOf="@+id/company" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/university"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/university"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/university2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <TextView
-                android:id="@+id/supermarket2"
-                android:layout_width="65dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/supermarket2"
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/school"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/school"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/school2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+          </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="810dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/company2"
-                app:layout_constraintTop_toBottomOf="@+id/supermarket"
-                tools:ignore="UnknownIdInLayout" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <Button
-                android:id="@+id/back"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginEnd="29dp"
-                android:layout_marginTop="47dp"
-                android:background="@android:drawable/ic_menu_revert"
+                       <android.support.v7.widget.CardView
+
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/supermarket"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/supermarket"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supermarket2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/home"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/home"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/home2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+          </LinearLayout>
+          <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="990dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/home2" />
+                app:layout_constraintTop_toTopOf="parent">
+               
+                          <android.support.v7.widget.CardView
 
-            <ImageView
-                android:id="@+id/home"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:contentDescription="@string/home"
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/company"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/work"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/companyy2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/hospital"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/hospital"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hospital2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+          </LinearLayout>
+           
+                <LinearLayout
+
+                android:layout_width="368dp"
+                android:layout_height="185dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="1170dp"
+                android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/hospital"
-                app:layout_constraintTop_toBottomOf="@+id/supermarket2"
-                app:srcCompat="@drawable/home" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:id="@+id/hospital"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:contentDescription="@string/hospital"
-                app:layout_constraintStart_toEndOf="@+id/busStation"
-                app:layout_constraintTop_toBottomOf="@+id/companyy2"
-                app:srcCompat="@drawable/hospital"
-                tools:ignore="UnknownIdInLayout" />
+                        <android.support.v7.widget.CardView
 
-            <ImageView
-                android:id="@+id/busStation"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:contentDescription="@string/busStation"
-                app:layout_constraintStart_toEndOf="@+id/park"
-                app:layout_constraintTop_toBottomOf="@+id/university2"
-                app:srcCompat="@drawable/busstation" />
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <ImageView
-                android:id="@+id/park"
-                android:layout_width="60dp"
-                android:layout_height="120dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:contentDescription="@string/park"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/school2"
-                app:srcCompat="@drawable/park" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/busStation"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/busstation"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/busStation2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <TextView
-                android:id="@+id/home2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="43dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/home2"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/hospital2"
-                app:layout_constraintTop_toBottomOf="@+id/home" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
 
-            <TextView
-                android:id="@+id/hospital2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/hospital2"
-                app:layout_constraintStart_toEndOf="@+id/busStation2"
-                app:layout_constraintTop_toBottomOf="@+id/home" />
+                    android:layout_width="120dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
 
-            <TextView
-                android:id="@+id/busStation2"
-                android:layout_width="60dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/busStation2"
-                app:layout_constraintStart_toEndOf="@+id/park2"
-                app:layout_constraintTop_toBottomOf="@+id/hospital" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/park"
+                            android:layout_width="80dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/park"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/park2"
+                            android:textColor="#080202"
+                            android:textSize="22dp"/>
 
-            <TextView
-                android:id="@+id/park2"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/park2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/park" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+          </LinearLayout>
+          
+         
+
 
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
-
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="RtlHardcoded" />
 </android.support.constraint.ConstraintLayout>
