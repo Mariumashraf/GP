@@ -36,9 +36,9 @@ public class SEEN extends  Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seen);
 
-        Button fish = (Button) findViewById(R.id.fishbtn);
-        Button chair = (Button) findViewById(R.id.chairbtn);
-        Button sun = (Button) findViewById(R.id.sunbtn);
+        ImageView fish = (ImageView) findViewById(R.id.fishbtn);
+        ImageView chair = (ImageView) findViewById(R.id.chairbtn);
+        ImageView sun = (ImageView) findViewById(R.id.sunbtn);
 
         fish.setOnClickListener(this);
         chair.setOnClickListener(this);

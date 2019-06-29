@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rehabilitationtoolgp.rehabilitationtool">
 
@@ -21,7 +21,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".laam" />
         <activity android:name=".Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,6 +43,10 @@
         <activity android:name=".PRACTICING" />
         <activity android:name=".RAA" />
         <activity android:name=".SEEN" />
+        <activity android:name=".qaaf" />    
+        <activity android:name=".kaaf" /> 
+        <activity android:name=".geem" />
+        <activity android:name=".laam" />  
         <activity android:name=".CardList" />
         <activity android:name=".UpdateCard" />
         <activity android:name=".Animals" />

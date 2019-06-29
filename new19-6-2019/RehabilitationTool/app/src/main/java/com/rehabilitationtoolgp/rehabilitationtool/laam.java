@@ -38,11 +38,14 @@ public class laam extends  Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_laam);
-        Button lamba = (Button) findViewById(R.id.lambabtn);
-        Button selm = (Button) findViewById(R.id.selmbtn);
+
+        ImageView lamba = (ImageView) findViewById(R.id.lambabtn);
+        ImageView selm = (ImageView) findViewById(R.id.selmbtn);
+        ImageView asl = (ImageView) findViewById(R.id.aslbtn);
 
         lamba.setOnClickListener(this);
         selm.setOnClickListener(this);
+        asl.setOnClickListener(this);
         sr = SpeechRecognizer.createSpeechRecognizer(this);
         sr.setRecognitionListener(new listener());
     }
@@ -92,12 +95,12 @@ public class laam extends  Activity implements View.OnClickListener {
 
 
         if (this.view1.getId() == R.id.lambabtn) {
-            if (command.indexOf("لمبه") != -1) {
+            if (command.indexOf("لبن") != -1) {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(laam.this, R.raw.bravo);
                 bravoplayer.start();
 
-            } else if (command.indexOf("لمبه") == -1) {
+            } else if (command.indexOf("لبن") == -1) {
 
                 //speak("apple");
                 final MediaPlayer tryAgainplayer = MediaPlayer.create(laam.this, R.raw.tryagain);
@@ -106,13 +109,29 @@ public class laam extends  Activity implements View.OnClickListener {
             }
             this.view1 = null;
         } else if (this.view1.getId() == R.id.selmbtn) {
-            if (command.indexOf("سلم") != -1) {
+            if (command.indexOf("كلب") != -1) {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(laam.this, R.raw.bravo);
                 bravoplayer.start();
 
 
-            } else if (command.indexOf("سلم") == -1) {
+            } else if (command.indexOf("كلب") == -1) {
+
+                //speak("apple");
+                final MediaPlayer tryAgainplayer = MediaPlayer.create(laam.this, R.raw.tryagain);
+                // mText.setText("error " + error);
+                tryAgainplayer.start();
+            }
+            this.view1 = null;
+        }
+        else if (this.view1.getId() == R.id.aslbtn) {
+            if (command.indexOf("عسل") != -1) {
+
+                final MediaPlayer bravoplayer = MediaPlayer.create(laam.this, R.raw.bravo);
+                bravoplayer.start();
+
+
+            } else if (command.indexOf("عسل") == -1) {
 
                 //speak("apple");
                 final MediaPlayer tryAgainplayer = MediaPlayer.create(laam.this, R.raw.tryagain);
@@ -128,15 +147,19 @@ public class laam extends  Activity implements View.OnClickListener {
         this.view1 = v;
 
 
-        if (v.getId() == R.id.lambabtn || v.getId() == R.id.selmbtn ) {
+        if (v.getId() == R.id.lambabtn || v.getId() == R.id.selmbtn || v.getId() == R.id.aslbtn  ) {
 
             if (v.getId() == R.id.lambabtn) {
-                final MediaPlayer fishplayer = MediaPlayer.create(laam.this, R.raw.lamp);
+                final MediaPlayer fishplayer = MediaPlayer.create(laam.this, R.raw.milkkk);
                 fishplayer.start();
             }
             if (v.getId() == R.id.selmbtn) {
-                final MediaPlayer chairplayer = MediaPlayer.create(laam.this, R.raw.selm);
+                final MediaPlayer chairplayer = MediaPlayer.create(laam.this, R.raw.dog);
                 chairplayer.start();
+            }
+            if (v.getId() == R.id.aslbtn) {
+                final MediaPlayer chairplay = MediaPlayer.create(laam.this, R.raw.honeyyy);
+                chairplay.start();
             }
 
             try {

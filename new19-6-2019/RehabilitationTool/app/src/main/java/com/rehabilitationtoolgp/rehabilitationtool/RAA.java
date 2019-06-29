@@ -11,6 +11,7 @@ import android.speech.SpeechRecognizer;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.lang.String;
@@ -28,9 +29,9 @@ public class RAA extends  Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ra);
 
-        Button roman = (Button) findViewById(R.id.fishbtn);
-        Button tree = (Button) findViewById(R.id.chairbtn);
-        Button rock = (Button) findViewById(R.id.rockbtn);
+        ImageView roman = (ImageView) findViewById(R.id.fishbtn);
+        ImageView tree = (ImageView) findViewById(R.id.chairbtn);
+        ImageView rock = (ImageView) findViewById(R.id.rockbtn);
         roman.setOnClickListener(this);
         tree.setOnClickListener(this);
        rock.setOnClickListener(this);
@@ -120,13 +121,13 @@ public class RAA extends  Activity implements View.OnClickListener {
             }
             this.view1 = null;
         } else if (this.view1.getId() == R.id.chairbtn) {
-            if (command.indexOf("شجره") != -1) {
+            if (command.indexOf("شوربه") != -1) {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(RAA.this, R.raw.bravo);
                 bravoplayer.start();
 
 
-            } else if (command.indexOf("شجره") == -1) {
+            } else if (command.indexOf("شوربه") == -1) {
 
                 //speak("apple");
                 final MediaPlayer tryAgainplayer = MediaPlayer.create(RAA.this, R.raw.tryagain);
@@ -135,13 +136,13 @@ public class RAA extends  Activity implements View.OnClickListener {
             }
             this.view1 = null;
         }else if (this.view1.getId() == R.id.rockbtn) {
-            if (command.indexOf("حجر") != -1) {
+            if (command.indexOf("جزر") != -1) {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(RAA.this, R.raw.bravo);
                 bravoplayer.start();
 
 
-            } else if (command.indexOf("حجر") == -1) {
+            } else if (command.indexOf("جزر") == -1) {
 
                 //speak("apple");
                 final MediaPlayer tryAgainplayer = MediaPlayer.create(RAA.this, R.raw.tryagain);
@@ -163,11 +164,11 @@ public class RAA extends  Activity implements View.OnClickListener {
                 romanplayer.start();
             }
             if (RAA.view1.getId() == R.id.chairbtn) {
-                final MediaPlayer treeplayer = MediaPlayer.create(RAA.this, R.raw.tree);
+                final MediaPlayer treeplayer = MediaPlayer.create(RAA.this, R.raw.souppp);
                 treeplayer.start();
             }
             if (RAA.view1.getId() == R.id.rockbtn) {
-                final MediaPlayer rockplayer = MediaPlayer.create(RAA.this, R.raw.rock);
+                final MediaPlayer rockplayer = MediaPlayer.create(RAA.this, R.raw.carrottt);
                 rockplayer.start();
             }
             try {

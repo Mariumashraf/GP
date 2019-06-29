@@ -30,7 +30,6 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.laam" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.Main2Activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,6 +52,10 @@
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.PRACTICING" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.RAA" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.SEEN" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.qaaf" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.kaaf" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.geem" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.laam" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.CardList" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.UpdateCard" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.Animals" />
