@@ -23,11 +23,12 @@
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="المحمول كأداة لإعادة التأهيل"
+        android:icon="@drawable/logo"
+        android:label="وصلة"
         android:largeHeap="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="false"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.MainActivity" >
             <intent-filter>
@@ -51,6 +52,9 @@
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.PRACTICING" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.RAA" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.SEEN" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.qaaf" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.kaaf" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.geem" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.laam" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.CardList" />
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.UpdateCard" />

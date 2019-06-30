@@ -184,6 +184,7 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
             }
             this.view1 = null;
         }
+
         else if (this.view1.getId() == R.id.qaafbtn) {
             if (command.indexOf("قاف") != -1) {
 
@@ -193,8 +194,8 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-               // Intent intent2 = new Intent(PRACTICING.this, qaaf.class);
-                //startActivity(intent2);
+                Intent intent2 = new Intent(PRACTICING.this, qaaf.class);
+                startActivity(intent2);
 
             } else if (command.indexOf("قاف") == -1) {
 
@@ -214,8 +215,8 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-                //Intent intent2 = new Intent(PRACTICING.this, kaaf.class);
-                //startActivity(intent2);
+                Intent intent2 = new Intent(PRACTICING.this, kaaf.class);
+                startActivity(intent2);
 
             } else if (command.indexOf("كاف") == -1) {
 
@@ -235,8 +236,8 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-              //  Intent intent2 = new Intent(PRACTICING.this, geem.class);
-               // startActivity(intent2);
+                Intent intent2 = new Intent(PRACTICING.this, geem.class);
+                startActivity(intent2);
 
             } else if (command.indexOf("جيم") == -1) {
 
@@ -303,16 +304,16 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
 
             }
             if (v.getId() == R.id.qaafbtn) {
-              //  final MediaPlayer qaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.qaaf);
-                //qaafplayer.start();
+                final MediaPlayer qaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.qaaf);
+                qaafplayer.start();
             }
             if (v.getId() == R.id.kaafbtn) {
-              //  final MediaPlayer kaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.kaaf);
-                //kaafplayer.start();
+                final MediaPlayer kaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.kaaf);
+                kaafplayer.start();
             }
             if (v.getId() == R.id.geembtn) {
-               // final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.geem);
-                //seenplayer.start();
+                final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.geem);
+                seenplayer.start();
 
             }
             try {

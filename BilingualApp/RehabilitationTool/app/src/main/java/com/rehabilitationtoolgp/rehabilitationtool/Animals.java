@@ -105,14 +105,14 @@ public class Animals extends AppCompatActivity {
         });
 
 
-        final MediaPlayer samkplayer = MediaPlayer.create(Animals.this,R.raw.fish);
+        final MediaPlayer samkplayer = MediaPlayer.create(Animals.this,R.raw.fishhh);
         samak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 samkplayer.start();
                 globalv.addmImageUrls(R.drawable.fish);
                 globalv.addmNames(fish3);
-                globalv.addMrecords(R.raw.fish);
+                globalv.addMrecords(R.raw.fishhh);
                 initRecyclerView();
 
             }
