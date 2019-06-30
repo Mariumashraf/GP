@@ -275,7 +275,7 @@ public class FAMILY extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(FAMILY.this,MainActivity.class);
+                Intent intent1 = new Intent(FAMILY.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });
@@ -304,7 +304,7 @@ public class FAMILY extends AppCompatActivity {
         aunt4.setText(resources.getString(R.string.aunt));
         uncle3.setText(resources.getString(R.string.unclee));
         uncle4.setText(resources.getString(R.string.uncle));
-        cousb.setText(resources.getString(R.string.cousinBoy));
+        cousb.setText(resources.getString(R.string.cousineboy));
         cousg.setText(resources.getString(R.string.cousinegirl));
 
 

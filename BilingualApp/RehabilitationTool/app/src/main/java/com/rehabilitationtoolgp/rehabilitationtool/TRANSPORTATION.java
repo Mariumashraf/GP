@@ -269,7 +269,7 @@ public class TRANSPORTATION extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(TRANSPORTATION.this,MainActivity.class);
+                Intent intent1 = new Intent(TRANSPORTATION.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });

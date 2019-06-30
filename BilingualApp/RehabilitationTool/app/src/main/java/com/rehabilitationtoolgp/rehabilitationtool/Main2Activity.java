@@ -63,6 +63,8 @@ public class Main2Activity extends AppCompatActivity {
         question2 = (TextView)findViewById(R.id.question);
         animals2  = (TextView)findViewById(R.id.animals2);
         createee  = (TextView)findViewById(R.id.createe);
+        Button back = (Button) findViewById(R.id.back);
+
 
 
         Paper.init(this);
@@ -383,6 +385,17 @@ public class Main2Activity extends AppCompatActivity {
 
 
 
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                globalv.getmImageUrls();
+                globalv.getmNames();
+                globalv.getMrecords();
+
+                Intent intent1 = new Intent(Main2Activity.this,MainActivity.class);
+                startActivity(intent1);
+            }
         });
 
 

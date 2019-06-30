@@ -244,7 +244,7 @@ public class DIRECTIONS extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(DIRECTIONS.this,MainActivity.class);
+                Intent intent1 = new Intent(DIRECTIONS.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });

@@ -302,7 +302,7 @@ public class PLACES extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(PLACES.this,MainActivity.class);
+                Intent intent1 = new Intent(PLACES.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });

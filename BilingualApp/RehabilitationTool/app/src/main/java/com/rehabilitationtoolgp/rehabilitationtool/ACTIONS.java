@@ -256,7 +256,7 @@ public class ACTIONS extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(ACTIONS.this,MainActivity.class);
+                Intent intent1 = new Intent(ACTIONS.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });

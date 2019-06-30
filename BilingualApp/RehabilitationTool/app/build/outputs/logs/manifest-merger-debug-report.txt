@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\72fef0dcb9c2d6ba0ab59793c4d65937\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0ffaf61a13d26f54bdde324175272e82\AndroidManifest.xml:17:1-24:12
 MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\ab1e1c19b7fde41114d7be3efc9f5b26\AndroidManifest.xml:2:1-15:12
@@ -42,47 +42,47 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lenovo\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f35a5d7b45807ed5fbd7002a519fc8fe\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c1bf0d5043542bcfe960349ab5d36f00\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bbba398ba430f5fa1da0e9852067d444\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:3:5-58
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:3:5-58
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:5:5-7:35
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:5:5-7:35
 	android:required
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:7:9-32
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:6:9-47
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:6:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:10:5-71
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:10:22-68
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:10:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.STORAGE
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:12:5-66
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:5-66
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:12:22-63
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:12:22-63
 application
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:14:5-55:19
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:14:5-55:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0ffaf61a13d26f54bdde324175272e82\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0ffaf61a13d26f54bdde324175272e82\AndroidManifest.xml:22:5-20
 MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\ab1e1c19b7fde41114d7be3efc9f5b26\AndroidManifest.xml:13:5-20
@@ -100,133 +100,133 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lenovo\.gr
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2ac0fc674b54e8daae20fc72f256a2f5\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:22:9-36
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:22:9-36
 	android:label
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:19:9-53
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:19:9-53
 	android:hardwareAccelerated
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:17:9-43
 	android:roundIcon
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:21:9-54
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:21:9-54
 	android:largeHeap
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:20:9-33
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:20:9-33
 	android:icon
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:23:9-40
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:23:9-40
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:15:9-39
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:15:9-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.MainActivity
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:24:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.rehabilitationtoolgp.rehabilitationtool.FOODS
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:31:9-43
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:31:9-43
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:31:19-40
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:31:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.CLOTHES
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:32:9-45
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:9-45
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:32:19-42
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:32:19-42
 activity#com.rehabilitationtoolgp.rehabilitationtool.PLACES
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:33:9-44
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:9-44
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:33:19-41
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:33:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.DRINKS
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:34:9-44
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:9-44
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:34:19-41
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:34:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.VEGETABLES
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:35:9-48
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:9-48
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:35:19-45
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:35:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.FRUIT
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:36:9-43
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:9-43
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:36:19-40
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:36:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.CREATCARD
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:37:9-47
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:9-47
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:37:19-44
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:37:19-44
 activity#com.rehabilitationtoolgp.rehabilitationtool.DIRECTIONS
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:38:9-48
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:9-48
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:38:19-45
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:38:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.TIME
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:39:9-42
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:9-42
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:39:19-39
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:39:19-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.FAMILY
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:40:9-44
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:9-44
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:40:19-41
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:40:19-41
 activity#com.rehabilitationtoolgp.rehabilitationtool.TOOLS
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:41:9-43
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:9-43
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:41:19-40
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:41:19-40
 activity#com.rehabilitationtoolgp.rehabilitationtool.TRANSPORTATION
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:42:9-52
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:9-52
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:42:19-49
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:42:19-49
 activity#com.rehabilitationtoolgp.rehabilitationtool.PRACTICING
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:43:9-48
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:9-48
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:43:19-45
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:43:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.RAA
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:44:9-41
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:9-41
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:44:19-38
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:44:19-38
 activity#com.rehabilitationtoolgp.rehabilitationtool.SEEN
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:45:9-42
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:9-42
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:45:19-39
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:45:19-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.laam
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:47:9-42
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:9-42
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:47:19-39
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:47:19-39
 activity#com.rehabilitationtoolgp.rehabilitationtool.CardList
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:48:9-46
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:9-46
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:48:19-43
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:48:19-43
 activity#com.rehabilitationtoolgp.rehabilitationtool.UpdateCard
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:49:9-48
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:49:9-48
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:49:19-45
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:49:19-45
 activity#com.rehabilitationtoolgp.rehabilitationtool.Animals
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:50:9-45
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:50:9-45
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:50:19-42
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:50:19-42
 activity#com.rehabilitationtoolgp.rehabilitationtool.Feelings
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:51:9-46
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:51:9-46
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:51:19-43
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:51:19-43
 activity#com.rehabilitationtoolgp.rehabilitationtool.Questions
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:52:9-47
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:52:9-47
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:52:19-44
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:52:19-44
 activity#com.rehabilitationtoolgp.rehabilitationtool.ACTIONS
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:53:9-45
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:53:9-45
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:53:19-42
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:53:19-42
 activity#com.rehabilitationtoolgp.rehabilitationtool.Main2Activity
-ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:54:9-60
+ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:54:9-60
 	android:name
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml:54:19-48
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml:54:19-48
 uses-sdk
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\72fef0dcb9c2d6ba0ab59793c4d65937\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\72fef0dcb9c2d6ba0ab59793c4d65937\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:design:28.0.0] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\0ffaf61a13d26f54bdde324175272e82\AndroidManifest.xml:20:5-44
@@ -303,15 +303,15 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\tra
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c1bf0d5043542bcfe960349ab5d36f00\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bbba398ba430f5fa1da0e9852067d444\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bbba398ba430f5fa1da0e9852067d444\AndroidManifest.xml:20:5-44
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\lenovo\.gradle\caches\transforms-1\files-1.1\core-0.9.4.5.aar\ab1e1c19b7fde41114d7be3efc9f5b26\AndroidManifest.xml:11:9-72
 	android:targetSdkVersion
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-		ADDED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
-		INJECTED from D:\spare\new19-6-2019\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		ADDED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml
+		INJECTED from D:\new3\GP\BilingualApp\RehabilitationTool\app\src\main\AndroidManifest.xml

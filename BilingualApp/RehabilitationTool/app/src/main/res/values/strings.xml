@@ -322,6 +322,8 @@
     <string name="uncle3">TODO</string>
     <string name="aunt2">خالتى</string>
     <string name="uncle2">خالى</string>
+    <string name="cousineboy">ابن عمى</string>
+
 
     <string name="pome2">رمان</string>
     <string name="pome">TODO</string>
@@ -403,7 +405,6 @@
     <string name="addname">ضع اسما للبطاقة</string>
     <string name="uncle">عمى</string>
     <string name="aunt">عمتى</string>
-    <string name="cousineboy">ابن عمى</string>
     <string name="cousinegirl">ابن عمتى</string>
     <string name="unclee">خالى</string>
     <string name="auntt">خالتى</string>
@@ -426,6 +427,7 @@
     <string name="today">اليوم</string>
     <string name="tomorrow">غدا</string>
     <string name="yesterday">أمس</string>
+
 
 
 
