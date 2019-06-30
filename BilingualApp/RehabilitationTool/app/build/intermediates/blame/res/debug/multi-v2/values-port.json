@@ -1,10 +1,14 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "D:\\new3\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+=======
+            "outputFile": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+>>>>>>> c9f2cd2fd1ca20b5f470a2140789313741bcb454
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -257,9 +257,9 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#fbd0e0</color>
-    <color name="colorPrimary">#dbe5f2</color>
-    <color name="colorPrimaryDark">#e1e7f1</color>
+    <color name="colorAccent">#8b2edc</color>
+    <color name="colorPrimary">#8b2edc</color>
+    <color name="colorPrimaryDark">#8b2edc</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_default_color_primary">#3F51B5</color>
     <color name="design_default_color_primary_dark">#303F9F</color>

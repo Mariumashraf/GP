@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 # Referenced at D:\new3\GP\BilingualApp\RehabilitationTool\app\build\intermediates\merged_manifests\debugAndroidTest\processDebugAndroidTestManifest\merged\AndroidManifest.xml:9
+=======
+# Referenced at C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\BilingualApp\RehabilitationTool\app\build\intermediates\merged_manifests\debugAndroidTest\processDebugAndroidTestManifest\merged\AndroidManifest.xml:9
+>>>>>>> c9f2cd2fd1ca20b5f470a2140789313741bcb454
 -keep class android.support.test.runner.AndroidJUnitRunner { <init>(...); }

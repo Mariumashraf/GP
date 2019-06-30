@@ -1,11 +1,20 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Sun Jun 30 23:51:51 EET 2019
 1.base=D\:\\new3\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+=======
+#Mon Jul 01 00:10:11 EET 2019
+1.base=C\:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+>>>>>>> c9f2cd2fd1ca20b5f470a2140789313741bcb454
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
+<<<<<<< HEAD
 0.base=D\:\\new3\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+=======
+0.base=C\:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+>>>>>>> c9f2cd2fd1ca20b5f470a2140789313741bcb454
 1.path=classes.dex

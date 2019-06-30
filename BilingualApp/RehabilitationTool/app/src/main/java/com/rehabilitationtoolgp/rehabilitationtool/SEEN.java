@@ -95,12 +95,12 @@ public class SEEN extends  Activity implements View.OnClickListener {
 
 
         if (this.view1.getId() == R.id.fishbtn) {
-            if (command.indexOf("سمكه") != -1) {
+            if (command.indexOf("سمك") != -1) {
 
                 final MediaPlayer bravoplayer = MediaPlayer.create(SEEN.this, R.raw.bravo);
                 bravoplayer.start();
 
-            } else if (command.indexOf("سمكه") == -1) {
+            } else if (command.indexOf("سمك") == -1) {
 
                 //speak("apple");
                 final MediaPlayer tryAgainplayer = MediaPlayer.create(SEEN.this, R.raw.tryagain);
@@ -150,11 +150,11 @@ public class SEEN extends  Activity implements View.OnClickListener {
         if (v.getId() == R.id.fishbtn || v.getId() == R.id.chairbtn|| v.getId() == R.id.sunbtn ) {
 
             if (v.getId() == R.id.fishbtn) {
-                final MediaPlayer fishplayer = MediaPlayer.create(SEEN.this, R.raw.fish);
+                final MediaPlayer fishplayer = MediaPlayer.create(SEEN.this, R.raw.fishhh);
                 fishplayer.start();
             }
             if (v.getId() == R.id.chairbtn) {
-                final MediaPlayer chairplayer = MediaPlayer.create(SEEN.this, R.raw.chair);
+                final MediaPlayer chairplayer = MediaPlayer.create(SEEN.this, R.raw.chairrr);
                 chairplayer.start();
             }
             if (v.getId() == R.id.sunbtn) {
