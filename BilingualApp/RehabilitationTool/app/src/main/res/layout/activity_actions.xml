@@ -16,13 +16,13 @@
    <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#e1faff">
+            android:background="@color/colorApp">
 
        <LinearLayout
            android:id="@+id/linearLayout"
            android:layout_width="368dp"
            android:layout_height="270dp"
-           android:background="@drawable/shiny"
+           android:background="@drawable/purple"
            android:layout_marginEnd="0dp"
            android:layout_marginLeft="0dp"
            android:orientation="horizontal"
@@ -44,7 +44,7 @@
                android:layout_marginStart="-290dp"
                android:layout_marginLeft="-250dp"
                android:layout_marginTop="220dp"
-               android:background="@drawable/play1"
+               android:background="@drawable/playp"
                android:src="@android:drawable/ic_media_play" />
        </LinearLayout>
             <LinearLayout

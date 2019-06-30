@@ -15,7 +15,7 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#e1faff">
+            android:background="@color/colorApp">
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -768,7 +768,7 @@
 
             <LinearLayout
 
-                android:id="@+id/animals2"
+
                 android:layout_width="368dp"
                 android:layout_height="185dp"
                 android:layout_marginEnd="8dp"
@@ -818,7 +818,6 @@
                 </android.support.v7.widget.CardView>
 
             </LinearLayout>
-
 
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
