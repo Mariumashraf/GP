@@ -196,7 +196,7 @@ public class TIME extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(TIME.this,MainActivity.class);
+                Intent intent1 = new Intent(TIME.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });

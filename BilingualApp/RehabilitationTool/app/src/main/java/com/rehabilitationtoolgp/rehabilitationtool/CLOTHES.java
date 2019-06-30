@@ -268,7 +268,7 @@ public class CLOTHES extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(CLOTHES.this,MainActivity.class);
+                Intent intent1 = new Intent(CLOTHES.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });

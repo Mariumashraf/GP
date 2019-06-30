@@ -39,6 +39,15 @@ public class DRINKS extends AppCompatActivity {
         juice2  = (TextView)findViewById(R.id.juice2);
         milk2  = (TextView)findViewById(R.id.milk2);
 
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
+
 
         ImageView juice = (ImageView) findViewById(R.id.juice);
         ImageView water = (ImageView) findViewById(R.id.water);
@@ -125,7 +134,7 @@ public class DRINKS extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(DRINKS.this,MainActivity.class);
+                Intent intent1 = new Intent(DRINKS.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });

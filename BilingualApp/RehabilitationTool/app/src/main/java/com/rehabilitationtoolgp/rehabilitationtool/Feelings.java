@@ -277,7 +277,7 @@ public class Feelings extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(Feelings.this,MainActivity.class);
+                Intent intent1 = new Intent(Feelings.this,Main2Activity.class);
                 startActivity(intent1);
             }
         });
