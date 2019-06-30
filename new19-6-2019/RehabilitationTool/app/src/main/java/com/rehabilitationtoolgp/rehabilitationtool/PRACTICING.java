@@ -193,7 +193,7 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-                Intent intent2 = new Intent(PRACTICING.this, qaaf.class);
+                Intent intent2 = new Intent(PRACTICING.this, laam.class);
                 startActivity(intent2);
 
             } else if (command.indexOf("قاف") == -1) {
@@ -214,7 +214,7 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-                Intent intent2 = new Intent(PRACTICING.this, kaaf.class);
+                Intent intent2 = new Intent(PRACTICING.this, laam.class);
                 startActivity(intent2);
 
             } else if (command.indexOf("كاف") == -1) {
@@ -235,7 +235,7 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-                Intent intent2 = new Intent(PRACTICING.this, geem.class);
+                Intent intent2 = new Intent(PRACTICING.this, laam.class);
                 startActivity(intent2);
 
             } else if (command.indexOf("جيم") == -1) {
@@ -303,15 +303,15 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
 
             }
             if (v.getId() == R.id.qaafbtn) {
-                final MediaPlayer qaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.qaaf);
+                final MediaPlayer qaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.laam);
                 qaafplayer.start();
             }
             if (v.getId() == R.id.kaafbtn) {
-                final MediaPlayer kaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.kaaf);
+                final MediaPlayer kaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.laam);
                 kaafplayer.start();
             }
             if (v.getId() == R.id.geembtn) {
-                final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.geem);
+                final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.laam);
                 seenplayer.start();
 
             }

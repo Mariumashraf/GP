@@ -12,6 +12,11 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 public class VEGETABLES extends AppCompatActivity {
     private static final String TAG = "VEGETABLES";
     Globalrecycler globalv;
@@ -127,8 +132,21 @@ public class VEGETABLES extends AppCompatActivity {
             public void onClick(View view) {
 
                 for (int i=0;i<  globalv.getMrecords().size();i++) {
-                    final MediaPlayer mediaPlay = MediaPlayer.create(VEGETABLES.this, globalv.getMrecords().get(i));
-                    mediaPlay.start();
+                    /*final MediaPlayer mediaPlay = MediaPlayer.create(VEGETABLES.this, globalv.getMrecords().get(i));
+                    mediaPlay.start();*/
+
+                    if (globalv.getMrecords().get(i) instanceof Integer) {
+                        // The Object is an instance of a String
+                        Integer M = (Integer) globalv.getMrecords().get(i);
+
+                        MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),M);
+                        mediaPlayer.start();
+                    }
+                    else if (globalv.getMrecords().get(i) instanceof byte[]) {
+                        // The Object is an instance of a Double
+                        byte[] g = (byte[]) globalv.getMrecords().get(i);
+                        playMp3FromByte(g);
+                    }
                     try {
                         Thread.sleep(700);
                     } catch(InterruptedException e) {
@@ -162,5 +180,26 @@ public class VEGETABLES extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
+    }
+
+    private void playMp3FromByte(byte[] mp3SoundByteArray) {
+        try {
+            File tempMp3 = File.createTempFile("kurchina", "mp3", getCacheDir());
+            tempMp3.deleteOnExit();
+            FileOutputStream fos = new FileOutputStream(tempMp3);
+            fos.write(mp3SoundByteArray);
+            fos.close();
+
+            MediaPlayer mediaPlayer = new MediaPlayer();
+
+            FileInputStream fis = new FileInputStream(tempMp3);
+            mediaPlayer.setDataSource(fis.getFD());
+            mediaPlayer.prepare();
+            mediaPlayer.start();
+
+        } catch (IOException ex) {
+            String s = ex.toString();
+            ex.printStackTrace();
+        }
     }
 }

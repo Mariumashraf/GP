@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class Globalrecycler extends Application {
     private static final String TAG = "Globalrecycler";
     private  ArrayList<String> mNames = new ArrayList<>();
-    private  ArrayList<Integer> mImageUrls = new ArrayList<>();
-    private ArrayList<Integer> mrecords = new ArrayList<>();
+    private  ArrayList<Object> mImageUrls = new ArrayList<>();
+    private ArrayList<Object> mrecords = new ArrayList<>();
 
 
     public static String getTAG() {
@@ -28,25 +28,25 @@ public class Globalrecycler extends Application {
         this.mNames.add(mNames);
     }
 
-    public ArrayList<Integer> getmImageUrls() {
+    public ArrayList<Object> getmImageUrls() {
         return mImageUrls;
     }
 
-    public void setmImageUrls(ArrayList<Integer> mImageUrls) {
+    public void setmImageUrls(ArrayList<Object> mImageUrls) {
         this.mImageUrls = mImageUrls;
     }
-    public void addmImageUrls(Integer mImageUrls) {
+    public void addmImageUrls(Object mImageUrls) {
         this.mImageUrls.add(mImageUrls);
     }
 
-    public ArrayList<Integer> getMrecords() {
+    public ArrayList<Object> getMrecords() {
         return mrecords;
     }
 
-    public void setMrecords(ArrayList<Integer> mrecords) {
+    public void setMrecords(ArrayList<Object> mrecords) {
         this.mrecords = mrecords;
     }
-    public void addMrecords(Integer mrecords) {
+    public void addMrecords(Object mrecords) {
         this.mrecords.add(mrecords);
     }
 
