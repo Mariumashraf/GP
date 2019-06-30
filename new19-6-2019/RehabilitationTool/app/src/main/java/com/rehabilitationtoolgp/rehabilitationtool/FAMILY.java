@@ -308,7 +308,6 @@ public class FAMILY extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
     }
 
-<<<<<<< HEAD
 
     private void updateView(String lang) {
         Context context = LocalHelper.setLocale(this,lang);
@@ -346,8 +345,8 @@ public class FAMILY extends AppCompatActivity {
             Paper.book().write("language","ar");
             updateView((String)Paper.book().read("language"));
         }
-        return true;
-=======
+        return true;}
+
     private void playMp3FromByte(byte[] mp3SoundByteArray) {
         try {
             File tempMp3 = File.createTempFile("kurchina", "mp3", getCacheDir());
@@ -367,6 +366,5 @@ public class FAMILY extends AppCompatActivity {
             String s = ex.toString();
             ex.printStackTrace();
         }
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
     }
 }

@@ -9,15 +9,12 @@ import java.util.ArrayList;
 
 public class Globalrecycler extends Application {
     private static final String TAG = "Globalrecycler";
-<<<<<<< HEAD
     private ArrayList<TextView> mNames = new ArrayList<TextView>();
     private  ArrayList<Integer> mImageUrls = new ArrayList<>();
     private ArrayList<Integer> mrecords = new ArrayList<>();
-=======
     private  ArrayList<String> mNames = new ArrayList<>();
     private  ArrayList<Object> mImageUrls = new ArrayList<>();
     private ArrayList<Object> mrecords = new ArrayList<>();
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 
 
     public static String getTAG() {

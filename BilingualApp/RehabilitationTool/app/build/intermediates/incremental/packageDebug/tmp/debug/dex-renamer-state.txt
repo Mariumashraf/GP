@@ -1,0 +1,7 @@
+#Sun Jun 30 18:21:09 EET 2019
+base.0=D\:\\spare\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\spare\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

@@ -12,15 +12,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-<<<<<<< HEAD
 import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
-=======
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 
 import io.paperdb.Paper;
 
@@ -69,8 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent12 = new Intent(MainActivity.this,PRACTICING.class);
                 startActivity(intent12);
 
-<<<<<<< HEAD
-=======
+
                 for (int i=0;i<  globalv.getMrecords().size();i++) {
                     /*final MediaPlayer mediaPlay = MediaPlayer.create(MainActivity.this, globalv.getMrecords().get(i));
                     mediaPlay.start();*/
@@ -92,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
                     } catch(InterruptedException e) {
                     }
                 }
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
             }
         });
     }
@@ -125,8 +120,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return true;
     }
-<<<<<<< HEAD
-=======
+
 
     private void playMp3FromByte(byte[] mp3SoundByteArray) {
         try {
@@ -152,20 +146,4 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
-
-
-
-
-
-
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
-
-
-
-
-
-}
 

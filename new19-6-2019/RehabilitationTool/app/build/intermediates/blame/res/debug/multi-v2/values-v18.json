@@ -1,32 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\values-v18\\values-v18.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "48",
-                        "endOffsets": "99"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\values-v18\\values-v18.xml",
-=======
-            "outputFile": "C:\\Users\\medoz\\Downloads\\Downloads\\GP\\GP-master\\6292019\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dfb2567cc60dac871a2cd33edd15d8bd\\res\\values-v18\\values-v18.xml",
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

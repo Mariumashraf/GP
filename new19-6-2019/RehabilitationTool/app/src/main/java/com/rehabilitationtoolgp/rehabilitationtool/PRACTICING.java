@@ -193,13 +193,10 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-<<<<<<< HEAD
                // Intent intent2 = new Intent(PRACTICING.this, qaaf.class);
                 //startActivity(intent2);
-=======
                 Intent intent2 = new Intent(PRACTICING.this, laam.class);
                 startActivity(intent2);
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 
             } else if (command.indexOf("قاف") == -1) {
 
@@ -219,13 +216,10 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-<<<<<<< HEAD
                 //Intent intent2 = new Intent(PRACTICING.this, kaaf.class);
                 //startActivity(intent2);
-=======
                 Intent intent2 = new Intent(PRACTICING.this, laam.class);
                 startActivity(intent2);
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 
             } else if (command.indexOf("كاف") == -1) {
 
@@ -245,13 +239,10 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                 }
-<<<<<<< HEAD
               //  Intent intent2 = new Intent(PRACTICING.this, geem.class);
                // startActivity(intent2);
-=======
                 Intent intent2 = new Intent(PRACTICING.this, laam.class);
                 startActivity(intent2);
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 
             } else if (command.indexOf("جيم") == -1) {
 
@@ -318,7 +309,6 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
 
             }
             if (v.getId() == R.id.qaafbtn) {
-<<<<<<< HEAD
               //  final MediaPlayer qaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.qaaf);
                 //qaafplayer.start();
             }
@@ -329,7 +319,6 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
             if (v.getId() == R.id.geembtn) {
                // final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.geem);
                 //seenplayer.start();
-=======
                 final MediaPlayer qaafplayer = MediaPlayer.create(PRACTICING.this, R.raw.laam);
                 qaafplayer.start();
             }
@@ -340,7 +329,6 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
             if (v.getId() == R.id.geembtn) {
                 final MediaPlayer seenplayer = MediaPlayer.create(PRACTICING.this, R.raw.laam);
                 seenplayer.start();
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 
             }
             try {

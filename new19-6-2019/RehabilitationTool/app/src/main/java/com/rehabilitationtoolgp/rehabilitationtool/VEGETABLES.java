@@ -27,11 +27,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class VEGETABLES extends AppCompatActivity {
-    TextView lettuce2,potato2,cucumber2,tomato2,carrot2;
+    TextView lettuce2, potato2, cucumber2, tomato2, carrot2;
+
     @Override
     protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+        super.attachBaseContext(LocalHelper.onAttach(newBase, "ar"));
     }
+
     private static final String TAG = "VEGETABLES";
     Globalrecycler globalv;
 
@@ -40,36 +42,36 @@ public class VEGETABLES extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vegetables);
 
-        lettuce2 = (TextView)findViewById(R.id.lettuce2);
-        potato2 = (TextView)findViewById(R.id.potato2);
-        cucumber2 = (TextView)findViewById(R.id.cucumber2);
-        tomato2 = (TextView)findViewById(R.id.tomato2);
-        carrot2 = (TextView)findViewById(R.id.carrot2);
+        lettuce2 = (TextView) findViewById(R.id.lettuce2);
+        potato2 = (TextView) findViewById(R.id.potato2);
+        cucumber2 = (TextView) findViewById(R.id.cucumber2);
+        tomato2 = (TextView) findViewById(R.id.tomato2);
+        carrot2 = (TextView) findViewById(R.id.carrot2);
 
         Paper.init(this);
 
         String language = Paper.book().read("language");
-        if(language == null)
-            Paper.book().write("language","ar");
+        if (language == null)
+            Paper.book().write("language", "ar");
 
 
-        updateView((String)Paper.book().read("language"));
+        updateView((String) Paper.book().read("language"));
 
-        ImageView tomato =(ImageView) findViewById(R.id.tomato);
-        ImageView potato=(ImageView) findViewById(R.id.potato);
-        ImageView cucumber= (ImageView) findViewById(R.id.cucumb2 );
-        ImageView carrot =(ImageView) findViewById(R.id.carrot);
-        ImageView lettuce=(ImageView) findViewById(R.id.lettuce);
+        ImageView tomato = (ImageView) findViewById(R.id.tomato);
+        ImageView potato = (ImageView) findViewById(R.id.potato);
+        ImageView cucumber = (ImageView) findViewById(R.id.cucumb2);
+        ImageView carrot = (ImageView) findViewById(R.id.carrot);
+        ImageView lettuce = (ImageView) findViewById(R.id.lettuce);
         ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
 
 
-        globalv=(Globalrecycler)getApplicationContext();
+        globalv = (Globalrecycler) getApplicationContext();
         initRecyclerView();
 
 
         //TOMATO
-        final MediaPlayer tomatoplayer = MediaPlayer.create(VEGETABLES.this,R.raw.tomatoesss);
+        final MediaPlayer tomatoplayer = MediaPlayer.create(VEGETABLES.this, R.raw.tomatoesss);
         tomato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,13 +82,12 @@ public class VEGETABLES extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
 
         //POTATO
-        final MediaPlayer potatoplayer = MediaPlayer.create(VEGETABLES.this,R.raw.potatoesss);
+        final MediaPlayer potatoplayer = MediaPlayer.create(VEGETABLES.this, R.raw.potatoesss);
         potato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -97,13 +98,12 @@ public class VEGETABLES extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
 
         //CUCUMBER
-        final MediaPlayer cucumberplayer = MediaPlayer.create(VEGETABLES.this,R.raw.khearrr);
+        final MediaPlayer cucumberplayer = MediaPlayer.create(VEGETABLES.this, R.raw.khearrr);
         cucumber.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -114,13 +114,12 @@ public class VEGETABLES extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
 
         //CARROT
-        final MediaPlayer carrotplayer = MediaPlayer.create(VEGETABLES.this,R.raw.carrottt);
+        final MediaPlayer carrotplayer = MediaPlayer.create(VEGETABLES.this, R.raw.carrottt);
         carrot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -131,12 +130,11 @@ public class VEGETABLES extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
         //LETTUCE
-        final MediaPlayer lettuceplayer = MediaPlayer.create(VEGETABLES.this,R.raw.khasss);
+        final MediaPlayer lettuceplayer = MediaPlayer.create(VEGETABLES.this, R.raw.khasss);
         lettuce.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -147,10 +145,8 @@ public class VEGETABLES extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
-
 
 
         //PLAY ALL
@@ -160,7 +156,7 @@ public class VEGETABLES extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                for (int i=0;i<  globalv.getMrecords().size();i++) {
+                for (int i = 0; i < globalv.getMrecords().size(); i++) {
                     /*final MediaPlayer mediaPlay = MediaPlayer.create(VEGETABLES.this, globalv.getMrecords().get(i));
                     mediaPlay.start();*/
 
@@ -168,21 +164,19 @@ public class VEGETABLES extends AppCompatActivity {
                         // The Object is an instance of a String
                         Integer M = (Integer) globalv.getMrecords().get(i);
 
-                        MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),M);
+                        MediaPlayer mediaPlayer = MediaPlayer.create(view.getContext(), M);
                         mediaPlayer.start();
-                    }
-                    else if (globalv.getMrecords().get(i) instanceof byte[]) {
+                    } else if (globalv.getMrecords().get(i) instanceof byte[]) {
                         // The Object is an instance of a Double
                         byte[] g = (byte[]) globalv.getMrecords().get(i);
                         playMp3FromByte(g);
                     }
                     try {
                         Thread.sleep(700);
-                    } catch(InterruptedException e) {
+                    } catch (InterruptedException e) {
                     }
                 }
             }
-
 
 
         });
@@ -196,24 +190,24 @@ public class VEGETABLES extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(VEGETABLES.this,FOODS.class);
+                Intent intent1 = new Intent(VEGETABLES.this, FOODS.class);
                 startActivity(intent1);
             }
         });
     }
-    private void initRecyclerView(){
+
+    private void initRecyclerView() {
         Log.d(TAG, "initRecyclerView: init recyclerview");
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(layoutManager);
-        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, globalv.getmNames(), globalv.getmImageUrls(), globalv.getMrecords());
         recyclerView.setAdapter(adapter);
     }
 
-<<<<<<< HEAD
     private void updateView(String lang) {
-        Context context = LocalHelper.setLocale(this,lang);
+        Context context = LocalHelper.setLocale(this, lang);
         Resources resources = context.getResources();
         carrot2.setText(resources.getString(R.string.carrot));
         cucumber2.setText(resources.getString(R.string.cucumber));
@@ -222,28 +216,26 @@ public class VEGETABLES extends AppCompatActivity {
         potato2.setText(resources.getString(R.string.potato));
 
 
-
-
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu,menu);
+        getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId() == R.id.language_en){
-            Paper.book().write("language","en");
-            updateView((String)Paper.book().read("language"));
-        }
-        else  if(item.getItemId() == R.id.language_ar){
-            Paper.book().write("language","ar");
-            updateView((String)Paper.book().read("language"));
+        if (item.getItemId() == R.id.language_en) {
+            Paper.book().write("language", "en");
+            updateView((String) Paper.book().read("language"));
+        } else if (item.getItemId() == R.id.language_ar) {
+            Paper.book().write("language", "ar");
+            updateView((String) Paper.book().read("language"));
         }
         return true;
-=======
+    }
+
     private void playMp3FromByte(byte[] mp3SoundByteArray) {
         try {
             File tempMp3 = File.createTempFile("kurchina", "mp3", getCacheDir());
@@ -263,6 +255,6 @@ public class VEGETABLES extends AppCompatActivity {
             String s = ex.toString();
             ex.printStackTrace();
         }
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
     }
 }
+

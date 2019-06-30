@@ -163,7 +163,6 @@ public class DRINKS extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
     }
 
-<<<<<<< HEAD
     private void updateView(String lang) {
         Context context = LocalHelper.setLocale(this,lang);
         Resources resources = context.getResources();
@@ -181,18 +180,17 @@ public class DRINKS extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId() == R.id.language_en){
-            Paper.book().write("language","en");
-            updateView((String)Paper.book().read("language"));
+        if (item.getItemId() == R.id.language_en) {
+            Paper.book().write("language", "en");
+            updateView((String) Paper.book().read("language"));
 
-        }
-        else  if(item.getItemId() == R.id.language_ar){
-            Paper.book().write("language","ar");
-            updateView((String)Paper.book().read("language"));
+        } else if (item.getItemId() == R.id.language_ar) {
+            Paper.book().write("language", "ar");
+            updateView((String) Paper.book().read("language"));
         }
         return true;
-=======
-    private void playMp3FromByte(byte[] mp3SoundByteArray) {
+    }
+     private void playMp3FromByte(byte[] mp3SoundByteArray) {
         try {
             File tempMp3 = File.createTempFile("kurchina", "mp3", getCacheDir());
             tempMp3.deleteOnExit();
@@ -211,7 +209,6 @@ public class DRINKS extends AppCompatActivity {
             String s = ex.toString();
             ex.printStackTrace();
         }
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
     }
     }
 

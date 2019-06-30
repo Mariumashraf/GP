@@ -27,11 +27,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class TRANSPORTATION extends AppCompatActivity {
-    TextView car2,taxi2,autobus2,metro2,train2,bike2,elevator2,motor2,plane2,ship2;
+    TextView car2, taxi2, autobus2, metro2, train2, bike2, elevator2, motor2, plane2, ship2;
+
     @Override
     protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+        super.attachBaseContext(LocalHelper.onAttach(newBase, "ar"));
     }
+
     private static final String TAG = "TRANSPORTATION";
     Globalrecycler globalv;
 
@@ -40,25 +42,25 @@ public class TRANSPORTATION extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transportation);
 
-        car2 = (TextView)findViewById(R.id.car2);
-        taxi2 = (TextView)findViewById(R.id.taxi2);
-        autobus2 = (TextView)findViewById(R.id.autobus2);
-        metro2 = (TextView)findViewById(R.id.metro2);
-        train2 = (TextView)findViewById(R.id.train2);
-        bike2 = (TextView)findViewById(R.id.bike2);
-        elevator2 = (TextView)findViewById(R.id.elevator2);
-        motor2 = (TextView)findViewById(R.id.motor2);
-        plane2 = (TextView)findViewById(R.id.plane2);
-        ship2 = (TextView)findViewById(R.id.ship2);
+        car2 = (TextView) findViewById(R.id.car2);
+        taxi2 = (TextView) findViewById(R.id.taxi2);
+        autobus2 = (TextView) findViewById(R.id.autobus2);
+        metro2 = (TextView) findViewById(R.id.metro2);
+        train2 = (TextView) findViewById(R.id.train2);
+        bike2 = (TextView) findViewById(R.id.bike2);
+        elevator2 = (TextView) findViewById(R.id.elevator2);
+        motor2 = (TextView) findViewById(R.id.motor2);
+        plane2 = (TextView) findViewById(R.id.plane2);
+        ship2 = (TextView) findViewById(R.id.ship2);
 
         Paper.init(this);
 
         String language = Paper.book().read("language");
-        if(language == null)
-            Paper.book().write("language","ar");
+        if (language == null)
+            Paper.book().write("language", "ar");
 
 
-        updateView((String)Paper.book().read("language"));
+        updateView((String) Paper.book().read("language"));
 
         ImageView metro = (ImageView) findViewById(R.id.Metro);
         ImageView car = (ImageView) findViewById(R.id.Car);
@@ -75,13 +77,12 @@ public class TRANSPORTATION extends AppCompatActivity {
         Button back = (Button) findViewById(R.id.back);
 
 
-        globalv=(Globalrecycler)getApplicationContext();
+        globalv = (Globalrecycler) getApplicationContext();
         initRecyclerView();
 
 
-
         //METRO
-        final MediaPlayer metroplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.metrooo);
+        final MediaPlayer metroplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.metrooo);
         metro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -92,12 +93,11 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
         //CAR
-        final MediaPlayer carplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.carrr);
+        final MediaPlayer carplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.carrr);
         car.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -108,13 +108,12 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
 
         //TAXI
-        final MediaPlayer taxiplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.taxiii);
+        final MediaPlayer taxiplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.taxiii);
         taxi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -125,13 +124,12 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
 
         //AUTOBUS
-        final MediaPlayer autobusplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.busss);
+        final MediaPlayer autobusplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.busss);
         bus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -142,13 +140,12 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
 
         //BIKE
-        final MediaPlayer bikeplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.bicycleee);
+        final MediaPlayer bikeplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.bicycleee);
         bike.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -159,13 +156,12 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
 
         //PLANE
-        final MediaPlayer planeplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.planeee);
+        final MediaPlayer planeplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.planeee);
         plane.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -176,12 +172,11 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
         //SHIP
-        final MediaPlayer shipplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.shippp);
+        final MediaPlayer shipplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.shippp);
         ship.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -192,12 +187,11 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
         //TRAIN
-        final MediaPlayer trainplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.trainnn);
+        final MediaPlayer trainplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.trainnn);
         train.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -208,12 +202,11 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
         //motor
-        final MediaPlayer motorplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.motosekl);
+        final MediaPlayer motorplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.motosekl);
         motor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -224,12 +217,11 @@ public class TRANSPORTATION extends AppCompatActivity {
                 initRecyclerView();
 
 
-
             }
         });
 
         //elevator
-        final MediaPlayer elevatorplayer = MediaPlayer.create(TRANSPORTATION.this,R.raw.elevator);
+        final MediaPlayer elevatorplayer = MediaPlayer.create(TRANSPORTATION.this, R.raw.elevator);
         elevator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -238,7 +230,6 @@ public class TRANSPORTATION extends AppCompatActivity {
                 globalv.addmNames(elevator2);
                 globalv.addMrecords(R.raw.elevator);
                 initRecyclerView();
-
 
 
             }
@@ -250,7 +241,7 @@ public class TRANSPORTATION extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                for (int i=0;i<  globalv.getMrecords().size();i++) {
+                for (int i = 0; i < globalv.getMrecords().size(); i++) {
                     /*final MediaPlayer mediaPlay = MediaPlayer.create(TRANSPORTATION.this, globalv.getMrecords().get(i));
                     mediaPlay.start();*/
 
@@ -258,21 +249,19 @@ public class TRANSPORTATION extends AppCompatActivity {
                         // The Object is an instance of a String
                         Integer M = (Integer) globalv.getMrecords().get(i);
 
-                        MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),M);
+                        MediaPlayer mediaPlayer = MediaPlayer.create(view.getContext(), M);
                         mediaPlayer.start();
-                    }
-                    else if (globalv.getMrecords().get(i) instanceof byte[]) {
+                    } else if (globalv.getMrecords().get(i) instanceof byte[]) {
                         // The Object is an instance of a Double
                         byte[] g = (byte[]) globalv.getMrecords().get(i);
                         playMp3FromByte(g);
                     }
                     try {
                         Thread.sleep(700);
-                    } catch(InterruptedException e) {
+                    } catch (InterruptedException e) {
                     }
                 }
             }
-
 
 
         });
@@ -287,24 +276,24 @@ public class TRANSPORTATION extends AppCompatActivity {
                 globalv.getmNames();
                 globalv.getMrecords();
 
-                Intent intent1 = new Intent(TRANSPORTATION.this,MainActivity.class);
+                Intent intent1 = new Intent(TRANSPORTATION.this, MainActivity.class);
                 startActivity(intent1);
             }
         });
     }
-    private void initRecyclerView(){
+
+    private void initRecyclerView() {
         Log.d(TAG, "initRecyclerView: init recyclerview");
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(layoutManager);
-        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, globalv.getmNames(), globalv.getmImageUrls(), globalv.getMrecords());
         recyclerView.setAdapter(adapter);
     }
 
-<<<<<<< HEAD
     private void updateView(String lang) {
-        Context context = LocalHelper.setLocale(this,lang);
+        Context context = LocalHelper.setLocale(this, lang);
         Resources resources = context.getResources();
         bike2.setText(resources.getString(R.string.bike));
         ship2.setText(resources.getString(R.string.ship));
@@ -318,27 +307,25 @@ public class TRANSPORTATION extends AppCompatActivity {
         car2.setText(resources.getString(R.string.car));
 
 
-
-
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu,menu);
+        getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId() == R.id.language_en){
-            Paper.book().write("language","en");
-            updateView((String)Paper.book().read("language"));
-        }
-        else  if(item.getItemId() == R.id.language_ar){
-            Paper.book().write("language","ar");
-            updateView((String)Paper.book().read("language"));
+        if (item.getItemId() == R.id.language_en) {
+            Paper.book().write("language", "en");
+            updateView((String) Paper.book().read("language"));
+        } else if (item.getItemId() == R.id.language_ar) {
+            Paper.book().write("language", "ar");
+            updateView((String) Paper.book().read("language"));
         }
         return true;
-=======
+    }
     private void playMp3FromByte(byte[] mp3SoundByteArray) {
         try {
             File tempMp3 = File.createTempFile("kurchina", "mp3", getCacheDir());
@@ -358,6 +345,5 @@ public class TRANSPORTATION extends AppCompatActivity {
             String s = ex.toString();
             ex.printStackTrace();
         }
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
     }
 }

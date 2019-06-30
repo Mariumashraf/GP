@@ -229,7 +229,6 @@ public class TIME extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
     }
 
-<<<<<<< HEAD
 
     private void updateView(String lang) {
         Context context = LocalHelper.setLocale(this,lang);
@@ -264,7 +263,6 @@ public class TIME extends AppCompatActivity {
         }
         return true;
     }
-=======
     private void playMp3FromByte(byte[] mp3SoundByteArray) {
         try {
             File tempMp3 = File.createTempFile("kurchina", "mp3", getCacheDir());
@@ -286,5 +284,4 @@ public class TIME extends AppCompatActivity {
         }
     }
 
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 }

@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.squareup.picasso.Picasso;
 
 import java.io.File;
@@ -22,21 +24,17 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import javax.security.auth.callback.Callback;
+
+import de.hdodenhof.circleimageview.CircleImageView;
+
+
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
 
     private static final String TAG = "RecyclerViewAdapter";
 
     //vars
-<<<<<<< HEAD
-    private ArrayList<TextView> mNames = new ArrayList<>();
-    private ArrayList<Integer> mImageUrls = new ArrayList<>();
-    private ArrayList<Integer> mrecords = new ArrayList<>();
-
-    private Context mContext;
-
-    public RecyclerViewAdapter(Context context, ArrayList<TextView> names, ArrayList<Integer> imageUrls, ArrayList<Integer> records) {
-=======
     private ArrayList<String> mNames = new ArrayList<>();
     private ArrayList<Object> mImageUrls = new ArrayList<>();
     private ArrayList<Object> mrecords = new ArrayList<>();
@@ -44,7 +42,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private Context mContext;
 
     public RecyclerViewAdapter(Context context, ArrayList<String> names, ArrayList<Object> imageUrls, ArrayList<Object> records) {
->>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
         mNames = names;
         mImageUrls = imageUrls;
         mrecords = records;
@@ -77,13 +74,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }
 
 
-        holder.name.setText(( mNames.get(position).getText().toString()));
+        holder.name.setText(mNames.get(position));
 
         holder.image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Log.d(TAG, "onClick: clicked on an image: " + mNames.get(position) + mrecords.get(position));
-                Toast.makeText(mContext, (CharSequence) mNames.get(position), Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, mNames.get(position), Toast.LENGTH_SHORT).show();
 
                /* MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),mrecords.get(position));
                 mediaPlayer.start();*/
@@ -170,4 +167,3 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }
     }
 }
-
