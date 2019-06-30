@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
@@ -43,6 +44,12 @@
                 },
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\values-v21\\values-v21.xml",
+=======
+            "outputFile": "C:\\Users\\medoz\\Downloads\\Downloads\\GP\\GP-master\\6292019\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\1f60847304e27d3a2599ed001bf2b50c\\res\\values-v21\\values-v21.xml",
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
                     "from": {
                         "startLines": "2,10,18,26",
                         "startColumns": "4,4,4,4",
@@ -61,7 +68,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\values-v21\\values-v21.xml",
+=======
+                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\dfb2567cc60dac871a2cd33edd15d8bd\\res\\values-v21\\values-v21.xml",
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -104,7 +115,30 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\2ac0fc674b54e8daae20fc72f256a2f5\\res\\values-v21\\values-v21.xml",
+=======
+                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\aaa9963c2ae0663c21d291c605d7e78d\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,780",
+                        "endLines": "12,23",
+                        "endColumns": "10,10",
+                        "endOffsets": "775,1492"
+                    },
+                    "to": {
+                        "startLines": "225,236",
+                        "startColumns": "4,4",
+                        "startOffsets": "16913,17638",
+                        "endLines": "235,246",
+                        "endColumns": "10,10",
+                        "endOffsets": "17633,18350"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\0bb9e5ea209085eec4eac4b0c2059689\\res\\values-v21\\values-v21.xml",
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.lifecycle:viewmodel-1.1.1">
+    <CLASSES>
+<<<<<<< HEAD:new19-6-2019/RehabilitationTool/.idea/libraries/android_arch_lifecycle_viewmodel_1_1_1.xml
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/bbba398ba430f5fa1da0e9852067d444/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/bbba398ba430f5fa1da0e9852067d444/jars/classes.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/df4d46926d403cab944c0d8e7ca5b4ea/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/df4d46926d403cab944c0d8e7ca5b4ea/res" />
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2:new19-6-2019/RehabilitationTool/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1.xml
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/viewmodel/1.1.1/d1cc8e805317f171be63c68341f499acda7e42d6/viewmodel-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

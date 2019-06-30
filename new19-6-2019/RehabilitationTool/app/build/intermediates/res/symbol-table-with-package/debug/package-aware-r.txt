@@ -1470,7 +1470,10 @@ id busStation2
 id butt
 id buttonPanel
 id c
+<<<<<<< HEAD
 id car2
+=======
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 id cardList
 id carrot
 id carrot2
@@ -1571,7 +1574,10 @@ id forever
 id fork2
 id forkk
 id fruit
+<<<<<<< HEAD
 id fruit2
+=======
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 id geembtn
 id ghost_view
 id glassess
@@ -1653,8 +1659,11 @@ id list_item
 id livingroom
 id livingroom2
 id love
+<<<<<<< HEAD
 id love2
 id make
+=======
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 id mango
 id mango2
 id masked
@@ -1758,7 +1767,10 @@ id practicee
 id progress_circular
 id progress_horizontal
 id qaafbtn
+<<<<<<< HEAD
 id question
+=======
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 id questions
 id raabtn
 id radio
@@ -1784,7 +1796,10 @@ id salad
 id salad2
 id samka
 id sandwich
+<<<<<<< HEAD
 id sandwich2
+=======
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1872,7 +1887,10 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id take
+<<<<<<< HEAD
 id taxi2
+=======
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 id text
 id text2
 id textSpacerNoButtons

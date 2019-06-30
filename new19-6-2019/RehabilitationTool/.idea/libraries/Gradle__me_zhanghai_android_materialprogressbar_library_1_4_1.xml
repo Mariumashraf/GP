@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: me.zhanghai.android.materialprogressbar:library-1.4.1">
+    <CLASSES>
+<<<<<<< HEAD:new19-6-2019/RehabilitationTool/.idea/libraries/me_zhanghai_android_materialprogressbar_library_1_4_1.xml
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.1.aar/cf84410577625a10b9f549571f782ec9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.1.aar/cf84410577625a10b9f549571f782ec9/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.1.aar/6ed31e704ac69e23a014f2cf26f5b830/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.1.aar/6ed31e704ac69e23a014f2cf26f5b830/res" />
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2:new19-6-2019/RehabilitationTool/.idea/libraries/Gradle__me_zhanghai_android_materialprogressbar_library_1_4_1.xml
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.materialprogressbar/library/1.4.1/29b9a7a8f3952c8ba8d969fa67daf08594df2bd2/library-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

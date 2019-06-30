@@ -2,6 +2,7 @@ package com.rehabilitationtoolgp.rehabilitationtool;
 
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.media.MediaPlayer;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -15,6 +16,10 @@ import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 
 
@@ -23,6 +28,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private static final String TAG = "RecyclerViewAdapter";
 
     //vars
+<<<<<<< HEAD
     private ArrayList<TextView> mNames = new ArrayList<>();
     private ArrayList<Integer> mImageUrls = new ArrayList<>();
     private ArrayList<Integer> mrecords = new ArrayList<>();
@@ -30,6 +36,15 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private Context mContext;
 
     public RecyclerViewAdapter(Context context, ArrayList<TextView> names, ArrayList<Integer> imageUrls, ArrayList<Integer> records) {
+=======
+    private ArrayList<String> mNames = new ArrayList<>();
+    private ArrayList<Object> mImageUrls = new ArrayList<>();
+    private ArrayList<Object> mrecords = new ArrayList<>();
+
+    private Context mContext;
+
+    public RecyclerViewAdapter(Context context, ArrayList<String> names, ArrayList<Object> imageUrls, ArrayList<Object> records) {
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
         mNames = names;
         mImageUrls = imageUrls;
         mrecords = records;
@@ -47,9 +62,19 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(ViewHolder holder, final int position) {
         Log.d(TAG, "onBindViewHolder: called.");
 
-        Picasso.with(mContext)
-                .load(mImageUrls.get(position))
-                .into(holder.image);
+        if (mImageUrls.get(position) instanceof Integer) {
+            // The Object is an instance of a String
+            Integer i = (Integer) mImageUrls.get(position);
+
+            Picasso.with(mContext)
+                    .load(i)
+                    .into(holder.image);
+        }
+        else if (mImageUrls.get(position) instanceof Bitmap) {
+            // The Object is an instance of a Double
+            Bitmap g = (Bitmap) mImageUrls.get(position);
+            holder.image.setImageBitmap(g);
+        }
 
 
         holder.name.setText(( mNames.get(position).getText().toString()));
@@ -60,8 +85,20 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 Log.d(TAG, "onClick: clicked on an image: " + mNames.get(position) + mrecords.get(position));
                 Toast.makeText(mContext, (CharSequence) mNames.get(position), Toast.LENGTH_SHORT).show();
 
-                MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),mrecords.get(position));
-                mediaPlayer.start();
+               /* MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),mrecords.get(position));
+                mediaPlayer.start();*/
+                if (mrecords.get(position) instanceof Integer) {
+                    // The Object is an instance of a String
+                    Integer i = (Integer) mrecords.get(position);
+
+                    MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),i);
+                    mediaPlayer.start();
+                }
+                else if (mrecords.get(position) instanceof byte[]) {
+                    // The Object is an instance of a Double
+                    byte[] g = (byte[]) mrecords.get(position);
+                    playMp3FromByte(g);
+                }
 
 
 
@@ -109,6 +146,27 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             mRemoveButton=itemView.findViewById(R.id.remove);
 
 
+        }
+    }
+
+    private void playMp3FromByte(byte[] mp3SoundByteArray) {
+        try {
+            File tempMp3 = File.createTempFile("kurchina", "mp3", mContext.getCacheDir());
+            tempMp3.deleteOnExit();
+            FileOutputStream fos = new FileOutputStream(tempMp3);
+            fos.write(mp3SoundByteArray);
+            fos.close();
+
+            MediaPlayer mediaPlayer = new MediaPlayer();
+
+            FileInputStream fis = new FileInputStream(tempMp3);
+            mediaPlayer.setDataSource(fis.getFD());
+            mediaPlayer.prepare();
+            mediaPlayer.start();
+
+        } catch (IOException ex) {
+            String s = ex.toString();
+            ex.printStackTrace();
         }
     }
 }

@@ -21,6 +21,11 @@ import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
 
 import io.paperdb.Paper;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 public class FOODS extends AppCompatActivity {
     TextView vegetables2,fruits2,rice2,egg2,cheese2,yogurt2,sandwich2,fish2,salad2,pizza2,chicken2,bread2,meat2,soup2,jam2,icecream2,honey2,biscuit2,popcorn2,chocolate2;
     @Override
@@ -445,8 +450,22 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
 
                 for (int i=0;i<  globalv.getMrecords().size();i++) {
-                    final MediaPlayer mediaPlay = MediaPlayer.create(FOODS.this, globalv.getMrecords().get(i));
-                    mediaPlay.start();
+                    /*final MediaPlayer mediaPlay = MediaPlayer.create(FOODS.this, globalv.getMrecords().get(i));
+                    mediaPlay.start();*/
+
+                    if (globalv.getMrecords().get(i) instanceof Integer) {
+                        // The Object is an instance of a String
+                        Integer M = (Integer) globalv.getMrecords().get(i);
+
+                        MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),M);
+                        mediaPlayer.start();
+                    }
+                    else if (globalv.getMrecords().get(i) instanceof byte[]) {
+                        // The Object is an instance of a Double
+                        byte[] g = (byte[]) globalv.getMrecords().get(i);
+                        playMp3FromByte(g);
+                    }
+
                     try {
                         Thread.sleep(700);
                     } catch(InterruptedException e) {
@@ -487,6 +506,7 @@ public class FOODS extends AppCompatActivity {
         Runtime.getRuntime().gc();
         System.gc();
     }
+<<<<<<< HEAD
 
     private void updateView(String lang) {
         Context context = LocalHelper.setLocale(this,lang);
@@ -535,6 +555,28 @@ public class FOODS extends AppCompatActivity {
         return true;
     }
 
+=======
+    private void playMp3FromByte(byte[] mp3SoundByteArray) {
+        try {
+            File tempMp3 = File.createTempFile("kurchina", "mp3", getCacheDir());
+            tempMp3.deleteOnExit();
+            FileOutputStream fos = new FileOutputStream(tempMp3);
+            fos.write(mp3SoundByteArray);
+            fos.close();
+
+            MediaPlayer mediaPlayer = new MediaPlayer();
+
+            FileInputStream fis = new FileInputStream(tempMp3);
+            mediaPlayer.setDataSource(fis.getFD());
+            mediaPlayer.prepare();
+            mediaPlayer.start();
+
+        } catch (IOException ex) {
+            String s = ex.toString();
+            ex.printStackTrace();
+        }
+    }
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
 
     }
 

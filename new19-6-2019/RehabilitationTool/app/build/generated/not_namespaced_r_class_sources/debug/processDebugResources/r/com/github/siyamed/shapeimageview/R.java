@@ -29,6 +29,7 @@ public final class R {
     public static final class id {
         private id() {}
 
+<<<<<<< HEAD
         public static final int bevel = 0x7f0f003f;
         public static final int butt = 0x7f0f003c;
         public static final int fill = 0x7f0f003a;
@@ -38,16 +39,36 @@ public final class R {
         public static final int round = 0x7f0f003d;
         public static final int square = 0x7f0f003e;
         public static final int stroke = 0x7f0f003b;
+=======
+        public static final int bevel = 0x7f08003d;
+        public static final int butt = 0x7f08004b;
+        public static final int fill = 0x7f08008d;
+        public static final int left = 0x7f0800c2;
+        public static final int miter = 0x7f0800e3;
+        public static final int right = 0x7f08011c;
+        public static final int round = 0x7f080120;
+        public static final int square = 0x7f080157;
+        public static final int stroke = 0x7f08015f;
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
     }
     public static final class raw {
         private raw() {}
 
+<<<<<<< HEAD
         public static final int imgview_diamond = 0x7f08003b;
         public static final int imgview_heart = 0x7f08003c;
         public static final int imgview_hexagon = 0x7f08003d;
         public static final int imgview_octogon = 0x7f08003e;
         public static final int imgview_pentagon = 0x7f08003f;
         public static final int imgview_star = 0x7f080040;
+=======
+        public static final int imgview_diamond = 0x7f0e003b;
+        public static final int imgview_heart = 0x7f0e003c;
+        public static final int imgview_hexagon = 0x7f0e003d;
+        public static final int imgview_octogon = 0x7f0e003e;
+        public static final int imgview_pentagon = 0x7f0e003f;
+        public static final int imgview_star = 0x7f0e0040;
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2
     }
     public static final class styleable {
         private styleable() {}

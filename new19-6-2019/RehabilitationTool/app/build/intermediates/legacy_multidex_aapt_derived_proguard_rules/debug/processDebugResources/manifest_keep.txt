@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 # view AndroidManifest.xml #generated:20
 -keep class com.rehabilitationtoolgp.rehabilitationtool.Globalrecycler { <init>(...); }
 
+=======
+# Referenced at C:\Users\medoz\Downloads\Downloads\GP\GP-master\6292019\GP\new19-6-2019\RehabilitationTool\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:20
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\medoz\Downloads\Downloads\GP\GP-master\6292019\GP\new19-6-2019\RehabilitationTool\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:20
+-keep class com.rehabilitationtoolgp.rehabilitationtool.Globalrecycler { <init>(); }
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2

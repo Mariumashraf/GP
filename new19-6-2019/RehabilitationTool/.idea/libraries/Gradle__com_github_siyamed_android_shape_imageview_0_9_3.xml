@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.siyamed:android-shape-imageview-0.9.3">
+    <CLASSES>
+<<<<<<< HEAD:new19-6-2019/RehabilitationTool/.idea/libraries/com_github_siyamed_android_shape_imageview_0_9_3.xml
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/a193a2da5dbe89b7ec0882339b72b345/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/a193a2da5dbe89b7ec0882339b72b345/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/66ef176ca0e5c56fe783a18eccb89db3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/66ef176ca0e5c56fe783a18eccb89db3/res" />
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2:new19-6-2019/RehabilitationTool/.idea/libraries/Gradle__com_github_siyamed_android_shape_imageview_0_9_3.xml
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.siyamed/android-shape-imageview/0.9.3/486b943a1ffa8fbbc95ec98e6587bc2ccd9f1e67/android-shape-imageview-0.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

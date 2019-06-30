@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.lifecycle:livedata-1.1.1">
+    <CLASSES>
+<<<<<<< HEAD:new19-6-2019/RehabilitationTool/.idea/libraries/android_arch_lifecycle_livedata_1_1_1.xml
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/88e30c6a7c487eedfb0a54e48897851f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/88e30c6a7c487eedfb0a54e48897851f/jars/classes.jar!/" />
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bed30a9d347bede7ad4927456e6eeb7d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bed30a9d347bede7ad4927456e6eeb7d/jars/classes.jar!/" />
+>>>>>>> f0cf9b186c6d0b3f8063256bd9283c5b02504fb2:new19-6-2019/RehabilitationTool/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1.xml
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata/1.1.1/bf27acaa4953c98cd519756ed7b7caacf94407d4/livedata-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
