@@ -1,25 +1,63 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class PLACES extends AppCompatActivity {
     private static final String TAG = "PLACES";
     Globalrecycler globalv;
 
+    TextView livingroom2,bathroom2,kitchen2,university2,school2,supermarket2,home2,companyy2,hospital2,busStation2,park2,bedroom2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places);
+
+        livingroom2 = (TextView)findViewById(R.id.livingroom2);
+        bathroom2 = (TextView)findViewById(R.id.bathroom2);
+        kitchen2 = (TextView)findViewById(R.id.kitchen2);
+        university2 = (TextView)findViewById(R.id.university2);
+        school2 = (TextView)findViewById(R.id.school2);
+        supermarket2 = (TextView)findViewById(R.id.supermarket2);
+        home2 = (TextView)findViewById(R.id.home2);
+        companyy2 = (TextView)findViewById(R.id.companyy2);
+        hospital2 = (TextView)findViewById(R.id.hospital2);
+        busStation2 = (TextView)findViewById(R.id.busStation2);
+        park2 = (TextView)findViewById(R.id.park2);
+        bedroom2 = (TextView)findViewById(R.id.bedroom2);
+
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
 
         ImageView bedroom = (ImageView) findViewById(R.id.bedroom);
         ImageView bathroom = (ImageView) findViewById(R.id.bathroom);
@@ -48,7 +86,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 kitchenplayer.start();
                 globalv.addmImageUrls(R.drawable.kitchen);
-                globalv.addmNames("المطبخ");
+                globalv.addmNames(kitchen2);
                 globalv.addMrecords(R.raw.kitchennn);
                 initRecyclerView();
 
@@ -64,7 +102,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 companyplayer.start();
                 globalv.addmImageUrls(R.drawable.work);
-                globalv.addmNames("الشركة");
+                globalv.addmNames(companyy2);
                 globalv.addMrecords(R.raw.work);
                 initRecyclerView();
 
@@ -80,7 +118,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 bedplayer.start();
                 globalv.addmImageUrls(R.drawable.bedroom);
-                globalv.addmNames("اوضة النوم");
+                globalv.addmNames(bedroom2);
                 globalv.addMrecords(R.raw.bedroommm);
                 initRecyclerView();
 
@@ -96,7 +134,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 pathplayer.start();
                 globalv.addmImageUrls(R.drawable.toilet);
-                globalv.addmNames("الحمام");
+                globalv.addmNames(bathroom2);
                 globalv.addMrecords(R.raw.bathroommm);
                 initRecyclerView();
 
@@ -113,7 +151,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 livingplayer.start();
                 globalv.addmImageUrls(R.drawable.livingroom);
-                globalv.addmNames("الصالة");
+                globalv.addmNames(livingroom2);
                 globalv.addMrecords(R.raw.salonnn);
                 initRecyclerView();
 
@@ -130,7 +168,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 schoolplayer.start();
                 globalv.addmImageUrls(R.drawable.school);
-                globalv.addmNames("المدرسة");
+                globalv.addmNames(school2);
                 globalv.addMrecords(R.raw.schoolll);
                 initRecyclerView();
 
@@ -146,7 +184,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 superplayer.start();
                 globalv.addmImageUrls(R.drawable.supermarket);
-                globalv.addmNames("السوبرماركت");
+                globalv.addmNames(supermarket2);
                 globalv.addMrecords(R.raw.supermarkettt);
                 initRecyclerView();
 
@@ -162,7 +200,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 universityplayer.start();
                 globalv.addmImageUrls(R.drawable.university);
-                globalv.addmNames("الجامعة");
+                globalv.addmNames(university2);
                 globalv.addMrecords(R.raw.universityyy);
                 initRecyclerView();
 
@@ -178,7 +216,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 homeplayer.start();
                 globalv.addmImageUrls(R.drawable.home);
-                globalv.addmNames("البيت");
+                globalv.addmNames(home2);
                 globalv.addMrecords(R.raw.home);
                 initRecyclerView();
 
@@ -195,7 +233,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 hoslplayer.start();
                 globalv.addmImageUrls(R.drawable.hospital);
-                globalv.addmNames("المستشفى");
+                globalv.addmNames(hospital2);
                 globalv.addMrecords(R.raw.hosbital);
                 initRecyclerView();
 
@@ -210,7 +248,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 busplayer.start();
                 globalv.addmImageUrls(R.drawable.busstation);
-                globalv.addmNames("محطة القطار");
+                globalv.addmNames(busStation2);
                 globalv.addMrecords(R.raw.busstation);
 
 
@@ -226,7 +264,7 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
                 parkyplayer.start();
                 globalv.addmImageUrls(R.drawable.park);
-                globalv.addmNames("الحديقة");
+                globalv.addmNames(park2);
                 globalv.addMrecords(R.raw.garden);
                 initRecyclerView();
 
@@ -280,6 +318,47 @@ public class PLACES extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
+    }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        livingroom2.setText(resources.getString(R.string.livingroom));
+        bathroom2.setText(resources.getString(R.string.bathroom));
+        bedroom2.setText(resources.getString(R.string.bedroom));
+        kitchen2.setText(resources.getString(R.string.kitchen));
+        university2.setText(resources.getString(R.string.university));
+        school2.setText(resources.getString(R.string.school));
+        companyy2.setText(resources.getString(R.string.company));
+        home2.setText(resources.getString(R.string.home));
+        hospital2.setText(resources.getString(R.string.hospital));
+        park2.setText(resources.getString(R.string.park));
+        busStation2.setText(resources.getString(R.string.busstation));
+        supermarket2.setText(resources.getString(R.string.supermarket));
+
+
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
     }
 

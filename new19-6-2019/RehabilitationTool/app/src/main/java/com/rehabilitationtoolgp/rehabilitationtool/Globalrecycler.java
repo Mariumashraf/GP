@@ -2,13 +2,14 @@ package com.rehabilitationtoolgp.rehabilitationtool;
 
 
 import android.app.Application;
+import android.widget.TextView;
 
 
 import java.util.ArrayList;
 
 public class Globalrecycler extends Application {
     private static final String TAG = "Globalrecycler";
-    private  ArrayList<String> mNames = new ArrayList<>();
+    private ArrayList<TextView> mNames = new ArrayList<TextView>();
     private  ArrayList<Integer> mImageUrls = new ArrayList<>();
     private ArrayList<Integer> mrecords = new ArrayList<>();
 
@@ -17,14 +18,14 @@ public class Globalrecycler extends Application {
         return TAG;
     }
 
-    public ArrayList<String> getmNames() {
+    public ArrayList<TextView> getmNames() {
         return mNames;
     }
 
-    public void setmNames(ArrayList<String> mNames) {
+    public void setmNames(ArrayList<TextView> mNames) {
         this.mNames = mNames;
     }
-    public void addmNames(String mNames) {
+    public void addmNames(TextView mNames) {
         this.mNames.add(mNames);
     }
 

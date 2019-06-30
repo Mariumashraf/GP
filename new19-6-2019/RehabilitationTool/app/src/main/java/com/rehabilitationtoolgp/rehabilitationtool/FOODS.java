@@ -1,18 +1,32 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class FOODS extends AppCompatActivity {
+    TextView vegetables2,fruits2,rice2,egg2,cheese2,yogurt2,sandwich2,fish2,salad2,pizza2,chicken2,bread2,meat2,soup2,jam2,icecream2,honey2,biscuit2,popcorn2,chocolate2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
     private static final String TAG = "FOODS";
     Globalrecycler globalv;
 
@@ -24,6 +38,37 @@ public class FOODS extends AppCompatActivity {
         CleanUpMemory();
         setContentView(R.layout.activity_foods);
 
+
+        vegetables2 = (TextView)findViewById(R.id.vegatable2);
+        fruits2 = (TextView)findViewById(R.id.fruit2);
+        rice2 = (TextView)findViewById(R.id.rice2);
+        egg2 = (TextView)findViewById(R.id.egg2);
+        cheese2 = (TextView)findViewById(R.id.cheese2);
+        yogurt2 = (TextView)findViewById(R.id.Yogurt2);
+        sandwich2 = (TextView)findViewById(R.id.sandwich2);
+        salad2 = (TextView)findViewById(R.id.salad2);
+        pizza2 = (TextView)findViewById(R.id.pizza2);
+        soup2 = (TextView)findViewById(R.id.soup2);
+        chicken2 = (TextView)findViewById(R.id.chickens2);
+        bread2 = (TextView)findViewById(R.id.bread2);
+        meat2 = (TextView)findViewById(R.id.meat2);
+        jam2 = (TextView)findViewById(R.id.jam2);
+        icecream2 = (TextView)findViewById(R.id.icecream2);
+        honey2 = (TextView)findViewById(R.id.honey2);
+        biscuit2 = (TextView)findViewById(R.id.biscuit2);
+        chocolate2 = (TextView)findViewById(R.id.chocolate2);
+        popcorn2 = (TextView)findViewById(R.id.popcorn2);
+        fish2 = (TextView)findViewById(R.id.fish2);
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
+
         ImageView rice = (ImageView) findViewById(R.id.rice);
         ImageView egg = (ImageView) findViewById(R.id.egg);
         ImageView vegatable = (ImageView) findViewById(R.id.vegatable);
@@ -32,7 +77,7 @@ public class FOODS extends AppCompatActivity {
         ImageView pizza = (ImageView) findViewById(R.id.pizza);
         ImageView biscuit = (ImageView) findViewById(R.id.biscuit);
         ImageView cheese = (ImageView) findViewById(R.id.cheese);
-        ImageView Yogurt = (ImageView) findViewById(R.id.Yogurt);
+        final ImageView Yogurt = (ImageView) findViewById(R.id.Yogurt);
         ImageView salad = (ImageView) findViewById(R.id.salad);
         ImageView fish = (ImageView) findViewById(R.id.samka);
         ImageView sandwich = (ImageView) findViewById(R.id.sandwich);
@@ -59,7 +104,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 riceplayer.start();
                globalv.addmImageUrls(R.drawable.roz);
-                globalv.addmNames("رز");
+                globalv.addmNames(rice2);
                 globalv.addMrecords(R.raw.riceee);
                 initRecyclerView();
 
@@ -75,7 +120,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 eggplayer.start();
                 globalv.addmImageUrls(R.drawable.egg);
-                globalv.addmNames("بيض");
+                globalv.addmNames(egg2);
                 globalv.addMrecords(R.raw.egggg);
                 initRecyclerView();
 
@@ -125,7 +170,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 iceplayer.start();
                globalv.addmImageUrls(R.drawable.icecream);
-                globalv.addmNames("أيس كريم");
+                globalv.addmNames(icecream2);
                 globalv.addMrecords(R.raw.icecreammm);
                 initRecyclerView();
 
@@ -141,7 +186,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 pizzaplayer.start();
                 globalv.addmImageUrls(R.drawable.pizza);
-                globalv.addmNames("بيتزا");
+                globalv.addmNames(pizza2);
                 globalv.addMrecords(R.raw.pizzaaa);
                 initRecyclerView();
 
@@ -159,7 +204,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 biscuitplayer.start();
                 globalv.addmImageUrls(R.drawable.baskot);
-                globalv.addmNames("بسكويت");
+                globalv.addmNames(biscuit2);
                 globalv.addMrecords(R.raw.biscuitsss);
                 initRecyclerView();
 
@@ -175,7 +220,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 cheeseplayer.start();
                globalv.addmImageUrls(R.drawable.gebna);
-                globalv.addmNames("جبنة");
+                globalv.addmNames(cheese2);
                 globalv.addMrecords(R.raw.cheeseee);
                 initRecyclerView();
 
@@ -193,7 +238,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 yogurtplayer.start();
                 globalv.addmImageUrls(R.drawable.zbady);
-                globalv.addmNames("زبادى");
+                globalv.addmNames(yogurt2);
                 globalv.addMrecords(R.raw.zbadyyy);
                 initRecyclerView();
 
@@ -209,7 +254,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 saladplayer.start();
                 globalv.addmImageUrls(R.drawable.salta);
-                globalv.addmNames("سلطة");
+                globalv.addmNames(salad2);
                 globalv.addMrecords(R.raw.saladdd);
                 initRecyclerView();
 
@@ -227,7 +272,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 fishplayer.start();
                 globalv.addmImageUrls(R.drawable.samka);
-                globalv.addmNames("سمك");
+                globalv.addmNames(fish2);
                 globalv.addMrecords(R.raw.fishhh);
                 initRecyclerView();
 
@@ -243,7 +288,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 sandwichplayer.start();
                 globalv.addmImageUrls(R.drawable.sandwich);
-                globalv.addmNames("سندوتش");
+                globalv.addmNames(sandwich2);
                 globalv.addMrecords(R.raw.sandwichesss);
                 initRecyclerView();
 
@@ -261,7 +306,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 soupplayer.start();
                 globalv.addmImageUrls(R.drawable.shorba);
-                globalv.addmNames("شوربة");
+                globalv.addmNames(soup2);
                 globalv.addMrecords(R.raw.souppp);
                 initRecyclerView();
 
@@ -277,7 +322,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 chocolaplayer.start();
                 globalv.addmImageUrls(R.drawable.chocolate);
-                globalv.addmNames("شيكولاتة");
+                globalv.addmNames(chocolate2);
                 globalv.addMrecords(R.raw.chocolateee);
                 initRecyclerView();
 
@@ -296,7 +341,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 honeyplayer.start();
                 globalv.addmImageUrls(R.drawable.asl);
-                globalv.addmNames("عسل");
+                globalv.addmNames(honey2);
                 globalv.addMrecords(R.raw.honeyyy);
                 initRecyclerView();
 
@@ -312,7 +357,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 breadplayer.start();
                 globalv.addmImageUrls(R.drawable.esh);
-                globalv.addmNames("عيش");
+                globalv.addmNames(bread2);
                 globalv.addMrecords(R.raw.breaddd);
                 initRecyclerView();
 
@@ -331,7 +376,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 chickenplayer.start();
                 globalv.addmImageUrls(R.drawable.frahk);
-                globalv.addmNames("فراخ");
+                globalv.addmNames(chicken2);
                 globalv.addMrecords(R.raw.chickennn);
                 initRecyclerView();
 
@@ -347,7 +392,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 popplayer.start();
                 globalv.addmImageUrls(R.drawable.fshaar);
-                globalv.addmNames("فشار");
+                globalv.addmNames(popcorn2);
                 globalv.addMrecords(R.raw.popcornnn);
                 initRecyclerView();
 
@@ -365,7 +410,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 meatplayer.start();
                 globalv.addmImageUrls(R.drawable.meat);
-                globalv.addmNames("لحمة");
+                globalv.addmNames(meat2);
                 globalv.addMrecords(R.raw.meattt);
                 initRecyclerView();
 
@@ -381,7 +426,7 @@ public class FOODS extends AppCompatActivity {
             public void onClick(View view) {
                 jamplayer.start();
                 globalv.addmImageUrls(R.drawable.marba);
-                globalv.addmNames("مربي");
+                globalv.addmNames(jam2);
                 globalv.addMrecords(R.raw.jammm);
                 initRecyclerView();
 
@@ -441,6 +486,53 @@ public class FOODS extends AppCompatActivity {
         System.runFinalization();
         Runtime.getRuntime().gc();
         System.gc();
+    }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        chocolate2.setText(resources.getString(R.string.chocolate));
+        popcorn2.setText(resources.getString(R.string.popcorn));
+        biscuit2.setText(resources.getString(R.string.biscuit));
+        honey2.setText(resources.getString(R.string.honey));
+        icecream2.setText(resources.getString(R.string.icecream));
+        jam2.setText(resources.getString(R.string.jam));
+        soup2.setText(resources.getString(R.string.soup));
+        meat2.setText(resources.getString(R.string.meat));
+        bread2.setText(resources.getString(R.string.bread));
+        chicken2.setText(resources.getString(R.string.chicken));
+        pizza2.setText(resources.getString(R.string.pizza));
+        salad2.setText(resources.getString(R.string.salad));
+        fish2.setText(resources.getString(R.string.fish));
+        sandwich2.setText(resources.getString(R.string.sandwich));
+        yogurt2.setText(resources.getString(R.string.yogurt));
+        cheese2.setText(resources.getString(R.string.cheese));
+        egg2.setText(resources.getString(R.string.egg));
+        rice2.setText(resources.getString(R.string.rice));
+        fruits2.setText(resources.getString(R.string.fruits));
+        vegetables2.setText(resources.getString(R.string.vegetables));
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 
 

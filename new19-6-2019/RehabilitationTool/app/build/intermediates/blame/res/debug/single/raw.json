@@ -1,0 +1,706 @@
+[
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\imgview_heart.svg",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_heart.svg"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\thinkkk.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\thinkkk.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\guavaaa.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\guavaaa.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\carrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\carrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\open.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\open.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ant.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\ant.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\insideee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\insideee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tvvv.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\tvvv.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\pantsss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\pantsss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\computerrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\computerrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bird.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\bird.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ballll.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\ballll.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\selm.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\selm.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\riceee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\riceee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\souppp.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\souppp.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\hate.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\hate.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\motosekl.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\motosekl.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lamp.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\lamp.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\write.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\write.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\betweennn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\betweennn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\plateee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\plateee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\trainnn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\trainnn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\when.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\when.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\where.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\where.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\notebookkk.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\notebookkk.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\who.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\who.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sandwichesss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\sandwichesss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\cosgirl.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\cosgirl.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\uppp.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\uppp.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\happy.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\happy.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\readdd.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\readdd.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\timekam.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\timekam.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\suittt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\suittt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\insect.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\insect.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\peachhh.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\peachhh.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\appleee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\appleee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\rock.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\rock.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\chickennn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\chickennn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tomatoesss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\tomatoesss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\nighttt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\nighttt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\wearrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\wearrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ineeddd.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\ineeddd.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\cuppp.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\cuppp.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\khearrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\khearrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\milkkk.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\milkkk.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\egggg.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\egggg.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\chairrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\chairrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\drinkkk.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\drinkkk.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\today.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\today.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tshirttt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\tshirttt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bravo.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\bravo.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\work.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\work.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\khasss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\khasss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\glassss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\glassss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\yesterday.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\yesterday.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tree.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\tree.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\motherrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\motherrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\spoonnn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\spoonnn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\meattt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\meattt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\howmany.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\howmany.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\imgview_pentagon.svg",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_pentagon.svg"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sisterrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\sisterrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\busstation.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\busstation.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\breaddd.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\breaddd.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\salonnn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\salonnn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lockkk.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\lockkk.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\universityyy.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\universityyy.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beganppp.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\beganppp.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\eattt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\eattt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\seen.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\seen.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\jumppp.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\jumppp.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\shoesss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\shoesss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\carrottt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\carrottt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\out.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\out.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bathroommm.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\bathroommm.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\busss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\busss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\clock.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\clock.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\imgview_octogon.svg",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_octogon.svg"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\cat.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\cat.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\kitchennn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\kitchennn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\schoolll.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\schoolll.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\honeyyy.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\honeyyy.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\hosbital.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\hosbital.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\roman.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\roman.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sleeppp.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\sleeppp.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\knifeee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\knifeee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\potatoesss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\potatoesss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\jackettt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\jackettt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\garden.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\garden.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\laam.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\laam.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gamesss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\gamesss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\chocolateee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\chocolateee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tableee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\tableee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\cousine.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\cousine.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\planeee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\planeee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\taxiii.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\taxiii.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tomorrw.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\tomorrw.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\dresss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\dresss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zbadyyy.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\zbadyyy.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sunset.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\sunset.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\jammm.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\jammm.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\wash.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\wash.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\brotherrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\brotherrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\dog.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\dog.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\watermelonnn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\watermelonnn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\home.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\home.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bananaaa.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\bananaaa.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gooo.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\gooo.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\chair.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\chair.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\pizzaaa.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\pizzaaa.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lefttt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\lefttt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\imgview_diamond.svg",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_diamond.svg"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\supermarkettt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\supermarkettt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\orangeee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\orangeee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\imgview_hexagon.svg",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_hexagon.svg"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\elevator.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\elevator.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\yesss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\yesss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\laziiz.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\laziiz.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\motherbro.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\motherbro.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\unkle.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\unkle.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bedroommm.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\bedroommm.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gripsss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\gripsss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\biscuitsss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\biscuitsss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\waterrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\waterrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\saladdd.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\saladdd.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\fatherrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\fatherrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\stroparyyy.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\stroparyyy.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\love.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\love.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sad.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\sad.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\methams.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\methams.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\watchhh.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\watchhh.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\speakkk.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\speakkk.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blouseee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\blouseee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\popcornnn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\popcornnn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\mozeeg.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\mozeeg.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\scared.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\scared.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\imgview_star.svg",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_star.svg"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sonofunkle.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\sonofunkle.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\shippp.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\shippp.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\icecreammm.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\icecreammm.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\whichone.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\whichone.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\fish.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\fish.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\pajamaaa.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\pajamaaa.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\juiceee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\juiceee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\forkkk.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\forkkk.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\raa.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\raa.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\mooref.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\mooref.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\grandmaaa.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\grandmaaa.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\pennn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\pennn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\nooo.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\nooo.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\kometraaa.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\kometraaa.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\morninggg.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\morninggg.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\donotunder.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\donotunder.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\mothersis.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\mothersis.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sun.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\sun.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\fishhh.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\fishhh.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\boring.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\boring.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tryagain.m4a",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\tryagain.m4a"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\mangooo.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\mangooo.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\why.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\why.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\skirttt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\skirttt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bicycleee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\bicycleee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sockkk.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\sockkk.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\inotneeddd.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\inotneeddd.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\underrr.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\underrr.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\hurt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\hurt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\mohrag.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\mohrag.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\straight.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\straight.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\cheeseee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\cheeseee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\smileee.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\smileee.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\metrooo.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\metrooo.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\runnn.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\runnn.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\makasss.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\makasss.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\arounddd.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\arounddd.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\righttt.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\righttt.mp3"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw\\grandpaaa.mp3",
+        "source": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\src\\main\\res\\raw\\grandpaaa.mp3"
+    }
+]

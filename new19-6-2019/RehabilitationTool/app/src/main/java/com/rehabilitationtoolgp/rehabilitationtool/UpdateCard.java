@@ -1,7 +1,9 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
@@ -19,7 +21,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
@@ -28,7 +33,14 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import io.paperdb.Paper;
+
 public class UpdateCard extends AppCompatActivity {
+    TextView textimage,textrecord,textname;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
 
     SQLite db;
     int id;
@@ -47,6 +59,19 @@ public class UpdateCard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_card);
+
+        textimage = (TextView)findViewById(R.id.textimage);
+        textname = (TextView)findViewById(R.id.textname);
+        textrecord = (TextView)findViewById(R.id.textrecord);
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
 
 
         id = getIntent().getIntExtra("id", 0);
@@ -285,4 +310,17 @@ public class UpdateCard extends AppCompatActivity {
         return byteArray;
 
     }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        textrecord.setText(resources.getString(R.string.addrecord));
+        textname.setText(resources.getString(R.string.addname));
+        textimage.setText(resources.getString(R.string.addimage));
+
+
+
+
+    }
+
 }

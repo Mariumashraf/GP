@@ -1,18 +1,32 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class VEGETABLES extends AppCompatActivity {
+    TextView lettuce2,potato2,cucumber2,tomato2,carrot2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
     private static final String TAG = "VEGETABLES";
     Globalrecycler globalv;
 
@@ -20,6 +34,21 @@ public class VEGETABLES extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vegetables);
+
+        lettuce2 = (TextView)findViewById(R.id.lettuce2);
+        potato2 = (TextView)findViewById(R.id.potato2);
+        cucumber2 = (TextView)findViewById(R.id.cucumber2);
+        tomato2 = (TextView)findViewById(R.id.tomato2);
+        carrot2 = (TextView)findViewById(R.id.carrot2);
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
 
         ImageView tomato =(ImageView) findViewById(R.id.tomato);
         ImageView potato=(ImageView) findViewById(R.id.potato);
@@ -41,7 +70,7 @@ public class VEGETABLES extends AppCompatActivity {
             public void onClick(View view) {
                 tomatoplayer.start();
                 globalv.addmImageUrls(R.drawable.tomato);
-                globalv.addmNames("طماطم");
+                globalv.addmNames(tomato2);
                 globalv.addMrecords(R.raw.tomatoesss);
                 initRecyclerView();
 
@@ -58,7 +87,7 @@ public class VEGETABLES extends AppCompatActivity {
             public void onClick(View view) {
                 potatoplayer.start();
                 globalv.addmImageUrls(R.drawable.btats);
-                globalv.addmNames("بطاطس");
+                globalv.addmNames(potato2);
                 globalv.addMrecords(R.raw.potatoesss);
                 initRecyclerView();
 
@@ -75,7 +104,7 @@ public class VEGETABLES extends AppCompatActivity {
             public void onClick(View view) {
                 cucumberplayer.start();
                 globalv.addmImageUrls(R.drawable.kyar);
-                globalv.addmNames("خيار");
+                globalv.addmNames(cucumber2);
                 globalv.addMrecords(R.raw.khearrr);
                 initRecyclerView();
 
@@ -92,7 +121,7 @@ public class VEGETABLES extends AppCompatActivity {
             public void onClick(View view) {
                 carrotplayer.start();
                 globalv.addmImageUrls(R.drawable.gazr);
-                globalv.addmNames("جزر");
+                globalv.addmNames(carrot2);
                 globalv.addMrecords(R.raw.carrottt);
                 initRecyclerView();
 
@@ -108,7 +137,7 @@ public class VEGETABLES extends AppCompatActivity {
             public void onClick(View view) {
                 lettuceplayer.start();
                 globalv.addmImageUrls(R.drawable.kas);
-                globalv.addmNames("خس");
+                globalv.addmNames(lettuce2);
                 globalv.addMrecords(R.raw.khasss);
                 initRecyclerView();
 
@@ -162,5 +191,38 @@ public class VEGETABLES extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
+    }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        carrot2.setText(resources.getString(R.string.carrot));
+        cucumber2.setText(resources.getString(R.string.cucumber));
+        lettuce2.setText(resources.getString(R.string.lettuce));
+        tomato2.setText(resources.getString(R.string.tomato));
+        potato2.setText(resources.getString(R.string.potato));
+
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 }

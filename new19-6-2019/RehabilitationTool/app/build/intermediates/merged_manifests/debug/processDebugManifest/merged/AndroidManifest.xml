@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rehabilitationtoolgp.rehabilitationtool"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="28" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:name="com.rehabilitationtoolgp.rehabilitationtool.Globalrecycler"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="المحمول كأداة لإعادة التأهيل"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.FOODS" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.CLOTHES" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.PLACES" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.DRINKS" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.VEGETABLES" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.FRUIT" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.CREATCARD" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.DIRECTIONS" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.TIME" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.FAMILY" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.TOOLS" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.TRANSPORTATION" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.PRACTICING" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.RAA" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.SEEN" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.laam" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.CardList" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.UpdateCard" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.Animals" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.Feelings" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.Questions" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.ACTIONS" />
+        <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.Main2Activity" />
+    </application>
+
+</manifest>

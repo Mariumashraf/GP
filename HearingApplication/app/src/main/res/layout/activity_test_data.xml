@@ -31,7 +31,8 @@
             <com.github.mikephil.charting.charts.LineChart
                 android:id="@+id/chart"
                 android:layout_width="match_parent"
-                android:layout_height="600px" />
+                android:layout_height="600px"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/email_button"

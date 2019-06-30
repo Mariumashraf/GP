@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Fri Jun 21 20:28:48 EET 2019
-1.base=C\:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\new19-6-2018\\RehabilitationTool\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+#Sun Jun 30 03:03:31 EET 2019
+1.base=D\:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=C\:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\new19-6-2018\\RehabilitationTool\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+0.base=D\:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 1.path=classes.dex

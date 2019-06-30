@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
+    }
+]

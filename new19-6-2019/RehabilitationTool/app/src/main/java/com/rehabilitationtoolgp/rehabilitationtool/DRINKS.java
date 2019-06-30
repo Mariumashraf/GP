@@ -1,25 +1,43 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class DRINKS extends AppCompatActivity {
     private static final String TAG = "DRINKS";
     Globalrecycler globalv;
+    TextView water2,juice2,milk2;
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drinks);
+        water2 = (TextView)findViewById(R.id.water2);
+        juice2  = (TextView)findViewById(R.id.juice2);
+        milk2  = (TextView)findViewById(R.id.milk2);
 
 
         ImageView juice = (ImageView) findViewById(R.id.juice);
@@ -40,7 +58,7 @@ public class DRINKS extends AppCompatActivity {
             public void onClick(View view) {
                 juiceplayer.start();
                 globalv.addmImageUrls(R.drawable.aser);
-                globalv.addmNames("عصير");
+                globalv.addmNames(juice2);
                 globalv.addMrecords(R.raw.juiceee);
                 initRecyclerView();
 
@@ -54,7 +72,7 @@ public class DRINKS extends AppCompatActivity {
             public void onClick(View view) {
                 waterplayer.start();
                 globalv.addmImageUrls(R.drawable.water);
-                globalv.addmNames("ماء");
+                globalv.addmNames(water2);
                 globalv.addMrecords(R.raw.waterrr);
                 initRecyclerView();
 
@@ -68,7 +86,7 @@ public class DRINKS extends AppCompatActivity {
             public void onClick(View view) {
                 milkplayer.start();
                 globalv.addmImageUrls(R.drawable.labn);
-                globalv.addmNames("لبن");
+                globalv.addmNames(milk2);
                 globalv.addMrecords(R.raw.milkkk);
                 initRecyclerView();
 
@@ -123,6 +141,35 @@ public class DRINKS extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
+    }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        water2.setText(resources.getString(R.string.water));
+        juice2.setText(resources.getString(R.string.juice));
+        milk2.setText(resources.getString(R.string.milk));
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
     }
 

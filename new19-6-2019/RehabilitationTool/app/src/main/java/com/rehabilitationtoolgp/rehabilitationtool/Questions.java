@@ -1,18 +1,32 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class Questions extends AppCompatActivity {
+    TextView where2,when2,why2,who2,whichone2,howmoney2,time2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
     private static final String TAG = "Questions";
     Globalrecycler globalv;
 
@@ -21,12 +35,30 @@ public class Questions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
+        time2 = (TextView)findViewById(R.id.time2);
+        howmoney2 = (TextView)findViewById(R.id.howmoney2);
+        whichone2 = (TextView)findViewById(R.id.whichone2);
+        who2 = (TextView)findViewById(R.id.who2);
+        when2 = (TextView)findViewById(R.id.why2);
+        why2 = (TextView)findViewById(R.id.when2);
+        where2 = (TextView)findViewById(R.id.where2);
+
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
+
 
         ImageView where = (ImageView) findViewById(R.id.where);
-        ImageView why= (ImageView) findViewById(R.id.why);
+        final ImageView why= (ImageView) findViewById(R.id.why);
         ImageView who =(ImageView) findViewById(R.id.who);
         ImageView whichone=(ImageView) findViewById(R.id.whichone);
-        ImageView when= (ImageView) findViewById(R.id.when);
+        final ImageView when= (ImageView) findViewById(R.id.when);
         ImageView time =(ImageView) findViewById(R.id.timeee);
         ImageView howmoney=(ImageView) findViewById(R.id.howmoney);
         ImageButton play = (ImageButton) findViewById(R.id.playall);
@@ -44,7 +76,7 @@ public class Questions extends AppCompatActivity {
             public void onClick(View view) {
                 whereplayer.start();
                 globalv.addmImageUrls(R.drawable.where);
-                globalv.addmNames("أين");
+                globalv.addmNames(where2);
                 globalv.addMrecords(R.raw.where);
                 initRecyclerView();
 
@@ -59,7 +91,7 @@ public class Questions extends AppCompatActivity {
             public void onClick(View view) {
                 whyplayer.start();
                 globalv.addmImageUrls(R.drawable.lmazaa);
-                globalv.addmNames("ليه");
+                globalv.addmNames(why2);
                 globalv.addMrecords(R.raw.why);
                 initRecyclerView();
 
@@ -76,7 +108,7 @@ public class Questions extends AppCompatActivity {
             public void onClick(View view) {
                 riceplayer.start();
                 globalv.addmImageUrls(R.drawable.who);
-                globalv.addmNames("من؟");
+                globalv.addmNames(who2);
                 globalv.addMrecords(R.raw.who);
                 initRecyclerView();
 
@@ -91,7 +123,7 @@ public class Questions extends AppCompatActivity {
             public void onClick(View view) {
                 whichplayer.start();
                 globalv.addmImageUrls(R.drawable.whichone);
-                globalv.addmNames("اى واحدة؟");
+                globalv.addmNames(whichone2);
                 globalv.addMrecords(R.raw.whichone);
                 initRecyclerView();
 
@@ -107,7 +139,7 @@ public class Questions extends AppCompatActivity {
             public void onClick(View view) {
                 whenplayer.start();
                 globalv.addmImageUrls(R.drawable.date);
-                globalv.addmNames("امتى");
+                globalv.addmNames(when2);
                 globalv.addMrecords(R.raw.when);
                 initRecyclerView();
 
@@ -122,7 +154,7 @@ public class Questions extends AppCompatActivity {
             public void onClick(View view) {
                 timeplayer.start();
                 globalv.addmImageUrls(R.drawable.time);
-                globalv.addmNames("كم الوقت؟");
+                globalv.addmNames(time2);
                 globalv.addMrecords(R.raw.timekam);
                 initRecyclerView();
 
@@ -138,7 +170,7 @@ public class Questions extends AppCompatActivity {
             public void onClick(View view) {
                 monplayer.start();
                 globalv.addmImageUrls(R.drawable.money);
-                globalv.addmNames("بكام؟");
+                globalv.addmNames(howmoney2);
                 globalv.addMrecords(R.raw.howmany);
                 initRecyclerView();
 
@@ -196,6 +228,41 @@ public class Questions extends AppCompatActivity {
         System.runFinalization();
         Runtime.getRuntime().gc();
         System.gc();
+    }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+
+        time2.setText(resources.getString(R.string.Timee));
+        howmoney2.setText(resources.getString(R.string.howmoney));
+        whichone2.setText(resources.getString(R.string.whichone));
+        who2.setText(resources.getString(R.string.who));
+        why2.setText(resources.getString(R.string.why));
+        when2.setText(resources.getString(R.string.when));
+        where2.setText(resources.getString(R.string.where));
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 
 

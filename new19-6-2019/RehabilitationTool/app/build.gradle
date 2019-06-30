@@ -53,6 +53,7 @@ dependencies {
     //implementation "com.yuyakaido.android:square-image-view:${LatestVersion}"
     //new
     implementation 'com.afollestad.material-dialogs:core:0.9.4.5'
+    implementation 'io.paperdb:paperdb:2.5'
     testImplementation 'junit:junit:4.12'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     configurations.all {

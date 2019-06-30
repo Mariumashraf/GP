@@ -1,20 +1,34 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
 
 import java.util.ArrayList;
 
+import io.paperdb.Paper;
+
 public class CLOTHES extends AppCompatActivity {
+    TextView jacket2,blouse2,dress2,shoes2,socks2,skirt2,tshirt2,pajama2,trousers2,suit2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
     private static final String TAG = "CLOTHES";
     Globalrecycler globalv;
 
@@ -22,6 +36,25 @@ public class CLOTHES extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clothes);
+        jacket2 = (TextView)findViewById(R.id.jacket2);
+        blouse2 = (TextView)findViewById(R.id.blouse2);
+        dress2 = (TextView)findViewById(R.id.dress2);
+        shoes2 = (TextView)findViewById(R.id.shoes2);
+        socks2 = (TextView)findViewById(R.id.sock2);
+        skirt2 = (TextView)findViewById(R.id.skirt2);
+        tshirt2 = (TextView)findViewById(R.id.tshirt2);
+        pajama2 = (TextView)findViewById(R.id.pajama2);
+        trousers2 = (TextView)findViewById(R.id.trousers2);
+        suit2 = (TextView)findViewById(R.id.suit2);
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
 
 
         ImageView suit = (ImageView) findViewById(R.id.suit);
@@ -48,7 +81,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 suitPlayer.start();
                 globalv.addmImageUrls(R.drawable.badla);
-                globalv.addmNames("بدلة");
+                globalv.addmNames(suit2);
                 globalv.addMrecords(R.raw.suittt);
                 initRecyclerView();
 
@@ -64,7 +97,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 blousePlayer.start();
                 globalv.addmImageUrls(R.drawable.blouse);
-                globalv.addmNames("بلوزة");
+                globalv.addmNames(blouse2);
                 globalv.addMrecords(R.raw.blouseee);
                 initRecyclerView();
 
@@ -80,7 +113,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 trousersPlayer.start();
                 globalv.addmImageUrls(R.drawable.bantlon);
-                globalv.addmNames("بنطلون");
+                globalv.addmNames(trousers2);
                 globalv.addMrecords(R.raw.pantsss);
                 initRecyclerView();
 
@@ -96,7 +129,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 pajamaPlayer.start();
                 globalv.addmImageUrls(R.drawable.pijama);
-                globalv.addmNames("بيجامة");
+                globalv.addmNames(pajama2);
                 globalv.addMrecords(R.raw.pajamaaa);
                 initRecyclerView();
 
@@ -113,7 +146,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 tshirtPlayer.start();
                 globalv.addmImageUrls(R.drawable.chemies);
-                globalv.addmNames("تيشيرت");
+                globalv.addmNames(tshirt2);
                 globalv.addMrecords(R.raw.tshirttt);
                 initRecyclerView();
 
@@ -130,7 +163,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 jacketplayer.start();
                 globalv.addmImageUrls(R.drawable.jacket);
-                globalv.addmNames("جاكيت");
+                globalv.addmNames(jacket2);
                 globalv.addMrecords(R.raw.jackettt);
                 initRecyclerView();
 
@@ -146,7 +179,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 shoesplayer.start();
                 globalv.addmImageUrls(R.drawable.shoes);
-                globalv.addmNames("جزمة");
+                globalv.addmNames(shoes2);
                 globalv.addMrecords(R.raw.shoesss );
                 initRecyclerView();
 
@@ -163,7 +196,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 skritplayer.start();
                 globalv.addmImageUrls(R.drawable.skirt);
-                globalv.addmNames("جيبة");
+                globalv.addmNames(skirt2);
                 globalv.addMrecords(R.raw.skirttt);
                 initRecyclerView();
 
@@ -179,7 +212,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 sockplayer.start();
                 globalv.addmImageUrls(R.drawable.shrab);
-                globalv.addmNames("شراب");
+                globalv.addmNames(socks2);
                 globalv.addMrecords(R.raw.sockkk );
                 initRecyclerView();
 
@@ -197,7 +230,7 @@ public class CLOTHES extends AppCompatActivity {
             public void onClick(View view) {
                 mediaPlayer12.start();
                 globalv.addmImageUrls(R.drawable.dress);
-                globalv.addmNames("فستان");
+                globalv.addmNames(dress2);
                 globalv.addMrecords(R.raw.dresss);
                 initRecyclerView();
 
@@ -251,5 +284,43 @@ public class CLOTHES extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
+    }
+
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        suit2.setText(resources.getString(R.string.suit));
+        blouse2.setText(resources.getString(R.string.blouse));
+        dress2.setText(resources.getString(R.string.dress));
+        tshirt2.setText(resources.getString(R.string.tshirt));
+        trousers2.setText(resources.getString(R.string.trousers));
+        socks2.setText(resources.getString(R.string.socks));
+        shoes2.setText(resources.getString(R.string.shoes));
+        pajama2.setText(resources.getString(R.string.pajama));
+        skirt2.setText(resources.getString(R.string.skirt));
+        jacket2.setText(resources.getString(R.string.jacket));
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 }

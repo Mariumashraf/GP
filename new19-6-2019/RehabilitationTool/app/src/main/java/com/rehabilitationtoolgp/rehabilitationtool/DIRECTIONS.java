@@ -1,19 +1,33 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class DIRECTIONS extends AppCompatActivity {
+    TextView left2,right2,inside2,outside2,along2,between2,around2,beside2,below2,above2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
     private static final String TAG = "DIRECTIONS";
     Globalrecycler globalv;
 
@@ -22,6 +36,25 @@ public class DIRECTIONS extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         CleanUpMemory();
         setContentView(R.layout.activity_directions);
+        left2 = (TextView)findViewById(R.id.left2);
+        right2 = (TextView)findViewById(R.id.right2);
+        inside2 = (TextView)findViewById(R.id.inside2);
+        outside2 = (TextView)findViewById(R.id.outside2);
+        beside2 = (TextView)findViewById(R.id.beside2);
+        along2 = (TextView)findViewById(R.id.along2);
+        below2 = (TextView)findViewById(R.id.below2);
+        between2 = (TextView)findViewById(R.id.between2);
+        above2 = (TextView)findViewById(R.id.above2);
+        around2 = (TextView)findViewById(R.id.around2);
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
 
         ImageView above = (ImageView) findViewById(R.id.above);
         ImageView below = (ImageView) findViewById(R.id.below);
@@ -46,7 +79,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 alongplayer.start();
                 globalv.addmImageUrls(R.drawable.alatol);
-                globalv.addmNames("على طول");
+                globalv.addmNames(along2);
                 globalv.addMrecords(R.raw.straight);
                 initRecyclerView();
 
@@ -58,7 +91,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 outplayer.start();
                 globalv.addmImageUrls(R.drawable.outside);
-                globalv.addmNames("خارج");
+                globalv.addmNames(outside2);
                 globalv.addMrecords(R.raw.out);
                 initRecyclerView();
 
@@ -73,7 +106,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 aboveplayer.start();
                 globalv.addmImageUrls(R.drawable.up);
-                globalv.addmNames("فوق");
+                globalv.addmNames(above2);
                 globalv.addMrecords(R.raw.uppp);
                 initRecyclerView();
 
@@ -87,7 +120,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 belowplayer.start();
                 globalv.addmImageUrls(R.drawable.down);
-                globalv.addmNames("تحت");
+                globalv.addmNames(below2);
                 globalv.addMrecords(R.raw.underrr);
                 initRecyclerView();
 
@@ -102,7 +135,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 besideplayer.start();
                 globalv.addmImageUrls(R.drawable.ganb);
-                globalv.addmNames("بجانب");
+                globalv.addmNames(beside2);
                 globalv.addMrecords(R.raw.beganppp);
                 initRecyclerView();
 
@@ -116,7 +149,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 aroundplayer.start();
                 globalv.addmImageUrls(R.drawable.around);
-                globalv.addmNames("حول");
+                globalv.addmNames(around2);
                 globalv.addMrecords(R.raw.arounddd );
                 initRecyclerView();
 
@@ -131,7 +164,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 betweenplayer.start();
                 globalv.addmImageUrls(R.drawable.middle);
-                globalv.addmNames("بين");
+                globalv.addmNames(between2);
                 globalv.addMrecords(R.raw.betweennn);
                 initRecyclerView();
 
@@ -145,7 +178,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 insideplayer.start();
                 globalv.addmImageUrls(R.drawable.inside);
-                globalv.addmNames("داخل");
+                globalv.addmNames(inside2);
                 globalv.addMrecords(R.raw.insideee);
                 initRecyclerView();
 
@@ -160,7 +193,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 rightplayer.start();
                 globalv.addmImageUrls(R.drawable.right);
-                globalv.addmNames("يمين");
+                globalv.addmNames(right2);
                 globalv.addMrecords(R.raw.righttt);
                 initRecyclerView();
 
@@ -174,7 +207,7 @@ public class DIRECTIONS extends AppCompatActivity {
             public void onClick(View view) {
                 leftplayer.start();
                 globalv.addmImageUrls(R.drawable.left);
-                globalv.addmNames("شمال");
+                globalv.addmNames(left2);
                 globalv.addMrecords(R.raw.lefttt);
                 initRecyclerView();
 
@@ -229,5 +262,42 @@ public class DIRECTIONS extends AppCompatActivity {
         System.runFinalization();
         Runtime.getRuntime().gc();
         System.gc();
+    }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        left2.setText(resources.getString(R.string.left));
+        right2.setText(resources.getString(R.string.right));
+        inside2.setText(resources.getString(R.string.inside));
+        outside2.setText(resources.getString(R.string.outside));
+        beside2.setText(resources.getString(R.string.beside));
+        above2.setText(resources.getString(R.string.above));
+        below2.setText(resources.getString(R.string.below));
+        along2.setText(resources.getString(R.string.along));
+        between2.setText(resources.getString(R.string.between));
+        around2.setText(resources.getString(R.string.around));
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 }

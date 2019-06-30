@@ -21,7 +21,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,9 +43,7 @@
         <activity android:name=".PRACTICING" />
         <activity android:name=".RAA" />
         <activity android:name=".SEEN" />
-        <activity android:name=".qaaf" />    
-        <activity android:name=".kaaf" /> 
-        <activity android:name=".geem" />
+
         <activity android:name=".laam" />  
         <activity android:name=".CardList" />
         <activity android:name=".UpdateCard" />
@@ -53,7 +51,7 @@
         <activity android:name=".Feelings" />
         <activity android:name=".Questions" />
         <activity android:name=".ACTIONS" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>

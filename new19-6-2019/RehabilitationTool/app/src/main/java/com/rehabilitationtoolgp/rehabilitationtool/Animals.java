@@ -1,18 +1,33 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class Animals extends AppCompatActivity {
+    TextView bird2,fish3,dog2,cat2,insect2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
+
 
     private static final String TAG = "Animals";
     Globalrecycler globalv;
@@ -21,6 +36,19 @@ public class Animals extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animals);
+        bird2 = (TextView)findViewById(R.id.bird2);
+        fish3 = (TextView)findViewById(R.id.fish3);
+        dog2 = (TextView)findViewById(R.id.dog2);
+        cat2 = (TextView)findViewById(R.id.cat2);
+        insect2 = (TextView)findViewById(R.id.insect2);
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
 
         ImageView cat = (ImageView) findViewById(R.id.cat);
         ImageView dog = (ImageView) findViewById(R.id.dog);
@@ -41,7 +69,7 @@ public class Animals extends AppCompatActivity {
             public void onClick(View view) {
                 catplayer.start();
                 globalv.addmImageUrls(R.drawable.cat);
-                globalv.addmNames("قطة");
+                globalv.addmNames(cat2);
                 globalv.addMrecords(R.raw.cat);
                 initRecyclerView();
 
@@ -55,7 +83,7 @@ public class Animals extends AppCompatActivity {
             public void onClick(View view) {
                 dogplayer.start();
                 globalv.addmImageUrls(R.drawable.dog);
-                globalv.addmNames("كلب");
+                globalv.addmNames(dog2);
                 globalv.addMrecords(R.raw.dog);
                 initRecyclerView();
 
@@ -69,7 +97,7 @@ public class Animals extends AppCompatActivity {
             public void onClick(View view) {
                 birdplayer.start();
                 globalv.addmImageUrls(R.drawable.bird);
-                globalv.addmNames("عصفورة");
+                globalv.addmNames(bird2);
                 globalv.addMrecords(R.raw.bird);
                 initRecyclerView();
 
@@ -83,7 +111,7 @@ public class Animals extends AppCompatActivity {
             public void onClick(View view) {
                 samkplayer.start();
                 globalv.addmImageUrls(R.drawable.fish);
-                globalv.addmNames("سمكة");
+                globalv.addmNames(fish3);
                 globalv.addMrecords(R.raw.fish);
                 initRecyclerView();
 
@@ -96,7 +124,7 @@ public class Animals extends AppCompatActivity {
             public void onClick(View view) {
                 insectplayer.start();
                 globalv.addmImageUrls(R.drawable.insect);
-                globalv.addmNames("حشرات");
+                globalv.addmNames(insect2);
                 globalv.addMrecords(R.raw.insect);
                 initRecyclerView();
 
@@ -149,4 +177,36 @@ public class Animals extends AppCompatActivity {
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
     }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        bird2.setText(resources.getString(R.string.bird));
+        insect2.setText(resources.getString(R.string.insect));
+        dog2.setText(resources.getString(R.string.dog));
+        cat2.setText(resources.getString(R.string.cat));
+        fish3.setText(resources.getString(R.string.fish));
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
+    }
+
 }

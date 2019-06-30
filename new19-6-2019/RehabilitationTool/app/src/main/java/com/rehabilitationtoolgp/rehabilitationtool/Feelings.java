@@ -1,26 +1,64 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class Feelings extends AppCompatActivity {
     private static final String TAG = "Feelings";
     Globalrecycler globalv;
+    TextView sad2,happy2,mooref2,donotunder2,laziiz2,hurt2,scared2,mothams2,mozeeg2,boring2,hate2,love2,mohrg2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feelings);
+
+        sad2 = (TextView)findViewById(R.id.sad2);
+        happy2 = (TextView)findViewById(R.id.happy2);
+        mooref2 = (TextView)findViewById(R.id.mooref2);
+        donotunder2 = (TextView)findViewById(R.id.donotunder2);
+        laziiz2 = (TextView)findViewById(R.id.laziiz2);
+        hurt2 = (TextView)findViewById(R.id.hurt2);
+        scared2 = (TextView)findViewById(R.id.scared2);
+        mothams2 = (TextView)findViewById(R.id.mothams2);
+        mozeeg2 = (TextView)findViewById(R.id.mozeeg2);
+        boring2 = (TextView)findViewById(R.id.boring2);
+        hate2 = (TextView)findViewById(R.id.hate2);
+        love2 = (TextView)findViewById(R.id.love2);
+        mohrg2 = (TextView)findViewById(R.id.mohrg2);
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
 
         ImageView sad = (ImageView) findViewById(R.id.sad);
         ImageView happy= (ImageView) findViewById(R.id.happy);
@@ -33,7 +71,7 @@ public class Feelings extends AppCompatActivity {
         ImageView scared = (ImageView) findViewById(R.id.scared);
         ImageView hurt = (ImageView) findViewById(R.id.hurt);
         ImageView laziiz = (ImageView) findViewById(R.id.laziiz);
-        ImageView mooref = (ImageView) findViewById(R.id.mooref);
+        final ImageView mooref = (ImageView) findViewById(R.id.mooref);
         ImageView donotunder = (ImageView) findViewById(R.id.donotunder);
         ImageButton play = (ImageButton) findViewById(R.id.playall);
         Button back = (Button) findViewById(R.id.back);
@@ -48,7 +86,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 sadplayer.start();
                 globalv.addmImageUrls(R.drawable.sad);
-                globalv.addmNames("حزين");
+                globalv.addmNames(sad2);
                globalv.addMrecords(R.raw.sad);
                 initRecyclerView();
 
@@ -60,7 +98,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 happyplayer.start();
                 globalv.addmImageUrls(R.drawable.happy);
-                globalv.addmNames("فرحان");
+                globalv.addmNames(happy2);
                 globalv.addMrecords(R.raw.happy);
                 initRecyclerView();
 
@@ -73,7 +111,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 hateplayer.start();
                 globalv.addmImageUrls(R.drawable.hate);
-                globalv.addmNames("بكره");
+                globalv.addmNames(hate2);
                globalv.addMrecords(R.raw.hate);
                 initRecyclerView();
 
@@ -86,7 +124,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
               loveplayer.start();
                 globalv.addmImageUrls(R.drawable.love);
-                globalv.addmNames("بحب");
+                globalv.addmNames(love2);
                globalv.addMrecords(R.raw.love);
                 initRecyclerView();
 
@@ -99,7 +137,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 mohragplayer.start();
                 globalv.addmImageUrls(R.drawable.mohrag);
-                globalv.addmNames("محرج");
+                globalv.addmNames(mohrg2);
                globalv.addMrecords(R.raw.mohrag);
                 initRecyclerView();
 
@@ -112,7 +150,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                mozegplayer.start();
                 globalv.addmImageUrls(R.drawable.mozeeg);
-                globalv.addmNames("مزعج");
+                globalv.addmNames(mozeeg2);
                 globalv.addMrecords(R.raw.mozeeg);
                 initRecyclerView();
 
@@ -125,7 +163,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                borplayer.start();
                 globalv.addmImageUrls(R.drawable.boring);
-                globalv.addmNames("ممل");
+                globalv.addmNames(boring2);
                 globalv.addMrecords(R.raw.boring);
                 initRecyclerView();
 
@@ -137,7 +175,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 metplayer.start();
                 globalv.addmImageUrls(R.drawable.methams);
-                globalv.addmNames("متحمس");
+                globalv.addmNames(mothams2);
                 globalv.addMrecords(R.raw.methams);
                 initRecyclerView();
 
@@ -150,7 +188,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 hurtplayer.start();
                 globalv.addmImageUrls(R.drawable.hurt);
-                globalv.addmNames("مؤلم");
+                globalv.addmNames(hurt2);
                 globalv.addMrecords(R.raw.hurt);
                 initRecyclerView();
 
@@ -163,7 +201,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 scarplayer.start();
                 globalv.addmImageUrls(R.drawable.scared);
-                globalv.addmNames("خايف");
+                globalv.addmNames(scared2);
               globalv.addMrecords(R.raw.scared);
                 initRecyclerView();
 
@@ -176,7 +214,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 lazplayer.start();
                 globalv.addmImageUrls(R.drawable.laziiiz);
-                globalv.addmNames("لذيذ");
+                globalv.addmNames(laziiz2);
                 globalv.addMrecords(R.raw.laziiz);
                 initRecyclerView();
 
@@ -189,7 +227,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 donotplayer.start();
                 globalv.addmImageUrls(R.drawable.donotunderstand);
-                globalv.addmNames("مش فاهم");
+                globalv.addmNames(donotunder2);
                 globalv.addMrecords(R.raw.donotunder);
                 initRecyclerView();
 
@@ -202,7 +240,7 @@ public class Feelings extends AppCompatActivity {
             public void onClick(View view) {
                 moorefplayer.start();
                 globalv.addmImageUrls(R.drawable.mooref);
-                globalv.addmNames("مقرف");
+                globalv.addmNames(mooref2);
                 globalv.addMrecords(R.raw.mooref);
                 initRecyclerView();
 
@@ -253,5 +291,48 @@ public class Feelings extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
+    }
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+
+        sad2.setText(resources.getString(R.string.sad));
+        happy2.setText(resources.getString(R.string.happy));
+        mooref2.setText(resources.getString(R.string.nasty));
+        donotunder2.setText(resources.getString(R.string.donotunder));
+        laziiz2.setText(resources.getString(R.string.tasty));
+        hurt2.setText(resources.getString(R.string.painful));
+        scared2.setText(resources.getString(R.string.scared));
+        mothams2.setText(resources.getString(R.string.enthusiastic));
+        mozeeg2.setText(resources.getString(R.string.annoying));
+        boring2.setText(resources.getString(R.string.boring));
+        hate2.setText(resources.getString(R.string.ihate));
+        love2.setText(resources.getString(R.string.ilike));
+        mohrg2.setText(resources.getString(R.string.shy));
+
+
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 }

@@ -13,16 +13,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-
-import javax.security.auth.callback.Callback;
-
-import de.hdodenhof.circleimageview.CircleImageView;
-
 
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
@@ -30,13 +23,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private static final String TAG = "RecyclerViewAdapter";
 
     //vars
-    private ArrayList<String> mNames = new ArrayList<>();
+    private ArrayList<TextView> mNames = new ArrayList<>();
     private ArrayList<Integer> mImageUrls = new ArrayList<>();
     private ArrayList<Integer> mrecords = new ArrayList<>();
 
     private Context mContext;
 
-    public RecyclerViewAdapter(Context context, ArrayList<String> names, ArrayList<Integer> imageUrls, ArrayList<Integer> records) {
+    public RecyclerViewAdapter(Context context, ArrayList<TextView> names, ArrayList<Integer> imageUrls, ArrayList<Integer> records) {
         mNames = names;
         mImageUrls = imageUrls;
         mrecords = records;
@@ -59,13 +52,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 .into(holder.image);
 
 
-        holder.name.setText(mNames.get(position));
+        holder.name.setText(( mNames.get(position).getText().toString()));
 
         holder.image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Log.d(TAG, "onClick: clicked on an image: " + mNames.get(position) + mrecords.get(position));
-                Toast.makeText(mContext, mNames.get(position), Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, (CharSequence) mNames.get(position), Toast.LENGTH_SHORT).show();
 
                 MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),mrecords.get(position));
                 mediaPlayer.start();

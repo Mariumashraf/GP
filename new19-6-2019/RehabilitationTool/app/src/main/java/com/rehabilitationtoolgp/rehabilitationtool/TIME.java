@@ -1,19 +1,33 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class TIME extends AppCompatActivity {
     private static final String TAG = "TIME";
+    TextView morning2,night2,sunset2,today2,yesterday2,tomorrow2;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
     Globalrecycler globalv;
 
     @Override
@@ -21,7 +35,25 @@ public class TIME extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time);
 
-       ImageView morning =(ImageView) findViewById(R.id.morning);
+
+        yesterday2 = (TextView)findViewById(R.id.yesterdat2);
+        tomorrow2 = (TextView)findViewById(R.id.tomoorrow2);
+        today2 = (TextView)findViewById(R.id.today2);
+        sunset2 = (TextView)findViewById(R.id.sunset2);
+        night2 = (TextView)findViewById(R.id.night2);
+        morning2 = (TextView)findViewById(R.id.morning2);
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
+
+
+        ImageView morning =(ImageView) findViewById(R.id.morning);
         ImageView night=(ImageView) findViewById(R.id.night);
         ImageView sunset =(ImageView) findViewById(R.id.sunset);
         ImageView today=(ImageView) findViewById(R.id.today);
@@ -44,7 +76,7 @@ public class TIME extends AppCompatActivity {
             public void onClick(View view) {
                 morningplayer.start();
                 globalv.addmImageUrls(R.drawable.morning);
-                globalv.addmNames("الصبح");
+                globalv.addmNames(morning2);
                 globalv.addMrecords(R.raw.morninggg);
                 initRecyclerView();
 
@@ -60,7 +92,7 @@ public class TIME extends AppCompatActivity {
             public void onClick(View view) {
                 nightplayer.start();
                 globalv.addmImageUrls(R.drawable.night);
-                globalv.addmNames("الليل");
+                globalv.addmNames(night2);
                 globalv.addMrecords(R.raw.nighttt);
                 initRecyclerView();
 
@@ -77,7 +109,7 @@ public class TIME extends AppCompatActivity {
             public void onClick(View view) {
                 sunplayer.start();
                 globalv.addmImageUrls(R.drawable.sunset);
-                globalv.addmNames("الغروب");
+                globalv.addmNames(sunset2);
                 globalv.addMrecords(R.raw.sunset);
                 initRecyclerView();
 
@@ -92,7 +124,7 @@ public class TIME extends AppCompatActivity {
             public void onClick(View view) {
                 todayplayer.start();
                 globalv.addmImageUrls(R.drawable.today);
-                globalv.addmNames("اليوم");
+                globalv.addmNames(today2);
                 globalv.addMrecords(R.raw.today);
                 initRecyclerView();
 
@@ -108,7 +140,7 @@ public class TIME extends AppCompatActivity {
             public void onClick(View view) {
                 tomorroplayer.start();
                 globalv.addmImageUrls(R.drawable.tomorrow);
-                globalv.addmNames("غدا");
+                globalv.addmNames(tomorrow2);
                 globalv.addMrecords(R.raw.tomorrw);
                 initRecyclerView();
 
@@ -123,7 +155,7 @@ public class TIME extends AppCompatActivity {
             public void onClick(View view) {
                 yesterplayer.start();
                 globalv.addmImageUrls(R.drawable.yesterday);
-                globalv.addmNames("أمس");
+                globalv.addmNames(yesterday2);
                 globalv.addMrecords(R.raw.yesterday);
                 initRecyclerView();
 
@@ -177,5 +209,40 @@ public class TIME extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
+    }
+
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+
+        yesterday2.setText(resources.getString(R.string.yesterday));
+        today2.setText(resources.getString(R.string.today));
+        tomorrow2.setText(resources.getString(R.string.tomorrow));
+        sunset2.setText(resources.getString(R.string.sunset));
+        night2.setText(resources.getString(R.string.night));
+        morning2.setText(resources.getString(R.string.morning));
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 }

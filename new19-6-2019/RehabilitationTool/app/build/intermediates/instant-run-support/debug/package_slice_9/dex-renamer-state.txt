@@ -1,4 +1,0 @@
-#Wed Jun 12 22:48:51 EET 2019
-base.0=F\:\\2nd  term\\GP\\Mobile as a tool for Rehabilitation\\GP\\2622019ourapp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
-path.0=classes.dex
-renamed.0=classes.dex

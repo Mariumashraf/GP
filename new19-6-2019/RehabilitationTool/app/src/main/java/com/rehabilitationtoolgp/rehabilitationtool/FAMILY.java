@@ -1,25 +1,62 @@
 package com.rehabilitationtoolgp.rehabilitationtool;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import io.paperdb.Paper;
 
 public class FAMILY extends AppCompatActivity {
     private static final String TAG = "FAMILY";
     Globalrecycler globalv;
 
+    TextView brother2,mother2,sister2,father2,grandma,grandpa,uncle3,uncle4,aunt3,aunt4,cousg,cousb;
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocalHelper.onAttach(newBase,"ar"));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_family);
+
+        brother2 = (TextView)findViewById(R.id.brother2);
+        sister2 = (TextView)findViewById(R.id.sister2);
+        father2 = (TextView)findViewById(R.id.father2);
+        mother2 = (TextView)findViewById(R.id.mother2);
+        grandma = (TextView)findViewById(R.id.grandma);
+        grandpa = (TextView)findViewById(R.id.grandpa);
+        uncle3 = (TextView)findViewById(R.id.uncle2);
+        uncle4 = (TextView)findViewById(R.id.uncle4);
+        aunt3 = (TextView)findViewById(R.id.aunt2);
+        aunt4 = (TextView)findViewById(R.id.aunt4);
+        cousb = (TextView)findViewById(R.id.cousinb);
+        cousg = (TextView)findViewById(R.id.cousing);
+
+        Paper.init(this);
+
+        String language = Paper.book().read("language");
+        if(language == null)
+            Paper.book().write("language","ar");
+
+
+        updateView((String)Paper.book().read("language"));
 
 
         ImageView sister = (ImageView) findViewById(R.id.sister);
@@ -30,8 +67,8 @@ public class FAMILY extends AppCompatActivity {
         ImageView grandmother = (ImageView) findViewById(R.id.grandmother);
         ImageView uncle = (ImageView) findViewById(R.id.uncle);
         ImageView aunt = (ImageView) findViewById(R.id.aunt);
-        ImageView uncle2 = (ImageView) findViewById(R.id.uncle3);
-        ImageView aunt2 = (ImageView) findViewById(R.id.Aunt3);
+        final ImageView uncle2 = (ImageView) findViewById(R.id.uncle3);
+        final ImageView aunt2 = (ImageView) findViewById(R.id.Aunt3);
         ImageView boy = (ImageView) findViewById(R.id.cousinBoy);
         ImageView girl = (ImageView) findViewById(R.id.cousinGirl);
         ImageButton play = (ImageButton) findViewById(R.id.playall);
@@ -47,7 +84,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 mbroplayer.start();
                 globalv.addmImageUrls(R.drawable.uncle);
-                globalv.addmNames("خالى");
+                globalv.addmNames(uncle3);
                 globalv.addMrecords(R.raw.motherbro);
                 initRecyclerView();
 
@@ -59,7 +96,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 msisterplayer.start();
                 globalv.addmImageUrls(R.drawable.auntt);
-                globalv.addmNames("خالتى");
+                globalv.addmNames(aunt3);
                 globalv.addMrecords(R.raw.mothersis);
                 initRecyclerView();
 
@@ -72,7 +109,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 uncleplayer.start();
                 globalv.addmImageUrls(R.drawable.unclee);
-                globalv.addmNames("عمى");
+                globalv.addmNames(uncle4);
                 globalv.addMrecords(R.raw.unkle);
                 initRecyclerView();
 
@@ -85,7 +122,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 antplayer.start();
                 globalv.addmImageUrls(R.drawable.aunt);
-                globalv.addmNames("عمتى");
+                globalv.addmNames(aunt4);
                 globalv.addMrecords(R.raw.ant);
                 initRecyclerView();
 
@@ -98,7 +135,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 boyplayer.start();
                 globalv.addmImageUrls(R.drawable.cousinboy);
-                globalv.addmNames("ابن عمى");
+                globalv.addmNames(cousb);
                 globalv.addMrecords(R.raw.sonofunkle);
                 initRecyclerView();
 
@@ -111,7 +148,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 girlplayer.start();
                 globalv.addmImageUrls(R.drawable.cousingirl);
-                globalv.addmNames("بنت عمى");
+                globalv.addmNames(cousg);
                 globalv.addMrecords(R.raw.cosgirl);
                 initRecyclerView();
 
@@ -125,7 +162,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 sisterplayer.start();
                 globalv.addmImageUrls(R.drawable.sis);
-                globalv.addmNames("أختى");
+                globalv.addmNames(sister2);
                 globalv.addMrecords(R.raw.sisterrr);
                 initRecyclerView();
 
@@ -140,7 +177,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 brotherplayer.start();
                 globalv.addmImageUrls(R.drawable.bro);
-                globalv.addmNames("أخويا");
+                globalv.addmNames(brother2);
                 globalv.addMrecords(R.raw.brotherrr);
                 initRecyclerView();
 
@@ -155,7 +192,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 fatherplayer.start();
                 globalv.addmImageUrls(R.drawable.dad);
-                globalv.addmNames("بابا");
+                globalv.addmNames(father2);
                 globalv.addMrecords(R.raw.fatherrr);
                 initRecyclerView();
 
@@ -170,7 +207,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 motherplayer.start();
                 globalv.addmImageUrls(R.drawable.mom);
-                globalv.addmNames("ماما");
+                globalv.addmNames(mother2);
                 globalv.addMrecords(R.raw.motherrr);
                 initRecyclerView();
 
@@ -185,7 +222,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 grandfplayer.start();
                 globalv.addmImageUrls(R.drawable.grandfather);
-                globalv.addmNames("جدو");
+                globalv.addmNames(grandpa);
                 globalv.addMrecords(R.raw.grandpaaa);
                 initRecyclerView();
 
@@ -200,7 +237,7 @@ public class FAMILY extends AppCompatActivity {
             public void onClick(View view) {
                 grandmplayer.start();
                 globalv.addmImageUrls(R.drawable.gradmother2);
-                globalv.addmNames("جدتى");
+                globalv.addmNames(grandma);
                 globalv.addMrecords(R.raw.grandmaaa);
                 initRecyclerView();
 
@@ -251,5 +288,45 @@ public class FAMILY extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
         recyclerView.setAdapter(adapter);
+    }
+
+
+    private void updateView(String lang) {
+        Context context = LocalHelper.setLocale(this,lang);
+        Resources resources = context.getResources();
+        sister2.setText(resources.getString(R.string.sister));
+        brother2.setText(resources.getString(R.string.brother));
+        mother2.setText(resources.getString(R.string.mother));
+        father2.setText(resources.getString(R.string.father));
+        grandpa.setText(resources.getString(R.string.grandfather));
+        grandma.setText(resources.getString(R.string.grandmother));
+        aunt3.setText(resources.getString(R.string.auntt));
+        aunt4.setText(resources.getString(R.string.aunt));
+        uncle3.setText(resources.getString(R.string.unclee));
+        uncle4.setText(resources.getString(R.string.uncle));
+        cousb.setText(resources.getString(R.string.cousinBoy));
+        cousg.setText(resources.getString(R.string.cousinegirl));
+
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.language_en){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }
+        else  if(item.getItemId() == R.id.language_ar){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 }
