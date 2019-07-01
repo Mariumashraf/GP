@@ -62,7 +62,7 @@
                 android:layout_marginTop="0dp"
                 android:gravity="center"
                 android:text=" تاكد من الانترنت,كرر الحرف بعد سماع الصفارة , ان لم تستطع نطق الحرف فاضغط لمدة ثانيتان عليه للانتقال للصفحة التالية"
-                android:textColor="#e92a5a"
+                android:textColor="@color/colorPrimary"
                 android:textSize="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

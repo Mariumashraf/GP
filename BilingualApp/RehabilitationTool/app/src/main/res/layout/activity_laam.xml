@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:layout_marginEnd="2dp"
         android:layout_marginTop="1dp"
-        android:background="#ffffff"
+        android:background="@color/colorApp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -24,7 +24,7 @@
             android:layout_marginStart="100dp"
             android:layout_marginTop="1dp"
             android:text="    ل   "
-            android:textColor="#3e5ae9"
+            android:textColor="@color/colorPrimary"
             android:textSize="60dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

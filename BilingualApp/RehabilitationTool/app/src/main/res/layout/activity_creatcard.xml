@@ -18,12 +18,12 @@
         <TextView
 
             android:id="@+id/image"
-            android:layout_width="150dp"
+            android:layout_width="110dp"
             android:layout_height="30dp"
-            android:layout_marginStart="90dp"
+            android:layout_marginStart="140dp"
             android:layout_marginTop="0dp"
             android:text="ضع صورة للبطاقة"
-            android:textColor="#3e5ae9"
+            android:textColor="@color/colorPrimary"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -31,12 +31,12 @@
         <TextView
 
             android:id="@+id/record"
-            android:layout_width="150dp"
+            android:layout_width="120dp"
             android:layout_height="30dp"
-            android:layout_marginStart="-130dp"
+            android:layout_marginStart="-110dp"
             android:layout_marginTop="240dp"
             android:text="ضع تسجيلا للبطاقة"
-            android:textColor="#3e5ae9"
+            android:textColor="@color/colorPrimary"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -44,12 +44,12 @@
         <TextView
 
             android:id="@+id/nam"
-            android:layout_width="150dp"
+            android:layout_width="100dp"
             android:layout_height="30dp"
-            android:layout_marginStart="-150dp"
+            android:layout_marginStart="-110dp"
             android:layout_marginTop="390dp"
             android:text="ضع اسما للبطاقة"
-            android:textColor="#3e5ae9"
+            android:textColor="@color/colorPrimary"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -258,9 +258,9 @@
                 app:layout_constraintTop_toTopOf="parent">
                 <ImageView
                     android:id="@+id/ViewImage"
-                    android:layout_width="90dp"
-                    android:layout_height="80dp"
-                    android:background="@drawable/card2"/>
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                   />
 
 
             </LinearLayout>
@@ -273,7 +273,7 @@
         android:layout_width="368dp"
         android:layout_height="125dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="470dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -306,7 +306,7 @@
                     android:layout_height="70dp"
                     android:onClick="buttonClicked"
                     android:text="@string/save"
-                    android:textColor="#3e5ae9"
+                    android:textColor="@color/colorPrimary"
                     android:background="#fff"
                     />
 
@@ -342,7 +342,7 @@
                     android:layout_height="70dp"
                     android:onClick="buttonClicked"
                     android:text="@string/display"
-                    android:textColor="#3e5ae9"
+                    android:textColor="@color/colorPrimary"
                     android:background="#fff"/>
 
 

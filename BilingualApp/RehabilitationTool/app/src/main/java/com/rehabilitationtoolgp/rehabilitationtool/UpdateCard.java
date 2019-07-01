@@ -79,7 +79,7 @@ public class UpdateCard extends AppCompatActivity {
         Card contact = db.getContactById2(id);
 
 
-        Record = (Button)findViewById(R.id.record) ;
+        Record = (Button)findViewById(R.id.recordd) ;
         Stop = (Button)findViewById(R.id.stop) ;
         update = (Button)findViewById(R.id.updata);
         editNam = (EditText)findViewById(R.id.editNam);

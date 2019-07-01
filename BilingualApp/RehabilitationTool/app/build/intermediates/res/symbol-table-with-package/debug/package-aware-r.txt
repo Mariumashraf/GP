@@ -1152,6 +1152,7 @@ drawable car
 drawable card
 drawable card2
 drawable card3
+drawable cardd
 drawable cat
 drawable chair
 drawable chemies
@@ -1185,6 +1186,11 @@ drawable feelings2
 drawable fish
 drawable fork
 drawable frahk
+drawable frame
+drawable frame2
+drawable frame3
+drawable frame4
+drawable frame5
 drawable frawla
 drawable friutttz
 drawable fshaar
@@ -1274,6 +1280,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable open
 drawable orange
+drawable orange2
 drawable outside
 drawable park
 drawable pc
@@ -1756,6 +1763,7 @@ id questions
 id raabtn
 id radio
 id record
+id recordd
 id recyclerView
 id relations
 id relationss
