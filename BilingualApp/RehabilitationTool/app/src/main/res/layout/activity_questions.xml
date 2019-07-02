@@ -15,7 +15,7 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#e1faff">
+            android:background="@color/colorApp">
 
        <LinearLayout
            android:id="@+id/linearLayout"
@@ -352,15 +352,7 @@
           </LinearLayout>
 
 
-       <Button
-           android:id="@+id/back"
-           android:layout_width="50dp"
-           android:layout_height="50dp"
-           android:layout_marginRight="20dp"
-           android:background="@android:drawable/ic_menu_revert"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintEnd_toEndOf="parent"
-           tools:ignore="RtlHardcoded" />
+
 
    </android.support.constraint.ConstraintLayout>
 </ScrollView>
