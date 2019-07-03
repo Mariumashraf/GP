@@ -29,6 +29,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import io.paperdb.Paper;
 
@@ -42,7 +43,7 @@ public class CREATCARD extends AppCompatActivity {
     EditText editName;
     ImageView imageViewImage, TakePhoto, ChoosePhoto;
     TextView imagee,recordd,nam;
-
+     //ArrayList<TextView> alltexts= new ArrayList<>();
 
     public static SQLite db;
     private MediaRecorder mRecorder;
@@ -120,6 +121,7 @@ public class CREATCARD extends AppCompatActivity {
             public void onClick(View v) {
 
                 String name = editName.getText().toString();
+
                 image = ImageView_To_Byte(imageViewImage);
                 record = FileLocal_To_Byte(outputFile);
                 Card contact = new Card(name,  image);
@@ -135,7 +137,9 @@ public class CREATCARD extends AppCompatActivity {
         ShowCards.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //alltexts.iterator();
                 Intent intent = new Intent(getApplicationContext(),CardList.class);
+               // intent.putExtra("k",alltexts);
                 startActivity(intent);
 
             }

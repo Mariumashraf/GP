@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "C:\\Users\\medoz\\Downloads\\Downloads\\GP\\GP-master\\d172019\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\BilingualApp\\RehabilitationTool\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "source": "C:\\Users\\medoz\\Downloads\\Downloads\\GP\\GP-master\\d172019\\GP\\BilingualApp\\RehabilitationTool\\app\\src\\main\\res\\values-en\\strings.xml",
                     "from": {
                         "startLines": "175,73,11,58,60,59,64,18,98,138,70,85,87,207,133,181,180,72,71,69,154,42,124,48,97,118,78,153,189,151,144,45,198,111,117,125,31,185,205,88,89,19,145,201,14,204,44,103,49,7,6,110,157,99,13,81,10,43,114,203,108,196,9,82,83,135,137,93,186,123,187,174,122,5,96,95,41,66,4,47,121,22,182,200,67,146,179,24,131,119,155,21,163,80,158,104,164,3,210,32,140,65,101,54,188,136,132,209,116,159,130,126,148,25,17,26,109,68,35,92,115,113,100,184,197,160,50,94,79,52,29,38,51,120,36,202,134,56,165,190,199,102,152,33,16,166,147,167,15,208,156,12,55,53,195,84,86,183,107,34,206,30,20,139,8,173,172,177,176,171,37,2,168,112",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

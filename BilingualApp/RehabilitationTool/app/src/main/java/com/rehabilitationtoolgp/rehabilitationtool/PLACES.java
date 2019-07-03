@@ -3,6 +3,7 @@ package com.rehabilitationtoolgp.rehabilitationtool;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,6 +19,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.rehabilitationtoolgp.rehabilitationtool.Helper.LocalHelper;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 import io.paperdb.Paper;
 
@@ -280,8 +286,21 @@ public class PLACES extends AppCompatActivity {
             public void onClick(View view) {
 
                 for (int i=0;i<  globalv.getMrecords().size();i++) {
-                    final MediaPlayer mediaPlay = MediaPlayer.create(PLACES.this, globalv.getMrecords().get(i));
-                    mediaPlay.start();
+                    /*final MediaPlayer mediaPlay = MediaPlayer.create(PLACES.this, globalv.getMrecords().get(i));
+                    mediaPlay.start();*/
+
+                    if (globalv.getMrecords().get(i) instanceof Integer) {
+                        // The Object is an instance of a String
+                        Integer M = (Integer) globalv.getMrecords().get(i);
+
+                        MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),M);
+                        mediaPlayer.start();
+                    }
+                    else if (globalv.getMrecords().get(i) instanceof byte[]) {
+                        // The Object is an instance of a Double
+                        byte[] g = (byte[]) globalv.getMrecords().get(i);
+                        playMp3FromByte(g);
+                    }
                     try {
                         Thread.sleep(700);
                     } catch(InterruptedException e) {
@@ -298,6 +317,7 @@ public class PLACES extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 globalv.getmImageUrls();
                 globalv.getmNames();
                 globalv.getMrecords();
@@ -360,5 +380,27 @@ public class PLACES extends AppCompatActivity {
         }
         return true;
     }
+
+    private void playMp3FromByte(byte[] mp3SoundByteArray) {
+        try {
+            File tempMp3 = File.createTempFile("kurchina", "mp3", getCacheDir());
+            tempMp3.deleteOnExit();
+            FileOutputStream fos = new FileOutputStream(tempMp3);
+            fos.write(mp3SoundByteArray);
+            fos.close();
+
+            MediaPlayer mediaPlayer = new MediaPlayer();
+
+            FileInputStream fis = new FileInputStream(tempMp3);
+            mediaPlayer.setDataSource(fis.getFD());
+            mediaPlayer.prepare();
+            mediaPlayer.start();
+
+        } catch (IOException ex) {
+            String s = ex.toString();
+            ex.printStackTrace();
+        }
     }
+
+}
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\new3\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "C:\\Users\\medoz\\Downloads\\Downloads\\GP\\GP-master\\d172019\\GP\\new19-6-2019\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\ab1e1c19b7fde41114d7be3efc9f5b26\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\988e890c91ac16f3648ef8dad3b9cca0\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
