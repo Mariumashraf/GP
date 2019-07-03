@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #Wed Jul 03 02:47:27 EET 2019
 base.0=C\:\\Users\\medoz\\Downloads\\Downloads\\GP\\GP-master\\d172019\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+=======
+#Tue Jul 02 12:11:03 EET 2019
+base.0=C\:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+>>>>>>> a392c5b7d69b6e3799a716d04dca02ddde8a9a2b
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
