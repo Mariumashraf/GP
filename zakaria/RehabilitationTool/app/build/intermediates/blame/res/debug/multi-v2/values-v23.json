@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\BilingualApp\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\medoz\\Downloads\\Downloads\\GP\\GP-master\\d172019\\GP\\zakaria\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\91a6a2160d2475798cc4bc073f4e96b2\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\667c92214221c5c6b148dd6c2daa6aaf\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4c84f7e5ec00b239f57c1e0e18bf658d\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

@@ -3,11 +3,18 @@ package com.rehabilitationtoolgp.rehabilitationtool;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -23,13 +30,18 @@ public class CardList extends AppCompatActivity {
 
     ListView lvCard;
     SQLite db;
+    Globalrecycler globalv;
+    private static final String TAG = "CardList";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_list);
         db = new SQLite(this);
-
+        Button back = (Button) findViewById(R.id.back);
+        ImageButton play = (ImageButton) findViewById(R.id.playall);
+        globalv=(Globalrecycler)getApplicationContext();
+        initRecyclerView();
 
         lvCard = (ListView)findViewById(R.id.cardList);
         lvCard.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -52,11 +64,65 @@ public class CardList extends AppCompatActivity {
 
                 playMp3FromByte(audios.get(position));
                // Toast.makeText(CardList.this, "التسجيل يعمل" ,Toast.LENGTH_SHORT).show();
+                ArrayList<Card> contacts = db.getAllContacts();
+                Bitmap bitmap = BitmapFactory.decodeByteArray(contacts.get(position).Image, 0, contacts.get(position).Image.length);
+                globalv.addmImageUrls(bitmap );
+                globalv.addmNames(contacts.get(position).Name);
+
+                globalv.addMrecords(audios.get(position));
+                initRecyclerView();
 
             }
         });
 
 
+
+//BACK
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                globalv.getmImageUrls();
+                globalv.getmNames();
+                globalv.getMrecords();
+
+                Intent intent1 = new Intent(CardList.this,Main2Activity.class);
+                startActivity(intent1);
+            }
+        });
+
+
+
+        //PLAY ALL
+        play.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                for (int i=0;i<  globalv.getMrecords().size();i++) {
+                    /*final MediaPlayer mediaPlay = MediaPlayer.create(MainActivity.this, globalv.getMrecords().get(i));
+                    mediaPlay.start();*/
+
+                    if (globalv.getMrecords().get(i) instanceof Integer) {
+                        // The Object is an instance of a String
+                        Integer M = (Integer) globalv.getMrecords().get(i);
+
+                        MediaPlayer mediaPlayer=MediaPlayer.create(view.getContext(),M);
+                        mediaPlayer.start();
+                    }
+                    else if (globalv.getMrecords().get(i) instanceof byte[]) {
+                        // The Object is an instance of a Double
+                        byte[] g = (byte[]) globalv.getMrecords().get(i);
+                        playMp3FromByte(g);
+                    }
+                    try {
+                        Thread.sleep(700);
+                    } catch(InterruptedException e) {
+                    }
+                }
+            }
+
+
+
+        });
 
 
 
@@ -102,4 +168,14 @@ public class CardList extends AppCompatActivity {
 
        lvCard.setAdapter(contactAdapter);
    }
+
+    private void initRecyclerView(){
+        Log.d(TAG, "initRecyclerView: init recyclerview");
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(layoutManager);
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this,  globalv.getmNames(), globalv.getmImageUrls(),globalv.getMrecords());
+        recyclerView.setAdapter(adapter);
+    }
 }
