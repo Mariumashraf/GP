@@ -18,11 +18,12 @@
     <string name="questions">Questions</string>
     <string name="animals">Animals</string>
     <string name="createcard">Create Card</string>
+    <string name="mycard">MY Cards</string>
     <string name="water">Water</string>
     <string name="milk">Milk</string>
     <string name="juice">Juice</string>
 
-    <string name="make">Make a Sentence</string>
+    <string name="make">Cards</string>
     <string name="practice">Practice</string>
     <string name="remember">Remember Objects</string>
 

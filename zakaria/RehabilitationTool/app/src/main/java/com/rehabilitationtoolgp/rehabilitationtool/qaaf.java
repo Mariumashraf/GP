@@ -45,6 +45,15 @@ public class qaaf extends  Activity implements View.OnClickListener {
         sun.setOnClickListener(this);
         sr = SpeechRecognizer.createSpeechRecognizer(this);
         sr.setRecognitionListener(new listener());
+        Button back = (Button) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent1 = new Intent(qaaf.this,PRACTICING.class);
+                startActivity(intent1);
+            }
+        });
 
     }
 

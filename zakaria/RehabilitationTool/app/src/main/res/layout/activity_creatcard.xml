@@ -2,7 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorApp"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          >
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -10,7 +22,6 @@
         android:layout_height="match_parent"
         android:layout_marginEnd="2dp"
         android:layout_marginTop="1dp"
-        android:background="@color/colorApp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -137,8 +148,8 @@
                 app:layout_constraintTop_toTopOf="parent">
                 <ImageView
                     android:id="@+id/take"
-                    android:layout_width="50dp"
-                    android:layout_height="60dp"
+                    android:layout_width="60dp"
+                    android:layout_height="55dp"
                     android:onClick="buttonClicked"
                     android:background="@drawable/camera1"/>
 
@@ -350,5 +361,17 @@
         </android.support.v7.widget.CardView>
 
     </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="RtlHardcoded" />
+
 
 </android.support.constraint.ConstraintLayout>

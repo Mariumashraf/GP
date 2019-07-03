@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\medoz\\Downloads\\Downloads\\GP\\GP-master\\d172019\\GP\\zakaria\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\zakaria\\RehabilitationTool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\medoz\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\988e890c91ac16f3648ef8dad3b9cca0\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\4ceef55f59e7e866813a3ead81c5f8a2\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -48,6 +48,16 @@ public class laam extends  Activity implements View.OnClickListener {
         asl.setOnClickListener(this);
         sr = SpeechRecognizer.createSpeechRecognizer(this);
         sr.setRecognitionListener(new listener());
+
+        Button back = (Button) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent1 = new Intent(laam.this,PRACTICING.class);
+                startActivity(intent1);
+            }
+        });
     }
     class listener implements RecognitionListener {
         public void onReadyForSpeech(Bundle params) {

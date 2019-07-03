@@ -18,14 +18,15 @@
     <string name="questions">الأسئلة</string>
     <string name="animals">الحيوانات</string>
     <string name="createcard">انشاء بطاقة</string>
+    <string name="mycard">بطاقاتي</string>
 
     <string name="water">ماء</string>
     <string name="milk">لبن</string>
     <string name="juice">عصير</string>
 
-    <string name="make">كون جملة</string>
+    <string name="make">البطاقات</string>
     <string name="practice">وضع التدريب</string>
-    <string name="remember">التعرف على الأشياء</string>
+    <string name="remember">تذكرالأشياء</string>
 
     <string name="sleep">أنام</string>
     <string name="watch">أشاهد</string>

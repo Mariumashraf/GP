@@ -44,7 +44,7 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
         TextView qaaf= (TextView) findViewById(R.id.qaafbtn);
         TextView kaaf= (TextView) findViewById(R.id.kaafbtn);
         TextView geem= (TextView) findViewById(R.id.geembtn);
- seen.setOnClickListener(this);
+         seen.setOnClickListener(this);
         raa.setOnClickListener(this);
         laam.setOnClickListener(this);
         qaaf.setOnClickListener(this);
@@ -52,6 +52,16 @@ public class PRACTICING extends  Activity implements View.OnClickListener {
         geem.setOnClickListener(this);
         sr = SpeechRecognizer.createSpeechRecognizer(this);
         sr.setRecognitionListener(new listener());
+
+        Button back = (Button) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent1 = new Intent(PRACTICING.this,MainActivity.class);
+                startActivity(intent1);
+            }
+        });
     }
 
 

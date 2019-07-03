@@ -46,6 +46,16 @@ public class SEEN extends  Activity implements View.OnClickListener {
         sr = SpeechRecognizer.createSpeechRecognizer(this);
         sr.setRecognitionListener(new listener());
 
+        Button back = (Button) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent1 = new Intent(SEEN.this,PRACTICING.class);
+                startActivity(intent1);
+            }
+        });
+
     }
 
     class listener implements RecognitionListener {

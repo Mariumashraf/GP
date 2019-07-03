@@ -28,7 +28,7 @@ import io.paperdb.Paper;
 
 
 public class Main2Activity extends AppCompatActivity {
-    TextView iwant,inotwant,yes2,no2,eat2,drink2,wear2,go2,family2,actions2,trans2,relations2,tools2,time2,feelings2,question2,animals2,createee;
+    TextView iwant,inotwant,yes2,no2,eat2,drink2,wear2,go2,family2,actions2,trans2,relations2,tools2,time2,feelings2,question2,animals2,createee,mycar;
 
 
 
@@ -68,6 +68,7 @@ public class Main2Activity extends AppCompatActivity {
         question2 = (TextView)findViewById(R.id.question);
         animals2  = (TextView)findViewById(R.id.animals2);
         createee  = (TextView)findViewById(R.id.createe);
+        mycar     = (TextView) findViewById(R.id.mycar);
         Button back = (Button) findViewById(R.id.back);
 
 
@@ -97,6 +98,7 @@ public class Main2Activity extends AppCompatActivity {
         ImageView time= (ImageView) findViewById(R.id.timee);
         ImageView tools =(ImageView) findViewById(R.id.tools2);
         ImageView createcard =(ImageView) findViewById(R.id.createcardd);
+        ImageView mycard = (ImageView) findViewById(R.id.display);
         ImageView animals= (ImageView) findViewById(R.id.animals);
         ImageView feelings =(ImageView) findViewById(R.id.feelings);
         ImageView questions =(ImageView) findViewById(R.id.questions);
@@ -405,6 +407,17 @@ public class Main2Activity extends AppCompatActivity {
 
 
         });
+
+        mycard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                Intent intent1 = new Intent(Main2Activity.this,CardList.class);
+                startActivity(intent1);
+            }
+        });
+
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -416,6 +429,8 @@ public class Main2Activity extends AppCompatActivity {
                 startActivity(intent1);
             }
         });
+
+
 
 
 
@@ -456,6 +471,7 @@ public class Main2Activity extends AppCompatActivity {
         animals2.setText(resources.getString(R.string.animals));
         question2.setText(resources.getString(R.string.questions));
         createee.setText(resources.getString(R.string.createcard));
+        //mycar.setText(resources.getString(R.string.mycard));
         relations2.setText(resources.getString(R.string.directions));
 
 

@@ -141,9 +141,19 @@ public class CREATCARD extends AppCompatActivity {
             }
         });
 
+        Button back = (Button) findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent1 = new Intent(CREATCARD.this,Main2Activity.class);
+                startActivity(intent1);
+            }
+        });
 
 
-     }
+
+    }
      public void initiateView(){
         TakePhoto = (ImageView)findViewById(R.id.take);
         ChoosePhoto = (ImageView)findViewById(R.id.choose);
