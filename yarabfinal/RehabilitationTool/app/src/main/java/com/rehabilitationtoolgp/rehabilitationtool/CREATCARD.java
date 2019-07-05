@@ -66,6 +66,9 @@ public class CREATCARD extends AppCompatActivity {
         nam = (TextView)findViewById(R.id.nam);
         Paper.init(this);
 
+        btnStop.setVisibility(Button.GONE);
+        btnRecord.setVisibility(Button.VISIBLE);
+
         String language = Paper.book().read("language");
         if(language == null)
             Paper.book().write("language","ar");
@@ -102,7 +105,11 @@ public class CREATCARD extends AppCompatActivity {
                 mRecorder.setAudioEncoder(MediaRecorder.OutputFormat.AMR_NB);
                 mRecorder.setOutputFile(outputFile);
 
+                btnStop.setVisibility(Button.VISIBLE);
+                btnRecord.setVisibility(Button.GONE);
+
                 start(v);
+
             }
         });
 
@@ -110,7 +117,12 @@ public class CREATCARD extends AppCompatActivity {
         btnStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 stop(v);
+                btnStop.setVisibility(Button.GONE);
+                btnRecord.setVisibility(Button.VISIBLE);
+
+
             }
         });
 

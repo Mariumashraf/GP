@@ -64,7 +64,11 @@ public class UpdateCard extends AppCompatActivity {
         textname = (TextView)findViewById(R.id.textname);
         textrecord = (TextView)findViewById(R.id.textrecord);
 
+
+
         Paper.init(this);
+
+
 
         String language = Paper.book().read("language");
         if(language == null)
@@ -87,11 +91,16 @@ public class UpdateCard extends AppCompatActivity {
         Take =(ImageView)findViewById(R.id.take);
         Choose =(ImageView)findViewById(R.id.choose);
 
+       // Stop.setVisibility(Button.GONE);
+       // Record.setVisibility(Button.VISIBLE);
+
         editNam.setText(contact.Name);
 
         Bitmap bitmap = BitmapFactory.decodeByteArray(contact.Image, 0, contact.Image.length);
         ViewImage.setImageBitmap(bitmap);
         image = getBytes(bitmap);
+
+
 
         Record.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,6 +112,8 @@ public class UpdateCard extends AppCompatActivity {
                 mRecorder.setAudioEncoder(MediaRecorder.OutputFormat.AMR_NB);
                 mRecorder.setOutputFile(outputFile);
 
+             //  Stop.setVisibility(Button.VISIBLE);
+             //  Record.setVisibility(Button.GONE);
                 start(v);
 
             }
@@ -112,6 +123,8 @@ public class UpdateCard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 stop(v);
+             //  Stop.setVisibility(Button.GONE);
+             //  Record.setVisibility(Button.VISIBLE);
 
             }
         });
@@ -137,10 +150,10 @@ public class UpdateCard extends AppCompatActivity {
                 String name = editNam.getText().toString();
 
                 image = ImageView_To_Byte(ViewImage);
-              //  record = FileLocal_To_Byte(outputFile);
+                record = FileLocal_To_Byte(outputFile);
                 Card contact = new Card(id,name,image);
 
-                db.updateContact(contact);
+                db.updateContact(contact,record);
 
 
                 Toast.makeText(UpdateCard.this, "تم التحديث بنجاح", Toast.LENGTH_LONG).show();
