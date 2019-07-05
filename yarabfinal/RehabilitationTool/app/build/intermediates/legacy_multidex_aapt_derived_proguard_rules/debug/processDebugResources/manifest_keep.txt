@@ -1,0 +1,2 @@
+# Referenced at C:\Users\lenovo\Downloads\4-7-2019\GP\final\RehabilitationTool\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21
+-keep class com.rehabilitationtoolgp.rehabilitationtool.Globalrecycler { <init>(...); }

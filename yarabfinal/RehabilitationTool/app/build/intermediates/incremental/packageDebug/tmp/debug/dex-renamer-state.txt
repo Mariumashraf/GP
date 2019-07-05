@@ -1,0 +1,7 @@
+#Fri Jul 05 13:26:01 EET 2019
+base.0=C\:\\Users\\lenovo\\Downloads\\4-7-2019\\GP\\final\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\lenovo\\Downloads\\4-7-2019\\GP\\final\\RehabilitationTool\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
