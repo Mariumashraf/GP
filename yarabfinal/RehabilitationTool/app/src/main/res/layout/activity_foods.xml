@@ -91,7 +91,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/vegatable2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -130,7 +131,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/fruit2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -168,7 +169,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/rice2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -219,7 +220,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/egg2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -257,7 +258,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/cheese2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -296,7 +297,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/Yogurt2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -346,7 +347,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/sandwich2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -385,7 +386,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/fish2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -423,7 +424,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/salad2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -473,7 +474,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/pizza2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -512,7 +513,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/bread2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -550,7 +551,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/chickens2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -600,7 +601,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/meat2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -639,7 +640,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/soup2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -677,7 +678,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/jam2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -727,7 +728,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/icecream2"
                             android:textColor="#080202"
-                            android:textSize="18dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -766,7 +767,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/biscuit2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -804,7 +805,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/honey2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -854,7 +855,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/popcorn2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -893,7 +894,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/Chocolate2"
                             android:textColor="#080202"
-                            android:textSize="20dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

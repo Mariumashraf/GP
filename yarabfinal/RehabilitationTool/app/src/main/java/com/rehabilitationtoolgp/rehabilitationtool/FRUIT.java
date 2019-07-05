@@ -166,8 +166,8 @@ public class FRUIT extends AppCompatActivity {
         roman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(pome2.getText().toString().equalsIgnoreCase("Pome")){
-                    String data="pome";
+                if(pome2.getText().toString().equalsIgnoreCase("Pomegranates")){
+                    String data="pomegranates";
                     int speechStatus = textToSpeech.speak(data, TextToSpeech.QUEUE_FLUSH, null);
                     globalv.addmImageUrls(R.drawable.roman);
                     globalv.addmNames(pome2);

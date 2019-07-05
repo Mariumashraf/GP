@@ -92,7 +92,7 @@
                             android:layout_height="wrap_content"
                             android:text="الصبح"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -130,7 +130,7 @@
                             android:layout_height="wrap_content"
                             android:text="الليل"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -169,7 +169,7 @@
                             android:layout_height="wrap_content"
                             android:text="الغروب"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -220,7 +220,7 @@
                             android:layout_height="wrap_content"
                             android:text="اليوم"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -258,7 +258,7 @@
                             android:layout_height="wrap_content"
                             android:text="غدا"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -297,7 +297,7 @@
                             android:layout_height="wrap_content"
                             android:text="أمس"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

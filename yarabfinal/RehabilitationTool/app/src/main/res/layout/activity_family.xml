@@ -90,7 +90,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/sister2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -129,7 +129,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/brother2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -167,7 +168,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/father2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -217,7 +218,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/uncle2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -255,7 +256,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/aunt2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -294,7 +295,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/mother2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -344,7 +346,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/aunt4"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -383,7 +385,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/uncle4"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -421,7 +423,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/cousinboy"
                             android:textColor="#080202"
-                            android:textSize="20dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -471,7 +474,8 @@
                             android:layout_height="wrap_content"
                             android:text="جدو"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -510,7 +514,8 @@
                             android:layout_height="wrap_content"
                             android:text="جدتى"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -548,7 +553,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/cousingirl"
                             android:textColor="#080202"
-                            android:textSize="20dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

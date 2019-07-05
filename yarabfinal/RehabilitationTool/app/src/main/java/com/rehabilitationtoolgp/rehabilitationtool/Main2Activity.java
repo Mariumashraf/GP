@@ -608,7 +608,7 @@ public class Main2Activity extends AppCompatActivity {
         animals2.setText(resources.getString(R.string.animals));
         question2.setText(resources.getString(R.string.questions));
         createee.setText(resources.getString(R.string.createcard));
-        //mycar.setText(resources.getString(R.string.mycard));
+        mycar.setText(resources.getString(R.string.mycard));
         relations2.setText(resources.getString(R.string.directions));
 
 

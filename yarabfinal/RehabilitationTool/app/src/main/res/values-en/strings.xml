@@ -10,7 +10,7 @@
     <string name="go">Go</string>
     <string name="feelings">Feelings</string>
     <string name="actions">Actions</string>
-    <string name="transportations">Transportations</string>
+    <string name="transportations">Transportation</string>
     <string name="family">Family</string>
     <string name="directions">Directions</string>
     <string name="tools">Tools</string>
@@ -18,14 +18,17 @@
     <string name="questions">Questions</string>
     <string name="animals">Animals</string>
     <string name="createcard">Create Card</string>
-    <string name="mycard">MY Cards</string>
+    <string name="mycard">My Cards</string>
     <string name="water">Water</string>
     <string name="milk">Milk</string>
     <string name="juice">Juice</string>
 
     <string name="make">Cards</string>
-    <string name="practice">Practice</string>
+    <string name="practice">Practice in arabic</string>
     <string name="remember">Remember Objects</string>
+    <string name="display">display cards</string>
+    <string name="save">save</string>
+    <string name="update">update card</string>
 
 
     <string name="sleep">Sleep</string>
@@ -129,7 +132,7 @@
 
 
 
-    <string name="pome">Pome</string>
+    <string name="pome">Pomegranates</string>
     <string name="mango">Mango</string>
     <string name="pear">Pear</string>
     <string name="banana">Banana</string>
@@ -178,7 +181,7 @@
     <string name="who">Who?</string>
     <string name="whichone">Which one?</string>
 
-    <string name="livingroom">Livingroom</string>
+    <string name="livingroom">Living room</string>
     <string name="bedroom">Bedroom</string>
     <string name="bathroom">Bathroom</string>
     <string name="kitchen">Kitchen</string>
@@ -196,7 +199,7 @@
 
     <string name="tv">Tv</string>
     <string name="glassesss">Glasses</string>
-    <string name="scissorsss">Scissorss</string>
+    <string name="scissorsss">Scissors</string>
     <string name="chair">Chair</string>
     <string name="table">Table</string>
     <string name="knife">Knife</string>

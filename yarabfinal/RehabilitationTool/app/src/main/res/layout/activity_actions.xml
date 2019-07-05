@@ -91,7 +91,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/smile2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -130,7 +130,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/write2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -168,7 +168,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/speak2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -218,7 +218,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/run2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -256,7 +256,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/wash2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -295,7 +295,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/think2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -345,7 +345,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/open2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -384,7 +384,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/close2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -422,7 +422,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/watch2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -472,7 +472,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/sleep2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

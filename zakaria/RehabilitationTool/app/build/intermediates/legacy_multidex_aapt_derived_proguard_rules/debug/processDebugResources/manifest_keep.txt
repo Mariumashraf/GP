@@ -1,2 +1,0 @@
-# Referenced at C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\zakaria\RehabilitationTool\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21
--keep class com.rehabilitationtoolgp.rehabilitationtool.Globalrecycler { <init>(...); }

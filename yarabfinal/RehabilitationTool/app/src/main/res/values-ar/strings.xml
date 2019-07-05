@@ -88,8 +88,9 @@
     <string name="unclee">خالى</string>
     <string name="auntt">خالتى</string>
 
-
-
+    <string name="display">عرض البطاقات</string>
+    <string name="save">حفظ</string>
+    <string name="update">تعديل البطاقة</string>
     <string name="sad">حزين</string>
     <string name="happy">سعيد</string>
     <string name="shy">محرج</string>
@@ -169,6 +170,7 @@
     <string name="hospital">المستشفي</string>
     <string name="park">الحديقة</string>
     <string name="busstation">محطة الاوتوبيس</string>
+    <string name="supermarket">السوبرماركت</string>
 
 
     <string name="tv">تليفزيون</string>

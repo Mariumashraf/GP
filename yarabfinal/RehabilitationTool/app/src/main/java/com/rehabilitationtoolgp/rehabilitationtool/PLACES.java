@@ -220,8 +220,8 @@ public class PLACES extends AppCompatActivity {
         livingroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(livingroom2.getText().toString().equalsIgnoreCase("Livingroom")){
-                    String data="livingroom";
+                if(livingroom2.getText().toString().equalsIgnoreCase("Living room")){
+                    String data="living room";
                     int speechStatus = textToSpeech.speak(data, TextToSpeech.QUEUE_FLUSH, null);
                     globalv.addmImageUrls(R.drawable.livingroom);
                     globalv.addmNames(livingroom2);

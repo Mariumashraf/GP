@@ -246,7 +246,7 @@ public class CREATCARD extends AppCompatActivity {
         startActivityForResult(photoPickerIntent, 2);
     }
     public void ResetCard(){
-        imageViewImage.setImageResource(R.drawable.card);
+       imageViewImage.setImageResource(R.drawable.white);
         editName.setText("");
     }
 
@@ -297,6 +297,9 @@ public class CREATCARD extends AppCompatActivity {
         imagee.setText(resources.getString(R.string.addimage));
         recordd.setText(resources.getString(R.string.addrecord));
         nam.setText(resources.getString(R.string.addname));
+        ShowCards.setText(resources.getString(R.string.display));
+        Save.setText(resources.getString(R.string.save));
+
 
 
 

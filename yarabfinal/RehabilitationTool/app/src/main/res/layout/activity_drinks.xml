@@ -90,7 +90,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/juice2"
                             android:textColor="#080202"
-                            android:textSize="22dp"/>
+                            android:textSize="@dimen/appSize"/>
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -127,7 +127,7 @@
                             android:id="@+id/water2"
                             android:text="@string/water2"
                             android:textColor="#080202"
-                            android:textSize="22dp"/>
+                            android:textSize="@dimen/appSize"/>
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -165,7 +165,7 @@
                             android:id="@+id/milk2"
                             android:text="@string/milk2"
                             android:textColor="#080202"
-                            android:textSize="22dp"/>
+                            android:textSize="@dimen/appSize"/>
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

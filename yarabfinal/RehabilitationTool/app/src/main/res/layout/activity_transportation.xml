@@ -90,7 +90,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/car2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -129,7 +129,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/taxi2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -167,7 +167,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/autobus2"
                             android:textColor="#080202"
-                            android:textSize="20dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -217,7 +217,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/metro2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -255,7 +255,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/train2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -294,7 +294,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/bike2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -344,7 +344,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/elevator2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -383,7 +383,8 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/motor2"
                             android:textColor="#080202"
-                            android:textSize="16dp" />
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -421,7 +422,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="@string/plane2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -471,7 +472,7 @@ tools:context=".TRANSPORTATION">
                             android:layout_height="wrap_content"
                             android:text="مركب"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

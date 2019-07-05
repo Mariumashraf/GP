@@ -255,8 +255,8 @@ public class TOOLS extends AppCompatActivity {
         scissorss.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(scissorss2.getText().toString().equalsIgnoreCase("Scissorss")){
-                    String data="scissorss";
+                if(scissorss2.getText().toString().equalsIgnoreCase("Scissors")){
+                    String data="scissors";
                     int speechStatus = textToSpeech.speak(data, TextToSpeech.QUEUE_FLUSH, null);
                     globalv.addmImageUrls(R.drawable.maas);
                     globalv.addmNames(scissorss2);

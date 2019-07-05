@@ -855,6 +855,7 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen appSize
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -963,6 +964,7 @@ dimen md_simplelistitem_padding_top
 dimen md_title_frame_margin_bottom
 dimen md_title_frame_margin_bottom_less
 dimen md_title_textsize
+dimen minSize
 dimen mtrl_bottomappbar_fabOffsetEndMode
 dimen mtrl_bottomappbar_fab_cradle_margin
 dimen mtrl_bottomappbar_fab_cradle_rounded_corner_radius
@@ -1128,8 +1130,6 @@ drawable aunt
 drawable auntt
 drawable avd_hide_password
 drawable avd_show_password
-drawable babyblue
-drawable backk
 drawable backkk
 drawable badla
 drawable bag
@@ -1147,12 +1147,9 @@ drawable btats
 drawable bus
 drawable busstation
 drawable ca
-drawable camera
 drawable camera1
 drawable car
-drawable card
 drawable card2
-drawable card3
 drawable cardd
 drawable cat
 drawable chair
@@ -1183,15 +1180,10 @@ drawable egg
 drawable enab
 drawable esh
 drawable family2
-drawable feelings2
 drawable fish
 drawable fork
 drawable frahk
 drawable frame
-drawable frame2
-drawable frame3
-drawable frame4
-drawable frame5
 drawable frawla
 drawable friutttz
 drawable fshaar
@@ -1206,7 +1198,6 @@ drawable gwafa
 drawable happy
 drawable hate
 drawable hearspeak
-drawable hearspeak1
 drawable home
 drawable hospital
 drawable hurt
@@ -1290,17 +1281,10 @@ drawable park
 drawable pc
 drawable pen
 drawable pijama
-drawable pink
 drawable pizza
 drawable plane
-drawable play1
-drawable playp
-drawable plywood
-drawable practcingg
-drawable purple
 drawable qamar
 drawable questions
-drawable re
 drawable right
 drawable roman
 drawable round_button
@@ -1313,7 +1297,6 @@ drawable sandwich
 drawable saqr
 drawable scared
 drawable school
-drawable shiny
 drawable ship
 drawable shoes
 drawable shorba
@@ -1323,7 +1306,6 @@ drawable skirt
 drawable sleep
 drawable smile
 drawable spoon
-drawable st
 drawable sun
 drawable sunset
 drawable supermarket
@@ -1357,10 +1339,10 @@ drawable water
 drawable wear
 drawable where
 drawable whichone
+drawable white
 drawable who
 drawable work
 drawable write
-drawable yellow
 drawable yes
 drawable yesterday
 drawable zbady
@@ -2574,7 +2556,7 @@ string motor
 string motor2
 string mozeeg2
 string mtrl_chip_close_icon_content_description
-string mycar
+string mycard
 string name
 string nasty
 string night
@@ -2748,6 +2730,7 @@ string uncle4
 string unclee
 string university
 string university2
+string update
 string vegatable
 string vegatable2
 string vegetables

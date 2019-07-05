@@ -90,7 +90,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/livingroom2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -128,7 +129,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/bedroom2"
                             android:textColor="#080202"
-                            android:textSize="20dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -179,7 +181,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/bathroom2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -217,7 +220,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/kitchen2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -267,7 +271,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/university2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -306,7 +311,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/school2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -356,7 +362,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/supermarket2"
                             android:textColor="#080202"
-                            android:textSize="18dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -395,7 +402,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/home2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -445,7 +453,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/companyy2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -484,7 +493,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/hospital2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -533,7 +543,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/busStation2"
                             android:textColor="#080202"
-                            android:textSize="12dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
@@ -571,7 +582,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/park2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

@@ -90,7 +90,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/cat2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -128,7 +128,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/dog2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -166,7 +166,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/fish3"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -217,7 +217,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/bird2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -255,7 +255,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/insect2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

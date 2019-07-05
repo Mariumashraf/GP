@@ -91,7 +91,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/where2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -129,7 +129,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/why2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -168,7 +168,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/who2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -218,7 +218,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/whichone2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -246,8 +247,8 @@
                         app:layout_constraintTop_toTopOf="parent">
                         <ImageView
                             android:id="@+id/when"
-                            android:layout_width="70dp"
-                            android:layout_height="90dp"
+                            android:layout_width="60dp"
+                            android:layout_height="70dp"
                             android:background="@drawable/date" />
 
                         <TextView
@@ -256,7 +257,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/when2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -295,7 +296,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/howmoney2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:gravity="center"
+                            android:textSize="@dimen/minSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -345,7 +347,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/time2"
                             android:textColor="#080202"
-                            android:textSize="22dp" />
+                            android:textSize="@dimen/appSize" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
