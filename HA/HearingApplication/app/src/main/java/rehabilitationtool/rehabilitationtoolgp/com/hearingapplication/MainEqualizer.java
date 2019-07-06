@@ -9,9 +9,13 @@ import android.media.AudioManager;
 import android.media.AudioRecord;
 import android.media.AudioTrack;
 import android.media.MediaRecorder;
+import android.media.audiofx.AcousticEchoCanceler;
 import android.media.audiofx.Equalizer;
+import android.media.audiofx.LoudnessEnhancer;
+import android.media.audiofx.NoiseSuppressor;
 import android.media.audiofx.Visualizer;
 import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -108,6 +112,9 @@ public class MainEqualizer extends AppCompatActivity {
         });
     }
     ///////////////////////////////// live part //////////////////////////////////////////////////////
+
+
+    @TargetApi(Build.VERSION_CODES.KITKAT)
     private void init() {
         if(CheckPermissions()) {
             int min = AudioRecord.getMinBufferSize(4000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
@@ -117,6 +124,13 @@ public class MainEqualizer extends AppCompatActivity {
             int maxJitter = AudioTrack.getMinBufferSize(4000, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
             track = new AudioTrack(AudioManager.MODE_IN_COMMUNICATION, 4000, AudioFormat.CHANNEL_OUT_MONO,
                     AudioFormat.ENCODING_PCM_16BIT, maxJitter, AudioTrack.MODE_STREAM);
+
+            LoudnessEnhancer enhancer = new LoudnessEnhancer(track.getAudioSessionId());
+            NoiseSuppressor.create(track.getAudioSessionId());
+            AcousticEchoCanceler.create(track.getAudioSessionId());
+
+            enhancer.setTargetGain(3000);
+            enhancer.setEnabled(true);
         }
         else
         {
