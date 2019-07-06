@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="rehabilitationtool.rehabilitationtoolgp.com.hearingapplication.TestComplete">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="140dp"
+        android:layout_marginTop="30dp"
+        android:text="الاختبار انتهى"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="115dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="150dp"
+
+        android:layout_marginTop="20dp"
+        android:text="النتائج"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/tableResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/transparent"></TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="119dp"
+        android:layout_height="56dp"
+        android:layout_gravity="right"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="428dp"
+        android:background="@android:drawable/ic_menu_revert"
+        android:gravity="left"
+        android:onClick="gotoMain"
+        android:paddingBottom="20sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="30sp"
+        android:paddingTop="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
