@@ -110,11 +110,11 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\user\.grad
 	android:hardwareAccelerated
 		ADDED from C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\yarabfinal\RehabilitationTool\app\src\main\AndroidManifest.xml:18:9-43
 	android:roundIcon
-		ADDED from C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\yarabfinal\RehabilitationTool\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\yarabfinal\RehabilitationTool\app\src\main\AndroidManifest.xml:22:9-44
 	android:largeHeap
 		ADDED from C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\yarabfinal\RehabilitationTool\app\src\main\AndroidManifest.xml:21:9-33
 	android:icon
-		ADDED from C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\yarabfinal\RehabilitationTool\app\src\main\AndroidManifest.xml:19:9-38
+		ADDED from C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\yarabfinal\RehabilitationTool\app\src\main\AndroidManifest.xml:19:9-39
 	android:allowBackup
 		ADDED from C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\yarabfinal\RehabilitationTool\app\src\main\AndroidManifest.xml:17:9-35
 	android:theme

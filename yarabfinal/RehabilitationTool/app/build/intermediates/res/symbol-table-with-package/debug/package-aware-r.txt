@@ -1221,7 +1221,8 @@ drawable laziiiz
 drawable left
 drawable livingroom
 drawable lmazaa
-drawable logo
+drawable logo1
+drawable logo2
 drawable love
 drawable ma
 drawable maa

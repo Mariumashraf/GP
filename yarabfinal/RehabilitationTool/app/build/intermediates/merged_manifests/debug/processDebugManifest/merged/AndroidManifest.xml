@@ -24,10 +24,10 @@
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:hardwareAccelerated="true"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/logo1"
         android:label="وصلة"
         android:largeHeap="true"
-        android:roundIcon="@drawable/logo"
+        android:roundIcon="@drawable/logo1"
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
