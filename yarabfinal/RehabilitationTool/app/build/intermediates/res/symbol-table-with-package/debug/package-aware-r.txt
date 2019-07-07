@@ -1221,8 +1221,13 @@ drawable laziiiz
 drawable left
 drawable livingroom
 drawable lmazaa
+<<<<<<< HEAD
 drawable logo
 drawable logo1
+=======
+drawable logo1
+drawable logo2
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
 drawable love
 drawable ma
 drawable maa

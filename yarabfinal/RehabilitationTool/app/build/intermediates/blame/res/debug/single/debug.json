@@ -32,6 +32,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\color\\mtrl_btn_text_btn_ripple_color.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\anim\\abc_popup_exit.xml"
     },
@@ -42,6 +43,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dog.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\dog.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\645ff7b4d96dd2d4b0f18544fbdbaedc\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vegetablesz.jpg.flat",
@@ -72,6 +85,7 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\laziiz.mp3"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -82,6 +96,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lmazaa.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\lmazaa.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_top.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_mohrag.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\mohrag.mp3"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_colored_ripple_color.xml.flat",
@@ -108,6 +134,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -118,6 +145,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ra.xml.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\activity_ra.xml"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_livingroom.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\livingroom.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mug.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\mug.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card2.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\card2.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -132,6 +171,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_potatoesss.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\potatoesss.mp3"
     },
@@ -142,6 +182,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bus.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\bus.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\anim_decelerate_cubic.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\4ceef55f59e7e866813a3ead81c5f8a2\\res\\anim\\decelerate_cubic.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_auntt.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\auntt.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tomorrow.png.flat",
@@ -152,6 +204,7 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\blouseee.mp3"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
@@ -162,12 +215,25 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\1a88f6666987066e6d67828b55b44118\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_imgview_heart.svg.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_heart.svg"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gazr.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\gazr.png"
     },
@@ -178,22 +244,44 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_motherbro.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\motherbro.mp3"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_insideee.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\insideee.mp3"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_directions.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\activity_directions.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_md_nav_back.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\ab1e1c19b7fde41114d7be3efc9f5b26\\res\\drawable-hdpi-v4\\md_nav_back.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_down.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\down.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\1a88f6666987066e6d67828b55b44118\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_chocolateee.mp3.flat",
@@ -208,6 +296,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_hurt.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\hurt.mp3"
     },
@@ -218,6 +307,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\2ac0fc674b54e8daae20fc72f256a2f5\\res\\drawable\\notification_bg.xml"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_asanser.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\asanser.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_universityyy.mp3.flat",
@@ -292,6 +393,7 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\plane.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_motor.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\motor.png"
     },
@@ -302,14 +404,31 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_schoolll.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\schoolll.mp3"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_feelings.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\activity_feelings.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_why.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\why.mp3"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_open.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\open.mp3"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_thinkkk.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\thinkkk.mp3"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chocolate.png.flat",
@@ -364,16 +483,26 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\kyar.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\no.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\1a88f6666987066e6d67828b55b44118\\res\\animator\\mtrl_btn_unelevated_state_list_anim.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dress.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\dress.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_underrr.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\underrr.mp3"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_nooo.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\nooo.mp3"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
@@ -472,6 +601,7 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\hosbital.mp3"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_left.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\left.png"
     },
@@ -482,6 +612,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_where.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\where.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_drinks.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\activity_drinks.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tv.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\tv.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_pennn.mp3.flat",
@@ -512,22 +654,37 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\skirttt.mp3"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_open.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\open.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo2.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\logo2.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_saladdd.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\saladdd.mp3"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_train.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\train.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\layout\\abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\645ff7b4d96dd2d4b0f18544fbdbaedc\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_md_dialog_list_check.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\ab1e1c19b7fde41114d7be3efc9f5b26\\res\\layout\\md_dialog_list_check.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_listitem.xml.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\layout_listitem.xml"
     },
@@ -538,6 +695,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\2ac0fc674b54e8daae20fc72f256a2f5\\res\\layout-v21\\notification_template_custom_big.xml"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donotunderstand.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\donotunderstand.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ca.jpg.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\ca.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roz.png.flat",
@@ -564,6 +733,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\2ac0fc674b54e8daae20fc72f256a2f5\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_ice.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\ice.mp3"
     },
@@ -574,6 +744,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\1a88f6666987066e6d67828b55b44118\\res\\layout\\design_layout_snackbar.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_watch.png.flat",
@@ -612,6 +794,7 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\mangooo.mp3"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -622,6 +805,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_imgview_star.svg.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_star.svg"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\645ff7b4d96dd2d4b0f18544fbdbaedc\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_waterrr.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\waterrr.mp3"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maa.jpg.flat",
@@ -672,6 +867,7 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\notebook.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_sleeppp.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\sleeppp.mp3"
     },
@@ -682,6 +878,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toilet.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\toilet.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_knife.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\knife.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outside.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\outside.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hate.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\hate.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -712,6 +920,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-v21\\abc_dialog_material_background.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -722,6 +931,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hearspeak.PNG.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\hearspeak.PNG"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fruit.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\activity_fruit.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_saqr.jpg.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\saqr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable\\abc_dialog_material_background.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -812,6 +1033,7 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\logo.PNG"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_clothes.xml.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\activity_clothes.xml"
     },
@@ -822,6 +1044,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_moon.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\moon.mp3"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -852,16 +1086,26 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_arounddd.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\arounddd.mp3"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_stroke_color_selector.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\color\\mtrl_btn_stroke_color_selector.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gebna.png.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\gebna.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_directions.xml.flat",
@@ -880,6 +1124,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_colored_item_tint.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\color\\mtrl_bottom_nav_colored_item_tint.xml"
     },
@@ -890,14 +1135,31 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_popcornnn.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\popcornnn.mp3"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector_colored.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\1a88f6666987066e6d67828b55b44118\\res\\color\\mtrl_tabs_icon_color_selector_colored.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ca.jpg.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\ca.jpg"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_biscuitsss.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\biscuitsss.mp3"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -916,6 +1178,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\drawable\\ic_mtrl_chip_checked_black.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_open.mp3.flat",
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\open.mp3"
     },
@@ -926,6 +1189,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_imgview_pentagon.svg.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\android-shape-imageview-0.9.3.aar\\a193a2da5dbe89b7ec0882339b72b345\\res\\raw\\imgview_pentagon.svg"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\color-v23\\abc_tint_edittext.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -1024,6 +1299,7 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\activity_practicing.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -1034,6 +1310,18 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_ripple_color.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\color\\mtrl_btn_ripple_color.xml"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\1a88f6666987066e6d67828b55b44118\\res\\color\\mtrl_chip_close_icon_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\645ff7b4d96dd2d4b0f18544fbdbaedc\\res\\drawable\\notification_icon_background.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ganb.png.flat",
@@ -1048,6 +1336,7 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_ripple_color.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\color\\mtrl_chip_ripple_color.xml"
     },
@@ -1062,14 +1351,35 @@
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_mothersis.mp3.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\raw\\mothersis.mp3"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_places.xml.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\layout\\activity_places.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_background_color.xml.flat",
@@ -1376,8 +1686,17 @@
         "source": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\hate.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo1.png.flat",
+        "source": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\src\\main\\res\\drawable\\logo1.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_yesss.mp3.flat",
@@ -2068,12 +2387,17 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f666f3814df41671c5c4b6e0706faa4e\\res\\drawable\\tooltip_frame_light.xml"
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\0ffaf61a13d26f54bdde324175272e82\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+=======
+        "merged": "C:\\Users\\user\\Desktop\\GP\\Mobile as a tool for Rehabilitation\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5b56cb48c0a56ba1fc9bb6e04bf01f72\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+>>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     },
     {
         "merged": "F:\\6-7\\GP\\yarabfinal\\RehabilitationTool\\app\\build\\intermediates\\res\\merged\\debug\\raw_bicycleee.mp3.flat",
