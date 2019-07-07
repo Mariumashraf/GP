@@ -228,7 +228,7 @@ public class CLOTHES extends AppCompatActivity {
                     tshirtPlayer .start();
                     globalv.addMrecords(R.raw.kamees);
                     globalv.addmImageUrls(R.drawable.chemies);
-                    globalv.addmNames(tshirt);
+                    globalv.addmNames(tshirt2);
                 }
                 initRecyclerView();
 

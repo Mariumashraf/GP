@@ -107,7 +107,7 @@ public class ACTIONS extends AppCompatActivity {
         initRecyclerView();
 
 
-        final MediaPlayer OPENplayer =MediaPlayer.create(ACTIONS.this, R.raw.lockkk);
+        final MediaPlayer OPENplayer =MediaPlayer.create(ACTIONS.this, R.raw.open);
         open.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -304,7 +304,7 @@ public class ACTIONS extends AppCompatActivity {
 
                 }
                 else{
-                    washplayer .start();
+                    watchplayer .start();
                     globalv.addMrecords(R.raw.watchhh);
                     globalv.addmImageUrls(R.drawable.watchh);
                     globalv.addmNames(watch2);

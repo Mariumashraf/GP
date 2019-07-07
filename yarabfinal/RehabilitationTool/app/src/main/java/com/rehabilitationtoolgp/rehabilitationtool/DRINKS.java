@@ -44,6 +44,7 @@ public class DRINKS extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drinks);
+
         textToSpeech = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
@@ -96,7 +97,9 @@ public class DRINKS extends AppCompatActivity {
 
                 if(juice2.getText().toString().equalsIgnoreCase("Juice")){
                     String data="go";
+
                     int speechStatus = textToSpeech.speak(data, TextToSpeech.QUEUE_FLUSH, null);
+
                     globalv.addmImageUrls(R.drawable.aser);
                     globalv.addmNames(juice2);
                     globalv.addMrecords(speechStatus);

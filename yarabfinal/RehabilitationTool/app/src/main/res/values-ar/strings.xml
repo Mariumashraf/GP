@@ -20,12 +20,13 @@
     <string name="createcard">انشاء بطاقة</string>
     <string name="mycard">بطاقاتي</string>
 
-    <string name="water">ماء</string>
+    <string name="water">مية</string>
     <string name="milk">لبن</string>
     <string name="juice">عصير</string>
 
     <string name="make">البطاقات</string>
     <string name="practice">وضع التدريب</string>
+
     <string name="remember">تذكرالأشياء</string>
 
     <string name="sleep">أنام</string>
@@ -33,7 +34,7 @@
     <string name="close">أقفل</string>
     <string name="open">أفتح</string>
     <string name="think">أفكر</string>
-    <string name="wash">أغسل أسنانى</string>
+    <string name="wash">أغسل سنانى</string>
     <string name="run">أجرى</string>
     <string name="speak">اتكلم</string>
     <string name="write">اكتب</string>
@@ -54,7 +55,7 @@
     <string name="socks">شراب</string>
     <string name="skirt">جيبة</string>
     <string name="tshirt">قميص</string>
-    <string name="pajama">بيحامة</string>
+    <string name="pajama">بيجامة</string>
     <string name="trousers">بنطلون</string>
     <string name="suit">بدلة</string>
 
@@ -77,14 +78,14 @@
 
     <string name="brother">أخويا</string>
     <string name="sister">أختى</string>
-    <string name="mother">أمى</string>
-    <string name="father">أبى</string>
+    <string name="mother">ماما</string>
+    <string name="father">بابا</string>
     <string name="grandfather">جدو</string>
     <string name="grandmother">جدتى</string>
     <string name="uncle">عمى</string>
     <string name="aunt">عمتى</string>
     <string name="cousineboy">ابن عمى</string>
-    <string name="cousinegirl">ابن عمتى</string>
+    <string name="cousinegirl">بنت عمى</string>
     <string name="unclee">خالى</string>
     <string name="auntt">خالتى</string>
 
@@ -96,14 +97,14 @@
     <string name="shy">محرج</string>
     <string name="ilike">بحب</string>
     <string name="ihate">بكره</string>
-    <string name="boring">ممل</string>
+    <string name="boring">ملان</string>
     <string name="annoying">مزعج</string>
     <string name="enthusiastic">متحمس</string>
-    <string name="scared">خائف </string>
+    <string name="scared">خايف </string>
     <string name="painful">مؤلم</string>
     <string name="tasty">لذيذ</string>
     <string name="donotunder">مش فاهم</string>
-    <string name="nasty">مقرف</string>
+    <string name="nasty">قرفان</string>
 
 
     <string name="vegetables">خضراوات</string>
@@ -153,7 +154,7 @@
     <string name="bike">عجلة</string>
     <string name="metro">مترو</string>
     <string name="train">قطار</string>
-    <string name="elevator">مصعد</string>
+    <string name="elevator">اسانسير</string>
     <string name="motor">موتوسيكل</string>
     <string name="plane">طيارة</string>
     <string name="ship">مركب</string>
@@ -166,7 +167,7 @@
     <string name="university">الجامعة</string>
     <string name="school">المدرسة</string>
     <string name="company">الشغل</string>
-    <string name="home">المنزل</string>
+    <string name="home">البيت</string>
     <string name="hospital">المستشفي</string>
     <string name="park">الحديقة</string>
     <string name="busstation">محطة الاوتوبيس</string>
@@ -190,20 +191,20 @@
     <string name="pen">قلم</string>
     <string name="notebook">كراسة</string>
 
-    <string name="why">لماذا؟</string>
-    <string name="where">أين؟</string>
+    <string name="why">ليه؟</string>
+    <string name="where">فين؟</string>
     <string name="when">امتى؟</string>
     <string name="howmoney">بكام؟</string>
-    <string name="Timee">كم الوقت؟</string>
-    <string name="who">من؟</string>
-    <string name="whichone">أى واحدة؟</string>
+    <string name="Timee">الساعة كام؟</string>
+    <string name="who">مين؟</string>
+    <string name="whichone">انهى واحد؟</string>
 
     <string name="morning">الصبح</string>
     <string name="night">الليل</string>
     <string name="sunset">الغروب</string>
     <string name="today">اليوم</string>
-    <string name="tomorrow">غدا</string>
-    <string name="yesterday">أمس</string>
+    <string name="tomorrow">بكرة</string>
+    <string name="yesterday">امبارح</string>
 
 
 

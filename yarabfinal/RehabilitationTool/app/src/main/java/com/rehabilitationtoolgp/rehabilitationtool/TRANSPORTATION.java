@@ -200,10 +200,10 @@ public class TRANSPORTATION extends AppCompatActivity {
 
                 }
                 else{
-                    autobusplayer .start();
+                    autobusplayer.start();
                     globalv.addMrecords(R.raw.busss);
                     globalv.addmImageUrls(R.drawable.bus);
-                    globalv.addmNames(autobusplayer);
+                    globalv.addmNames(autobus2);
                 }
                 initRecyclerView();
 

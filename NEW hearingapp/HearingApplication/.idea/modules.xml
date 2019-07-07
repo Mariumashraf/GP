@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HearingApplication.iml" filepath="$PROJECT_DIR$/HearingApplication.iml" />
       <module fileurl="file://C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\NEW hearingapp\HearingApplication\HearingApplication.iml" filepath="C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\NEW hearingapp\HearingApplication\HearingApplication.iml" />
+      <module fileurl="file://F:\6-7\GP\NEW hearingapp\HearingApplication\HearingApplication.iml" filepath="F:\6-7\GP\NEW hearingapp\HearingApplication\HearingApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\6-7\GP\NEW hearingapp\HearingApplication\app\app.iml" filepath="F:\6-7\GP\NEW hearingapp\HearingApplication\app\app.iml" />
       <module fileurl="file://C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\NEW hearingapp\HearingApplication\app\app.iml" filepath="C:\Users\user\Desktop\GP\Mobile as a tool for Rehabilitation\GP\NEW hearingapp\HearingApplication\app\app.iml" />
     </modules>
   </component>
