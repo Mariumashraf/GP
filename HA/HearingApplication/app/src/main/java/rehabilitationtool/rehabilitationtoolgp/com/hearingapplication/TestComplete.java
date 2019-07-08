@@ -22,7 +22,7 @@ import java.util.Date;
 
 public class TestComplete extends AppCompatActivity {
 
-    private final int[] testingFrequencies = {60, 230, 60, 910, 3600, 14000, 16000};
+    private final int[] testingFrequencies = {500, 1000, 500, 3000, 4000, 6000, 8000};
     SimpleDateFormat sdf = new SimpleDateFormat("MM_dd_yyyy-HHmmss");
     String currentDateTime = sdf.format(new Date());
 

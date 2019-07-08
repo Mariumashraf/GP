@@ -1,2 +1,2 @@
-# Referenced at F:\6-7\GP\yarabfinal\RehabilitationTool\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21
+# Referenced at F:\8-7\GP\yarabfinal\RehabilitationTool\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21
 -keep class com.rehabilitationtoolgp.rehabilitationtool.Globalrecycler { <init>(...); }

@@ -109,7 +109,7 @@ public class ExportData extends AppCompatActivity {
                             String URL = "http://reecestevens.me/mail.php?";
                             URL += "t=" + email;
                             URL += "&s=" + "test";
-                            URL += "&b=" + "Thresholds+for+test+" + fileName + "+:+[60+Hz]+" + testResultsRight[0] + "+[230+Hz]+" + testResultsRight[1] + "+[60+Hz+Repeated]+" + testResultsRight[2] + "+[910+Hz]+" + testResultsRight[3] + "+[3600+Hz]+" + testResultsRight[4] + "+[14000+Hz]+" + testResultsRight[5] + "+[16000+Hz]+" + testResultsRight[6] + ".";
+                            URL += "&b=" + "Thresholds+for+test+" + fileName + "+:+[500+Hz]+" + testResultsRight[0] + "+[1000+Hz]+" + testResultsRight[1]  + "+[3000+Hz]+" + testResultsRight[3] + "+[4000+Hz]+" + testResultsRight[4] + "+[6000+Hz]+" + testResultsRight[5] + "+[8000+Hz]+" + testResultsRight[6] + ".";
                             HttpResponse response = httpclient.execute(new HttpGet(URL));
                             StatusLine statusLine = response.getStatusLine();
                             if (statusLine.getStatusCode() == HttpStatus.SC_OK) {

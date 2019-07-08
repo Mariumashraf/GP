@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         updateView((String)Paper.book().read("language"));
         ImageView cards= (ImageView) findViewById(R.id.c);
         ImageView practice = (ImageView) findViewById(R.id.speechvrifecation);
+        ImageView object = (ImageView)findViewById(R.id.object) ;
 
 
         //Cards
@@ -83,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        remember.setOnClickListener(new View.OnClickListener() {
+        object.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent launchobject = getPackageManager().getLaunchIntentForPackage("org.tensorflow.demo");

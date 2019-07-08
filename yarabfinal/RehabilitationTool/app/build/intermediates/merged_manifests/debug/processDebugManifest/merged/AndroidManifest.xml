@@ -29,7 +29,6 @@
         android:largeHeap="true"
         android:roundIcon="@drawable/logo1"
         android:supportsRtl="false"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.MainActivity" >
             <intent-filter>

@@ -24,7 +24,7 @@ public class Calibration extends AppCompatActivity {
 
     final private int sampleRate = 44100;
     final private int numSamples = 4 * sampleRate;
-    final private int frequencies[] = {60, 230, 910, 3600, 14000, 16000};
+    final private int frequencies[] = {500, 1000, 3000, 4000, 6000, 8000};
     final private int volume = 30000;
     final private double mGain = 0.0044;
     final private double mAlpha = 0.9;

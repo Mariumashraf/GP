@@ -33,7 +33,7 @@ public class TestProctoring extends AppCompatActivity {
     private final int numSamples = duration * sampleRate;
     private final int volume = 32767;
     //private final int volume = 15000;
-    private final int[] testingFrequencies = {60, 230, 60, 910, 3600, 14000, 16000};
+    private final int[] testingFrequencies = {500, 1000, 500, 3000, 4000, 6000, 8000};
     final private double mGain = 0.0044;
     final private double mAlpha = 0.9;
     private boolean heard = false;

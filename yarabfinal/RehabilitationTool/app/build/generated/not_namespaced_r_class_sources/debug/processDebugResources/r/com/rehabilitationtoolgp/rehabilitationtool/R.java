@@ -5880,13 +5880,8 @@ public final class R {
     public static final int left=0x7f0700bd;
     public static final int livingroom=0x7f0700be;
     public static final int lmazaa=0x7f0700bf;
-<<<<<<< HEAD
-    public static final int logo=0x7f0700c0;
-    public static final int logo1=0x7f0700c1;
-=======
     public static final int logo1=0x7f0700c0;
     public static final int logo2=0x7f0700c1;
->>>>>>> 2da38b0a4b35df1c1702663cc23594f3a5fbfa32
     public static final int love=0x7f0700c2;
     public static final int ma=0x7f0700c3;
     public static final int maa=0x7f0700c4;
