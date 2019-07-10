@@ -16,10 +16,10 @@
         android:name=".Globalrecycler"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:icon="@drawable/logo1"
+        android:icon="@drawable/finlogo"
         android:label="وصلة"
         android:largeHeap="true"
-        android:roundIcon="@drawable/logo1"
+        android:roundIcon="@drawable/finlogo"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">

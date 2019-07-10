@@ -140,8 +140,8 @@ public class ACTIONS extends AppCompatActivity {
         wash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(wash2.getText().toString().equalsIgnoreCase("Wash")){
-                    String data="wash";
+                if(wash2.getText().toString().equalsIgnoreCase("Wash my teeth")){
+                    String data="wash my teeth";
                     int speechStatus = textToSpeech.speak(data, TextToSpeech.QUEUE_FLUSH, null);
                     globalv.addmImageUrls(R.drawable.wash);
                     globalv.addmNames(wash2);

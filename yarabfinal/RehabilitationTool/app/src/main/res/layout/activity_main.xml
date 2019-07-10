@@ -191,7 +191,7 @@
                     android:id="@+id/object"
                     android:layout_width="150dp"
                     android:layout_height="75dp"
-                    android:background="@drawable/camera1" />
+                    android:background="@drawable/ca" />
 
                 <TextView
                     android:id="@+id/remeber"

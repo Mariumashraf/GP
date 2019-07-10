@@ -24,11 +24,12 @@
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:hardwareAccelerated="true"
-        android:icon="@drawable/logo1"
+        android:icon="@drawable/finlogo"
         android:label="وصلة"
         android:largeHeap="true"
-        android:roundIcon="@drawable/logo1"
+        android:roundIcon="@drawable/finlogo"
         android:supportsRtl="false"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.rehabilitationtoolgp.rehabilitationtool.MainActivity" >
             <intent-filter>
