@@ -125,12 +125,12 @@ public class MainEqualizer extends AppCompatActivity {
             track = new AudioTrack(AudioManager.MODE_IN_COMMUNICATION, 4000, AudioFormat.CHANNEL_OUT_MONO,
                     AudioFormat.ENCODING_PCM_16BIT, maxJitter, AudioTrack.MODE_STREAM);
 
-         /*   LoudnessEnhancer enhancer = new LoudnessEnhancer(track.getAudioSessionId());
+           LoudnessEnhancer enhancer = new LoudnessEnhancer(track.getAudioSessionId());
             NoiseSuppressor.create(track.getAudioSessionId());
             AcousticEchoCanceler.create(track.getAudioSessionId());
 
-            enhancer.setTargetGain(3000);
-            enhancer.setEnabled(true);*/
+            enhancer.setTargetGain(2000);
+            enhancer.setEnabled(true);
         }
         else
         {
