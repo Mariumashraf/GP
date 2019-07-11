@@ -10,6 +10,7 @@ import android.media.AudioRecord;
 import android.media.AudioTrack;
 import android.media.MediaRecorder;
 import android.media.audiofx.AcousticEchoCanceler;
+import android.media.audiofx.BassBoost;
 import android.media.audiofx.Equalizer;
 import android.media.audiofx.LoudnessEnhancer;
 import android.media.audiofx.NoiseSuppressor;
@@ -129,8 +130,15 @@ public class MainEqualizer extends AppCompatActivity {
             NoiseSuppressor.create(track.getAudioSessionId());
             AcousticEchoCanceler.create(track.getAudioSessionId());
 
-            enhancer.setTargetGain(2000);
+            enhancer.setTargetGain(1000);
             enhancer.setEnabled(true);
+            BassBoost mBassBoost = new BassBoost(Integer.MAX_VALUE, track.getAudioSessionId());
+
+            /*synchronized (SETTINGS_LOCK) {
+                mBassBoost.setStrength((short) mBassBoostSettings.strength);
+            }*/
+           mBassBoost.setEnabled(true);
+
         }
         else
         {
