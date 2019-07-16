@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name= "appSize">14dp</dimen>
+    <dimen name= "minSize">12dp</dimen>
+    <dimen name= "larSize">22dp</dimen>
+    <dimen name= "lSize">20dp</dimen>
+
+</resources>
